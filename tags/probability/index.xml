@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probability on Shishir Shakya</title>
+    <link>/tags/probability/</link>
+    <description>Recent content in Probability on Shishir Shakya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Probability Inequality</title>
+      <link>/post/2018-12-29-proof-of-hoeffding-inequality/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-12-29-proof-of-hoeffding-inequality/</guid>
+      <description>Theorem 1: Gaussian Tail InequalityGiven \({{x}_{1}},\cdots ,{{x}_{n}}\sim N\left( 0,1 \right)\) then, \(P\left( \left| X \right|&amp;gt;\varepsilon \right)\le \frac{2{{e}^{-{{{\varepsilon }^{2}}}/{2}\;}}}{\varepsilon }\) and \(P\left( \left| {{{\bar{X}}}_{n}} \right|&amp;gt;\varepsilon \right)\le \frac{2}{\sqrt{n}\varepsilon }{{e}^{-{n{{\varepsilon }^{2}}}/{2}\;}}\overset{l\arg e\ n}{\mathop{\le }}\,{{e}^{-{n{{\varepsilon }^{2}}}/{2}\;}}\).
+Proof of Gaussian Tail InequalityConsider a univariate \({{x}_{1}},\cdots ,{{x}_{n}}\sim N\left( 0,1 \right)\), then the probability density function is given as \(\phi \left( x \right)=\frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}}\). Let’s take the derivative w.r.t \(x\) we get: \[\frac{d\phi \left( x \right)}{dx}={\phi }&amp;#39;\left( x \right)=\frac{d\left( \frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{dx}=\frac{1}{\sqrt{2\pi }}\frac{d\left( \,{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{dx}=\frac{1}{\sqrt{2\pi }}\frac{d\left( \,{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{d\left( -\frac{{{x}^{2}}}{2} \right)}\frac{d\left( -\frac{{{x}^{2}}}{2} \right)}{dx}=\frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}}\left( -x \right)=-x\phi \left( x \right)\] Let’s define the gaussian tail inequality.</description>
+    </item>
+    
+  </channel>
+</rss>

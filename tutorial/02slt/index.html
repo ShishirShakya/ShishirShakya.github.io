@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Shishir Shakya">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Before, I start the solution of Hoeffding&rsquo;s Inequality, let me first quickly note Markov&rsquo;s Inequality and Chebyshev&rsquo;s Inequality.
+Markov&rsquo;s Inequality Let $X$ be a non-negative random variable and $E\left( X \right)$ exists, For any $t&gt;0$; $P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$
+Proof of Markov&rsquo;s Inequality For $X&gt;0$ we can write expectation of $X$ as: $$E\left( X \right)=\int\limits_{0}^{\infty }{xp\left( x \right)dx}=\int\limits_{0}^{t}{xp\left( x \right)dx}&#43;\int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}$$ $$E\left( X \right)\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge t\int\limits_{t}^{\infty }{p\left( x \right)dx}=tP\left( X&gt;t \right)$$ $$\frac{E\left( X \right)}{t}\ge P\left( X&gt;t \right)$$ $$P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$$">
+
+  
+  <link rel="alternate" hreflang="en-us" href="../../tutorial/02slt/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="../../styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="feed" href="../../index.xml" type="application/rss+xml" title="Shishir Shakya">
+  
+
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
+
+  <link rel="canonical" href="../../tutorial/02slt/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@econshishir">
+  <meta property="twitter:creator" content="@econshishir">
+  
+  <meta property="og:site_name" content="Shishir Shakya">
+  <meta property="og:url" content="/tutorial/02slt/">
+  <meta property="og:title" content="Statistical Learning Theory | Shishir Shakya">
+  <meta property="og:description" content="Before, I start the solution of Hoeffding&rsquo;s Inequality, let me first quickly note Markov&rsquo;s Inequality and Chebyshev&rsquo;s Inequality.
+Markov&rsquo;s Inequality Let $X$ be a non-negative random variable and $E\left( X \right)$ exists, For any $t&gt;0$; $P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$
+Proof of Markov&rsquo;s Inequality For $X&gt;0$ we can write expectation of $X$ as: $$E\left( X \right)=\int\limits_{0}^{\infty }{xp\left( x \right)dx}=\int\limits_{0}^{t}{xp\left( x \right)dx}&#43;\int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}$$ $$E\left( X \right)\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge t\int\limits_{t}^{\infty }{p\left( x \right)dx}=tP\left( X&gt;t \right)$$ $$\frac{E\left( X \right)}{t}\ge P\left( X&gt;t \right)$$ $$P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$$"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-09-09T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2018-09-09T00:00:00-04:00">
+  
+
+  
+
+  
+
+  <title>Statistical Learning Theory | Shishir Shakya</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="../../">Shishir Shakya</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#publications_selected">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/01shiny/">Shiny Tutorial</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/01shiny/">Two Shiny</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/01slt/">Statistical Learning Theory</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/01slt/">S1: Gaussian Tail Inequality</a>
+      </li>
+      
+      <li class="active">
+        <a href="../../tutorial/02slt/">S2: Hoeffding Inequality</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/03slt/">S3: Kullback Leibler Distance</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/04slt/">S4: Maximum of a random variable</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+      <p class="docs-toc-title">On this page</p>
+      
+
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#markov-s-inequality">Markov&rsquo;s Inequality</a>
+<ul>
+<li><a href="#proof-of-markov-s-inequality">Proof of Markov&rsquo;s Inequality</a></li>
+</ul></li>
+<li><a href="#chebyshev-s-inequality">Chebyshev&rsquo;s Inequality</a>
+<ul>
+<li><a href="#proof-of-chebyshev-s-inequality">Proof of Chebyshev&rsquo;s Inequality</a></li>
+</ul></li>
+<li><a href="#hoeffding-inequality">Hoeffding Inequality</a>
+<ul>
+<li><a href="#proof-part-a">Proof (part-A)</a></li>
+<li><a href="#taylor-series-expansion">Taylor series expansion</a></li>
+<li><a href="#proof-part-b">Proof (part-B)</a></li>
+<li><a href="#proof-part-c">Proof (part-C)</a></li>
+<li><a href="#proof-for-sharper-version-with-chernoff-s-method">Proof for sharper version with Chernoff&rsquo;s method</a></li>
+<li><a href="#proof-for-random-variable-with-non-zero-mean">Proof for random variable with non zero mean.</a></li>
+<li><a href="#proof-for-bound-of-mean">Proof for bound of mean</a></li>
+<li><a href="#proof-for-binominal">Proof for Binominal</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      <ul class="nav toc-top">
+        <li><a href="#">Back to top</a></li>
+      </ul>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Statistical Learning Theory</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<p>Before, I start the solution of Hoeffding&rsquo;s Inequality, let me first quickly note Markov&rsquo;s Inequality and Chebyshev&rsquo;s Inequality.</p>
+
+<h1 id="markov-s-inequality">Markov&rsquo;s Inequality</h1>
+
+<p>Let $X$ be a non-negative random variable and $E\left( X \right)$ exists, For any $t&gt;0$; $P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$</p>
+
+<h2 id="proof-of-markov-s-inequality">Proof of Markov&rsquo;s Inequality</h2>
+
+<p>For $X&gt;0$ we can write expectation of $X$ as:
+$$E\left( X \right)=\int\limits_{0}^{\infty }{xp\left( x \right)dx}=\int\limits_{0}^{t}{xp\left( x \right)dx}+\int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}$$
+$$E\left( X \right)\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge t\int\limits_{t}^{\infty }{p\left( x \right)dx}=tP\left( X&gt;t \right)$$
+$$\frac{E\left( X \right)}{t}\ge P\left( X&gt;t \right)$$
+$$P\left( X&gt;t \right)\le \frac{E\left( X \right)}{t}$$</p>
+
+<h1 id="chebyshev-s-inequality">Chebyshev&rsquo;s Inequality</h1>
+
+<p>Let $\mu =E\left( X \right)$ and $Var\left( X \right)={{\sigma }^{2}}$, then $P\left( \left| X-\mu  \right|\ge t \right)\le \frac{{{\sigma }^{2}}}{{{t}^{2}}}$ and $P\left( \left| Z \right|\ge k \right)\le \frac{1}{{{k}^{2}}}$where $Z=\frac{X-\mu }{{{\sigma }^{2}}}$ and in particular $P\left( \left| Z \right|&gt;2 \right)\le \frac{1}{4}$ and $P\left( \left| Z \right|&gt;3 \right)\le \frac{1}{9}$.</p>
+
+<h2 id="proof-of-chebyshev-s-inequality">Proof of Chebyshev&rsquo;s Inequality</h2>
+
+<p>Let&rsquo;s take $$P\left( \left| X-\mu  \right|&gt;t \right)=P\left( {{\left| X-\mu  \right|}^{2}}&gt;{{t}^{2}} \right)\le \frac{E{{\left( X-\mu  \right)}^{2}}}{{{t}^{2}}}=\frac{{{\sigma }^{2}}}{{{t}^{2}}}$$
+Let&rsquo;s take $$P\left( \left| \frac{X-\mu }{\sigma } \right|&gt;\sigma k \right)=P\left( {{\left| \frac{X-\mu }{\sigma } \right|}^{2}}&gt;{{\sigma }^{2}}{{k}^{2}} \right)\le \frac{E{{\left( X-\mu  \right)}^{2}}}{{{\sigma }^{2}}{{k}^{2}}}=\frac{{{\sigma }^{2}}}{{{\sigma }^{2}}{{k}^{2}}}=\frac{1}{{{k}^{2}}}$$</p>
+
+<h1 id="hoeffding-inequality">Hoeffding Inequality</h1>
+
+<p>In probability theory, Hoeffding&rsquo;s inequality provides an upper bound on the probability that the sum of bounded independent random variables deviates from its expected value by more than a certain amount. Hoeffding&rsquo;s inequality was proven by Wassily Hoeffding in 1963. This inequality is sharper than Markov inequality and we can create upper bound without knowing the variance.</p>
+
+<p>If $a&lt;X&lt;b$ and $\mu =E\left( X \right)$ then,</p>
+
+<p>$P\left( \left| X-\mu  \right|&gt;\varepsilon  \right)\le 2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$</p>
+
+<p>The detail proof will follow 3 parts.</p>
+
+<h2 id="proof-part-a">Proof (part-A)</h2>
+
+<p>Let&rsquo;s assume $\mu =0$. If data is don&rsquo;t have $\mu =0$, we can always center the data and $a&lt;X&lt;b$. Now</p>
+
+<p>$$X=\gamma a+\left( 1-\gamma  \right)b$$ where $0&lt;\gamma &lt;1$ and $\gamma =\frac{X-a}{b-a}$. With convexity we can write:
+$${{e}^{tX}}\le \gamma {{e}^{tb}}+\left( 1-\gamma  \right){{e}^{ta}}=\frac{X-a}{b-a}{{e}^{tb}}+\left( 1-\frac{X-a}{b-a} \right){{e}^{ta}}=\frac{X-a}{b-a}{{e}^{tb}}+\frac{b-X}{b-a}{{e}^{ta}}$$
+$${{e}^{tX}}\le \frac{X{{e}^{tb}}-a{{e}^{tb}}+b{{e}^{ta}}-X{{e}^{ta}}}{b-a}=\left( \frac{-a{{e}^{tb}}+b{{e}^{ta}}}{b-a} \right)+\frac{X\left( {{e}^{tb}}-{{e}^{ta}} \right)}{b-a}$$
+Let&rsquo;s take the expectation on the both sides:
+$$E\left( {{e}^{tX}} \right)\le E\left( \frac{-a{{e}^{tb}}+b{{e}^{ta}}}{b-a} \right)+E\frac{X\left( {{e}^{tb}}-{{e}^{ta}} \right)}{b-a}=\left( \frac{-a{{e}^{tb}}+b{{e}^{ta}}}{b-a} \right)+\frac{\left( {{e}^{tb}}-{{e}^{ta}} \right)}{b-a}E\left( X \right)$$
+Since $\mu =E\left( X \right)=0$ therefore,
+$$E\left( {{e}^{tX}} \right)\le \left( \frac{-a{{e}^{tb}}+b{{e}^{ta}}}{b-a} \right)+0$$
+$$E\left( {{e}^{tX}} \right)\le \left( \frac{-a{{e}^{tb}}+b{{e}^{ta}}}{b-a} \right)=\frac{{{e}^{ta}}\left( b-a{{e}^{t\left( b-a \right)}} \right)}{b-a}$$</p>
+
+<p>Let&rsquo;s define
+$${{e}^{g\left( t \right)}}=\frac{{{e}^{ta}}\left( b-a{{e}^{t\left( b-a \right)}} \right)}{b-a}$$</p>
+
+<p>Taking $log$ on the both sides:</p>
+
+<p>$$\log \left( {{e}^{g\left( t \right)}} \right)=\log \left( \frac{{{e}^{ta}}\left( b-a{{e}^{t\left( b-a \right)}} \right)}{b-a} \right)$$</p>
+
+<p>$$g\left( t \right)=\log \left( {{e}^{ta}}\left( b-a{{e}^{t\left( b-a \right)}} \right) \right)-\log \left( b-a \right)$$</p>
+
+<p>$$g\left( t \right)=\log \left( {{e}^{ta}} \right)+\log \left( b-a{{e}^{t\left( b-a \right)}} \right)-\log \left( b-a \right)$$</p>
+
+<p>\begin{equation}
+g\left( t \right)=ta+\log \left( b-a{{e}^{t\left( b-a \right)}} \right)-\log \left( b-a \right)
+\end{equation}</p>
+
+<h2 id="taylor-series-expansion">Taylor series expansion</h2>
+
+<p>For a univariate function $g(x)$evaluated at ${{x}_{0}}$ , we can express with Taylor series expansion as:
+$$g(x)=g({{x}_{0}})+{{g}^{(1)}}({{x}_{0}})(x-{{x}_{0}})+\frac{1}{2!}{{g}^{(2)}}({{x}_{0}}){{(x-{{x}_{0}})}^{2}}+\cdots +\frac{1}{(m-1)!}{{g}^{(m-1)}}({{x}_{0}}){{(x-{{x}_{0}})}^{m-1}}+\frac{1}{(m)!}{{g}^{(m)}}({{x}_{0}}){{(x-{{x}_{0}})}^{m}}+\cdots $$
+For a univariate function $g(x)$evaluated at ${{x}_{0}}$ that is $m$ times differentiable, we can express with Taylor series expansion as:
+$$g(x)=g({{x}_{0}})+{{g}^{(1)}}({{x}_{0}})(x-{{x}_{0}})+\frac{1}{2!}{{g}^{(2)}}({{x}_{0}}){{(x-{{x}_{0}})}^{2}}+\cdots +\frac{1}{(m-1)!}{{g}^{(m-1)}}({{x}_{0}}){{(x-{{x}_{0}})}^{m-1}}+\frac{1}{(m)!}{{g}^{(m)}}(\xi ){{(x-{{x}_{0}})}^{m}}$$
+where ${{g}^{(s)}}={{\left. \frac{{{\partial }^{s}}g(x)}{\partial {{x}^{2}}} \right|}_{x={{x}_{0}}}}$ and and $\xi$ lies between $x$ and ${{x}_{0}}$.</p>
+
+<h2 id="proof-part-b">Proof (part-B)</h2>
+
+<p>Now, let&rsquo;s evaluate $g\left( t=0 \right)$ we get:
+\begin{equation}
+g\left( t=0 \right)=g\left( 0 \right)=0+\log \left( b-a \right)-\log \left( b-a \right)=0
+\end{equation}</p>
+
+<p>Let&rsquo;s evaluate ${g}&rsquo;\left( t=0 \right)$ but before that lets find ${g}&rsquo;\left( t \right)$.
+$$\frac{dg\left( t \right)}{dt}={g}&rsquo;\left( t \right)=\frac{d\left( ta+\log \left( b-a{{e}^{t\left( b-a \right)}} \right)-\log \left( b-a \right) \right)}{dt}$$
+$${g}&rsquo;\left( t \right)=\frac{d\left( ta \right)}{dt}+\frac{d\log \left( b-a{{e}^{t\left( b-a \right)}} \right)}{dt}+\frac{d\left( -\log \left( b-a \right) \right)}{dt}$$
+$${g}&rsquo;\left( t \right)=a+\frac{d\log \left( b-a{{e}^{t\left( b-a \right)}} \right)}{d\left( b-a{{e}^{t\left( b-a \right)}} \right)}\frac{d\left( b-a{{e}^{t\left( b-a \right)}} \right)}{dt}+\underbrace{\frac{d\left( -\log \left( b-a \right) \right)}{dt}}_{0}$$
+$${g}&rsquo;\left( t \right)=a+\frac{-a\left( b-a \right){{e}^{t\left( b-a \right)}}}{b-a{{e}^{t\left( b-a \right)}}}$$
+Consider the second term:
+$$\frac{-a\left( b-a \right){{e}^{t\left( b-a \right)}}}{b-a{{e}^{t\left( b-a \right)}}}=\frac{-a\left( b-a \right)}{\left( b-a{{e}^{t\left( b-a \right)}} \right){{e}^{-t\left( b-a \right)}}}=\frac{-a\left( b-a \right)}{b{{e}^{-t\left( b-a \right)}}-a{{e}^{t\left( b-a \right)}}{{e}^{-t\left( b-a \right)}}}=\frac{-a\left( b-a \right)}{b{{e}^{-t\left( b-a \right)}}-a}=\frac{a\left( b-a \right)}{a+b{{e}^{-t\left( b-a \right)}}}$$
+$${g}&rsquo;\left( t \right)=a+\frac{a\left( b-a \right)}{a+b{{e}^{-t\left( b-a \right)}}}$$
+Now Let&rsquo;s evaluate ${g}&rsquo;\left( t=0 \right)$, we get
+\begin{equation}
+{g}&rsquo;\left( t=0 \right)=a+\frac{-a\left( b-a \right){{e}^{0\left( b-a \right)}}}{b-a{{e}^{0\left( b-a \right)}}}=a+\frac{-a\left( b-a \right)}{b-a}=0
+\end{equation}</p>
+
+<p>Now let&rsquo;s take${{g}&lsquo;}&rsquo;\left( t \right)$.</p>
+
+<p>$$\frac{d{g}&rsquo;\left( t \right)}{dt}={{g}&lsquo;}&rsquo;\left( t \right)=\frac{d\left( a+\frac{a\left( b-a \right)}{a+b{{e}^{-t\left( b-a \right)}}} \right)}{dt}=\frac{d\left( \frac{a\left( b-a \right)}{a+b{{e}^{-t\left( b-a \right)}}} \right)}{dt}$$</p>
+
+<p>$${{g}&lsquo;}&rsquo;\left( t \right)=\frac{-a\left( b-a \right)\left( -b \right)\left( -\left( b-a \right){{e}^{-t\left( b-a \right)}} \right)}{{{\left( a+b{{e}^{-t\left( b-a \right)}} \right)}^{2}}}=\frac{ab{{\left( b-a \right)}^{2}}\left[ -{{e}^{t\left( b-a \right)}} \right]}{{{\left( a{{e}^{t\left( b-a \right)}}-b \right)}^{2}}}$$</p>
+
+<p>Now we can compare following two terms.
+$$a{{e}^{t\left( b-a \right)}}\ge a$$</p>
+
+<p>Negate $b$ and square on the both sides:</p>
+
+<p>$${{\left( a{{e}^{t\left( b-a \right)}}-b \right)}^{2}}\ge {{\left( a-b \right)}^{2}}={{\left( b-a \right)}^{2}}$$</p>
+
+<p>$$\frac{1}{{{\left( a{{e}^{t\left( b-a \right)}}-b \right)}^{2}}}\le \frac{1}{{{\left( b-a \right)}^{2}}}$$</p>
+
+<p>From above inequality, we can write:</p>
+
+<p>$${{g}&lsquo;}&rsquo;\left( t \right)=\frac{-ab{{\left( b-a \right)}^{2}}\left[ {{e}^{t\left( b-a \right)}} \right]}{{{\left( a{{e}^{t\left( b-a \right)}}-b \right)}^{2}}}\le \frac{-ab{{\left( b-a \right)}^{2}}}{{{\left( b-a \right)}^{2}}}$$</p>
+
+<p>\begin{equation}
+{g}&rdquo;\left( t \right)\le -ab=\frac{{{\left( a-b \right)}^{2}}-{{\left( b-a \right)}^{2}}}{4}\le \frac{{{\left( b-a \right)}^{2}}}{4}
+\end{equation}</p>
+
+<p>Now, with Taylor series expansion we have:</p>
+
+<p>$$g\left( t \right)=g\left( 0 \right)+t{g}&rsquo;\left( 0 \right)+\frac{1}{2!}{{t}^{2}}{{g}&lsquo;}&rsquo;\left( 0 \right)+\cdots$$</p>
+
+<p>And with truncating Taylor series expansion, we can write. (Note this is not approximation, its exact)</p>
+
+<p>$$g\left( t \right)=g\left( 0 \right)+t{g}&rsquo;\left( 0 \right)+\frac{1}{2!}{{t}^{2}}{{g}&lsquo;}&rsquo;\left( \xi  \right)=\frac{1}{2!}{{t}^{2}}{{g}&lsquo;}&rsquo;\left( \xi  \right)\le \frac{1}{2!}{{t}^{2}}\frac{{{\left( b-a \right)}^{2}}}{4}$$</p>
+
+<p>\begin{equation}
+g\left( t \right)\le \frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}
+\end{equation}</p>
+
+<h2 id="proof-part-c">Proof (part-C)</h2>
+
+<p>We have bound $E\left[ {{e}^{tX}} \right]\le {{e}^{g\left( t \right)}}$ and ${{e}^{g\left( t \right)}}\le {{e}^{\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}$ .</p>
+
+<p>Consider
+$$P\left( X&gt;\varepsilon  \right)=P\left( {{e}^{X}}&gt;{{e}^{\varepsilon }} \right)=P\left( {{e}^{tX}}&gt;{{e}^{t\varepsilon }} \right)$$</p>
+
+<p>And Now with Markov inequality:</p>
+
+<p>$$P\left( {{e}^{tX}}&gt;{{e}^{t\varepsilon }} \right)\le \frac{E\left( {{e}^{tX}} \right)}{{{e}^{t\varepsilon }}}={{e}^{-t\varepsilon }}E\left( {{e}^{tX}} \right)\le {{e}^{-t\varepsilon }}{{e}^{\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}={{e}^{^{-t\varepsilon +\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}}$$</p>
+
+<p>Now we can make it sharper by following argument:</p>
+
+<p>$$P\left( {{e}^{tX}}&gt;{{e}^{t\varepsilon }} \right)\le \underset{t\ge 0}{\mathop{\inf }}\,\frac{E\left( {{e}^{tX}} \right)}{{{e}^{t\varepsilon }}}={{e}^{-t\varepsilon }}E\left( {{e}^{tX}} \right)\le {{e}^{-t\varepsilon }}{{e}^{\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}={{e}^{^{-t\varepsilon +\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}}$$</p>
+
+<h2 id="proof-for-sharper-version-with-chernoff-s-method">Proof for sharper version with Chernoff&rsquo;s method</h2>
+
+<p>let define: $u=t\varepsilon -\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}$ and find the minima as setting FOC as ${u}&rsquo;\left( t \right)=\varepsilon -\frac{2t{{\left( b-a \right)}^{2}}}{8}\overset{set}{\mathop{=}}\,0$ and ${{t}^{*}}=\frac{4\varepsilon }{{{\left( b-a \right)}^{2}}}$ then substituting to get:</p>
+
+<p>$${{u}_{\min }}=t\varepsilon -\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}=\varepsilon \frac{4\varepsilon }{{{\left( b-a \right)}^{2}}}-{{\left( \frac{4\varepsilon }{{{\left( b-a \right)}^{2}}} \right)}^{2}}\frac{{{\left( b-a \right)}^{2}}}{8}$$</p>
+
+<p>$${{u}_{\min }}=\varepsilon \frac{4\varepsilon }{{{\left( b-a \right)}^{2}}}-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}=\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}$$</p>
+
+<p>The reason we want to get ${{u}_{\min }}$ is to make sharper argument for the inequality or alternatively we would like to bound for the minima. Now substituting:</p>
+
+<p>$$P\left( X&gt;\varepsilon  \right)=P\left( {{e}^{X}}&gt;{{e}^{\varepsilon }} \right)=P\left( {{e}^{tX}}&gt;{{e}^{t\varepsilon }} \right)\le {{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$$</p>
+
+<p>$$P\left( \left| X \right|&gt;\varepsilon  \right)\le 2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$$</p>
+
+<p>This is very important results, because there is no mean or variance, so this result is very cogitative. If we observe any type of random variable whose functional form is unknown, the above statement is true.</p>
+
+<h2 id="proof-for-random-variable-with-non-zero-mean">Proof for random variable with non zero mean.</h2>
+
+<p>Now we can apply with the mean ie. $\mu =E\left( X \right)$ and $Y=x-\mu$ i.e. $a-\mu &lt;Y&lt;b-\mu$. And:</p>
+
+<p>$$P\left( \left| Y \right|&gt;\varepsilon  \right)=P\left( \left| X-\mu  \right|&gt;\varepsilon  \right)\le 2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-\mu -a+\mu  \right)}^{2}}}}}=2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$$</p>
+
+<p>So, $P\left( \left| X-\mu  \right|&gt;\varepsilon  \right)\le 2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$  is known as Hoeffding&rsquo;s Inequality. This shows that the variation of the random variable beyond its mean by certain amount $\varepsilon$ is upper bounded by $2{{e}^{-\frac{2{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$. This is true for any random variable so it&rsquo;s very powerful generalization.</p>
+
+<h2 id="proof-for-bound-of-mean">Proof for bound of mean</h2>
+
+<p>Let&rsquo;s define ${{\bar{Y}}_{n}}=\sum\limits_{i=1}^{n}{{{Y}_{i}}}$ and ${{Y}_{i}}$  are i.id then let&rsquo;s bound it as:</p>
+
+<p>$$P\left( {{{\bar{Y}}}_{n}}&gt;\varepsilon  \right)=P\left( {{n}^{-1}}\sum\limits_{i=1}^{n}{{{Y}_{i}}}&gt;\varepsilon  \right)=P\left( \sum\limits_{i=1}^{n}{{{Y}_{i}}}&gt;n\varepsilon  \right)=P\left( {{e}^{\sum\limits_{i=1}^{n}{{{Y}_{i}}}}}&gt;{{e}^{n\varepsilon }} \right)=P\left( {{e}^{t\sum\limits_{i=1}^{n}{{{Y}_{i}}}}}&gt;{{e}^{tn\varepsilon }} \right)$$</p>
+
+<p>Note, we introduce $t$ there that&rsquo;s for the flexibility that later, I can choose $t$. Now with Markov inequality we can write under the assumption of i.i.d of ${{Y}_{i}}$</p>
+
+<p>$$P\left( {{{\bar{Y}}}_{n}}&gt;\varepsilon  \right)=P\left( {{e}^{t\sum\limits_{i=1}^{n}{{{Y}_{i}}}}}&gt;{{e}^{tn\varepsilon }} \right)\le {{e}^{-tn\varepsilon }}E\left[ {{e}^{t\sum\limits_{i=1}^{n}{{{Y}_{i}}}}} \right]={{e}^{-tn\varepsilon }}{{\left( E{{e}^{t{{Y}_{i}}}} \right)}^{n}}$$</p>
+
+<p>Since, we have bound $E\left[ {{e}^{tX}} \right]\le {{e}^{g\left( t \right)}}$ as ${{e}^{g\left( t \right)}}\le {{e}^{\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}$ , therefore,</p>
+
+<p>$$P\left( {{{\bar{Y}}}_{n}}&gt;\varepsilon  \right)\le {{e}^{-tn\varepsilon }}{{\left( E{{e}^{t{{Y}_{i}}}} \right)}^{n}}\le {{e}^{-tn\varepsilon }}{{e}^{n\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}$$</p>
+
+<p>Let&rsquo;s try to put sharper bound and try and solve for $u\left( t \right)=tn\varepsilon -n\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}$ and the FOC is
+${u}&rsquo;\left( t \right)=n\varepsilon -n\frac{2t{{\left( b-a \right)}^{2}}}{8}\overset{set}{\mathop{=}}\,0$ and solving we get $${{t}^{*}}=\frac{4\varepsilon }{{{\left( b-a \right)}^{2}}}$$ and the plugging the value of ${{t}^{*}}$ on $u\left( t \right)$ gives:</p>
+
+<p>$${{u}_{\min }}={{t}^{*}}n\varepsilon -n\frac{{{t}^{*}}^{2}{{\left( b-a \right)}^{2}}}{8}=\frac{4\varepsilon }{{{\left( b-a \right)}^{2}}}n\varepsilon -n\frac{{{\left( 4\varepsilon  \right)}^{2}}}{{{\left( {{\left( b-a \right)}^{2}} \right)}^{2}}}\frac{{{\left( b-a \right)}^{2}}}{8}=\frac{4n{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}-\frac{2n{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}=\frac{2n{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}$$</p>
+
+<p>Then,</p>
+
+<p>$$P\left( {{{\bar{Y}}}_{n}}&gt;\varepsilon  \right)\le \underset{t\ge 0}{\mathop{\inf }}\,{{e}^{-tn\varepsilon }}{{e}^{n\frac{{{t}^{2}}{{\left( b-a \right)}^{2}}}{8}}}={{e}^{\frac{-2n{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$$</p>
+
+<p>Then,</p>
+
+<p>$$P\left( \left| {{{\bar{Y}}}_{n}} \right|&gt;\varepsilon  \right)\le 2{{e}^{\frac{2n{{\varepsilon }^{2}}}{{{\left( b-a \right)}^{2}}}}}$$</p>
+
+<p>Hence, this gives the bound on the mean.</p>
+
+<h2 id="proof-for-binominal">Proof for Binominal</h2>
+
+<p>Hoeffding&rsquo;s inequality for the ${{Y}_{1}}\sim Ber\left( p \right)$ and it&rsquo;s upper bound is $1$ and lower bound is $0$ so ${{\left( b-a \right)}^{2}}=1$ and with Hoeffding inequality $$P\left( \left| {{{\bar{X}}}_{n}}-p \right|&gt;\varepsilon  \right)\le 2{{e}^{-2n{{\varepsilon }^{2}}}}$$</p>
+
+          </div>
+
+          
+
+        </div>
+
+        <div class="body-footer">
+          Last updated on Sep 9, 2018
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="../../privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="../../js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//SS.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="../../js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
+
