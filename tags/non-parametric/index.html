@@ -20,7 +20,7 @@
   <meta name="description" content="Third year PhD student in Economics at West Virginia University">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tags/non-parametric/">
+  <link rel="alternate" hreflang="en-us" href="../../tags/non-parametric/">
 
   
 
@@ -78,23 +78,37 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../../styles.css">
   
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-131353943-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
-  <link rel="alternate" href="/tags/non-parametric/index.xml" type="application/rss+xml" title="Shishir Shakya">
-  <link rel="feed" href="/tags/non-parametric/index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="alternate" href="../../tags/non-parametric/index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="feed" href="../../tags/non-parametric/index.xml" type="application/rss+xml" title="Shishir Shakya">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
 
-  <link rel="canonical" href="/tags/non-parametric/">
+  <link rel="canonical" href="../../tags/non-parametric/">
 
   
   
@@ -161,7 +175,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Shishir Shakya</a>
+      <a class="navbar-brand" href="../../">Shishir Shakya</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -186,7 +200,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about">
+          <a class="nav-link" href="../../#about">
             
             <span>Home</span>
             
@@ -205,7 +219,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#publications_selected">
+          <a class="nav-link" href="../../#publications_selected">
             
             <span>Research</span>
             
@@ -224,7 +238,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts">
+          <a class="nav-link" href="../../#posts">
             
             <span>Posts</span>
             
@@ -243,7 +257,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/tutorial/">
+          <a class="nav-link" href="../../tutorial/">
             
             <span>Tutorials</span>
             
@@ -262,7 +276,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">
+          <a class="nav-link" href="../../#contact">
             
             <span>Contact</span>
             
@@ -281,7 +295,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/files/cv.pdf">
+          <a class="nav-link" href="../../files/cv.pdf">
             
             <span>CV</span>
             
@@ -352,7 +366,7 @@
   
   
   <div>
-    <h2><a href="/post/2019-01-07-density-estimation/">Density Estimation</a></h2>
+    <h2><a href="../../post/2019-01-07-density-estimation/">Density Estimation</a></h2>
     <div class="article-style">
       
       Univariate Density EstimationParametric Desity EstimationDraw from a normal distributionGiven \({{X}_{1}},{{X}_{2}},\ldots ,{{X}_{n}}\) \(i.i.d\) draw from a normal distribution with mean of \(\mu\) and variance of \({{\sigma }^{2}}\) the joint \(PDF\) can be expressed as: \[f\left( {{X}_{1}},{{X}_{2}},\ldots {{X}_{3}} \right)=\prod\limits_{i=1}^{n}{\frac{1}{\sqrt{2\pi {{\sigma }^{2}}}}{{e}^{-\frac{{{\left( {{X}_{i}}-\mu \right)}^{2}}}{2{{\sigma }^{2}}}}}}\] \[f\left( {{X}_{1}},{{X}_{2}},\ldots {{X}_{3}} \right)=\frac{1}{\sqrt{2\pi {{\sigma }^{2}}}}{{e}^{-\frac{{{\left( {{X}_{1}}-\mu \right)}^{2}}}{2{{\sigma }^{2}}}}}\times \frac{1}{\sqrt{2\pi {{\sigma }^{2}}}}{{e}^{-\frac{{{\left( {{X}_{2}}-\mu \right)}^{2}}}{2{{\sigma }^{2}}}}}\times \cdots \times \frac{1}{\sqrt{2\pi {{\sigma }^{2}}}}{{e}^{-\frac{{{\left( {{X}_{n}}-\mu \right)}^{2}}}{2{{\sigma }^{2}}}}}\] The term \(\frac{1}{\sqrt{2\pi {{\sigma }^{2}}}}\) is a constant multiplying this term for \(n\) times gives \({{\left( \frac{1}{\sqrt{2\pi {{\sigma }^{2}}}} \right)}^{n}}=\frac{1}{{{\left( 2\pi \sigma \right)}^{\frac{n}{2}}}}\).
@@ -368,7 +382,7 @@
   <footer class="site-footer">
   
   <p class="powered-by">
-    <a href="/privacy/">Privacy Policy</a>
+    <a href="../../privacy/">Privacy Policy</a>
   </p>
   
 
@@ -424,7 +438,7 @@
     
     
     
-    <script src="/js/mathjax-config.js"></script>
+    <script src="../../js/mathjax-config.js"></script>
     
 
     
@@ -515,7 +529,7 @@
     
     
     
-    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+    <script src="../../js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
 
     
 
