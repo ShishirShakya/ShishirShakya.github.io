@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,13 +17,10 @@
   
     
   
-  <meta name="description" content="Kullback Leibler Distance Proof for distance between density is greater than zero. Proof that the distance between any two density $p$ and $q$ whose random variable is $X\tilde{\ }p$ ($p$ is some distribution) is always greater than or equal to zero.
-Prior answering this, let&rsquo;s quickly note two inequality, namely Cauchy-Swartz Inequality and Jensen&rsquo;s inequality.
-Cauchy-Swartz Inequality $\left| EXY \right|\le E\left| XY \right|\le \sqrt{E\left( {{X}^{2}} \right)}\sqrt{E\left( {{Y}^{2}} \right)}$.
-Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX \right)$.">
+  <meta name="description" content="Third year PhD student in Economics at West Virginia University">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tutorial/03slt/">
+  <link rel="alternate" hreflang="en-us" href="../../../../publication_types/1/">
 
   
 
@@ -79,23 +78,37 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../../../../styles.css">
   
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-131353943-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Shishir Shakya">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="alternate" href="../../../../publication_types/1/index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="feed" href="../../../../publication_types/1/index.xml" type="application/rss+xml" title="Shishir Shakya">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="../../../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../../../img/icon-192.png">
 
-  <link rel="canonical" href="/tutorial/03slt/">
+  <link rel="canonical" href="../../../../publication_types/1/">
 
   
   
@@ -110,24 +123,19 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
   <meta property="twitter:creator" content="@econshishir">
   
   <meta property="og:site_name" content="Shishir Shakya">
-  <meta property="og:url" content="/tutorial/03slt/">
-  <meta property="og:title" content="Statistical Learning Theory | Shishir Shakya">
-  <meta property="og:description" content="Kullback Leibler Distance Proof for distance between density is greater than zero. Proof that the distance between any two density $p$ and $q$ whose random variable is $X\tilde{\ }p$ ($p$ is some distribution) is always greater than or equal to zero.
-Prior answering this, let&rsquo;s quickly note two inequality, namely Cauchy-Swartz Inequality and Jensen&rsquo;s inequality.
-Cauchy-Swartz Inequality $\left| EXY \right|\le E\left| XY \right|\le \sqrt{E\left( {{X}^{2}} \right)}\sqrt{E\left( {{Y}^{2}} \right)}$.
-Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX \right)$."><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:url" content="/publication_types/1/">
+  <meta property="og:title" content="1 | Shishir Shakya">
+  <meta property="og:description" content="Third year PhD student in Economics at West Virginia University"><meta property="og:image" content="/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-09-09T00:00:00-04:00">
-  
-  <meta property="article:modified_time" content="2018-09-09T00:00:00-04:00">
+  <meta property="og:updated_time" content="2014-12-01T00:00:00-05:00">
   
 
   
 
   
 
-  <title>Statistical Learning Theory | Shishir Shakya</title>
+  <title>1 | Shishir Shakya</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -167,7 +175,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Shishir Shakya</a>
+      <a class="navbar-brand" href="../../../../">Shishir Shakya</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -192,7 +200,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about">
+          <a class="nav-link" href="../../../../#about">
             
             <span>Home</span>
             
@@ -211,7 +219,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#publications_selected">
+          <a class="nav-link" href="../../../../#publications_selected">
             
             <span>Research</span>
             
@@ -230,7 +238,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts">
+          <a class="nav-link" href="../../../../#posts">
             
             <span>Posts</span>
             
@@ -249,7 +257,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/tutorial/">
+          <a class="nav-link" href="../../../../tutorial/">
             
             <span>Tutorials</span>
             
@@ -268,7 +276,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#contact">
+          <a class="nav-link" href="../../../../#contact">
             
             <span>Contact</span>
             
@@ -287,7 +295,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/files/cv.pdf">
+          <a class="nav-link" href="../../../../files/cv.pdf">
             
             <span>CV</span>
             
@@ -323,159 +331,67 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
 
 
 
-<div class="container-fluid docs">
-  <div class="row flex-xl-nowrap">
-    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
-      
 
 
 
 
-<form class="docs-search d-flex align-items-center">
-  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
-    <span><i class="fas fa-bars"></i></span>
-  </button>
+
+
+
+
+
+
+
 
   
-  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
-  
-</form>
 
-<nav class="collapse docs-links" id="docs-nav">
   
   
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorial/">Overview</a>
-
-  </div>
   
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorial/01shiny/">Shiny Tutorial</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutorial/01shiny/">Two Shiny</a>
-      </li>
-      
-    </ul>
     
-
-  </div>
   
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/tutorial/01slt/">Statistical Learning Theory</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/tutorial/01slt/">S1: Gaussian Tail Inequality</a>
-      </li>
-      
-      <li >
-        <a href="/tutorial/02slt/">S2: Hoeffding Inequality</a>
-      </li>
-      
-      <li class="active">
-        <a href="/tutorial/03slt/">S3: Kullback Leibler Distance</a>
-      </li>
-      
-      <li >
-        <a href="/tutorial/04slt/">S4: Maximum of a random variable</a>
-      </li>
-      
-    </ul>
-    
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">1</h1>
 
-  </div>
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
   
   
-</nav>
-
-    </div>
-
-    
-    <div class="d-none d-xl-block col-xl-2 docs-toc">
+  <div>
+    <h2><a href="../../../../publication/2014-quotas/">Possible Decision Rules to Allocate Quotas and Reservations to Ensure Equity for Nepalese Poor</a></h2>
+    <div class="article-style">
       
-      <p class="docs-toc-title">On this page</p>
-      
-
-      <nav id="TableOfContents">
-<ul>
-<li><a href="#kullback-leibler-distance">Kullback Leibler Distance</a>
-<ul>
-<li><a href="#proof-for-distance-between-density-is-greater-than-zero">Proof for distance between density is greater than zero.</a>
-<ul>
-<li><a href="#cauchy-swartz-inequality">Cauchy-Swartz Inequality</a></li>
-<li><a href="#jensen-s-inequality">Jensen&rsquo;s inequality</a></li>
-<li><a href="#kullback-leibler-distance-1">Kullback Leibler Distance</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
-
-      <ul class="nav toc-top">
-        <li><a href="#">Back to top</a></li>
-      </ul>
-
+      Government of Nepal provides quotas and reservations for women, indigenous nationalities, Madhesi, untouchables, disables and people of backward areas. These statuses are not homogenous in economic sense. We proposed few other decision trees (rules) …
       
     </div>
+  </div>
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
     
+    <li class="page-item"><a class="page-link" href="../../../../publication_types/1/page/2/">&laquo;</a></li>
+    
+    
+  </ul>
+</nav>
 
-    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
 
-      <article class="article" itemscope itemtype="http://schema.org/Article">
-
-        <div class="docs-article-container">
-          <h1 itemprop="name">Statistical Learning Theory</h1>
-
-          <div class="article-style" itemprop="articleBody">
-            
-
-<h1 id="kullback-leibler-distance">Kullback Leibler Distance</h1>
-
-<h2 id="proof-for-distance-between-density-is-greater-than-zero">Proof for distance between density is greater than zero.</h2>
-
-<p>Proof that the distance between any two density $p$ and $q$ whose random variable is $X\tilde{\ }p$ ($p$ is some distribution) is always greater than or equal to zero.</p>
-
-<p>Prior answering this, let&rsquo;s quickly note two inequality, namely Cauchy-Swartz Inequality and Jensen&rsquo;s inequality.</p>
-
-<h3 id="cauchy-swartz-inequality">Cauchy-Swartz Inequality</h3>
-
-<p>$\left| EXY \right|\le E\left| XY \right|\le \sqrt{E\left( {{X}^{2}} \right)}\sqrt{E\left( {{Y}^{2}} \right)}$.</p>
-
-<h3 id="jensen-s-inequality">Jensen&rsquo;s inequality</h3>
-
-<p>If $g$ is convex then$Eg\left( X \right)\ge g\left( EX \right)$. If $g$ is concave, then$Eg\left( X \right)\le g\left( EX \right)$.</p>
-
-<h3 id="kullback-leibler-distance-1">Kullback Leibler Distance</h3>
-
-<p>The distance between two density $p$ and $q$  is defined by the Kullback Leibler Distance, and given as:</p>
-
-<p>$$D\left( p,q \right)=\int{p\left( x \right)\log \left( \frac{p\left( x \right)}{q\left( x \right)} \right)}dx$$</p>
-
-<p>Before, I move ahead, note that the self-distance between density $p$ to $p$ is zero and given as: $D\left( p,p \right)=0$ and by definition distance is always greater than and equal to zero so, one thing we have to confirm is that distance between two density $p$ and $q$ i.e. $D\left( p,q \right)\ge 0$.  But we will use Jensen inequality to proof $D\left( p,q \right)\ge 0$. Since the $\log$ function is concave in nature, so we can write, Jensen inequality that:</p>
-
-<p>$$-D\left( p,q \right)=E\left[ \log \left( \frac{p\left( x \right)}{q\left( x \right)} \right) \right]\le \log \left[ E\left( \frac{p\left( x \right)}{q\left( x \right)} \right) \right]=\log \int{p\left( x \right)\frac{q\left( x \right)}{p\left( x \right)}dx}=\log \int{q\left( x \right)dx}=\log \left( 1 \right)=0$$</p>
-
-<p>i.e</p>
-
-<p>$$-D\left( p,q \right)\le 0$$ i.e. $$D\left( p,q \right)\ge 0$$</p>
-
-          </div>
-
-          
-
-        </div>
-
-        <div class="body-footer">
-          Last updated on Sep 9, 2018
-        </div>
-
-      </article>
-
-      <footer class="site-footer">
+</div>
+<div class="container">
+  <footer class="site-footer">
   
   <p class="powered-by">
-    <a href="/privacy/">Privacy Policy</a>
+    <a href="../../../../privacy/">Privacy Policy</a>
   </p>
   
 
@@ -487,11 +403,42 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
     
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
   </p>
 </footer>
 
+</div>
 
-    </main>
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -500,7 +447,7 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
     
     
     
-    <script src="/js/mathjax-config.js"></script>
+    <script src="../../../../js/mathjax-config.js"></script>
     
 
     
@@ -558,11 +505,6 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
-    <script>
-      anchors.add();
-    </script>
-    
 
     
     
@@ -596,11 +538,12 @@ Jensen&rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX
     
     
     
-    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+    <script src="../../../../js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
 
     
 
   </body>
 </html>
+
 
 

@@ -117,10 +117,10 @@ sum((x - mean(x))^2)/(length(x) - 1)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt;- sort(x)
 plot(x, dnorm(x, mean = mean(x), sd = sd(x)), ylab = &amp;quot;Density&amp;quot;, type = &amp;quot;l&amp;quot;, 
     col = &amp;quot;blue&amp;quot;, lwd = 3)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Let’s also plot a graph of histogram using bin width ranging from -1.5 through 2.0.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(x, breaks = seq(-1.5, 2, by = 0.5), prob = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -169,7 +169,7 @@ colnames(density_data) &amp;lt;- names
 matplot(density_data, type = &amp;quot;b&amp;quot;, xlab = &amp;quot;x&amp;quot;, ylab = &amp;quot;Density&amp;quot;, pch = 1:length(H), 
     col = 1:length(H), main = &amp;quot;Naive Density for various Smoothing Parameter H&amp;quot;)
 legend(&amp;quot;topleft&amp;quot;, legend = names, bty = &amp;quot;n&amp;quot;, pch = 1:length(H), col = 1:length(H))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;epanechnikov-kernel&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Epanechnikov kernel&lt;/h2&gt;
@@ -207,7 +207,7 @@ colnames(density_data) &amp;lt;- names
 matplot(density_data, type = &amp;quot;b&amp;quot;, xlab = &amp;quot;x&amp;quot;, ylab = &amp;quot;Density&amp;quot;, pch = 1:length(H), 
     col = 1:length(H), main = &amp;quot;Epanichnikov Density for various Smoothing Parameter H&amp;quot;)
 legend(&amp;quot;topleft&amp;quot;, legend = names, bty = &amp;quot;n&amp;quot;, pch = 1:length(H), col = 1:length(H))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-01-07-Density-Estimation_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;three-properties-of-kernel-estimator&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Three properties of kernel estimator&lt;/h2&gt;
