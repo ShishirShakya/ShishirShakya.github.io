@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on Shishir Shakya</title>
+    <link>/tutorial/</link>
+    <description>Recent content in Overview on Shishir Shakya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Statistical Learning Theory</title>
+      <link>/tutorial/01slt/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/01slt/</guid>
+      <description>Gaussian Tail Inequality Given ${{x}_{1}},\cdots ,{{x}_{n}}\sim N\left( 0,1 \right)$ then, $P\left( \left| X \right|&amp;gt;\varepsilon \right)\le \frac{2{{e}^{-{{{\varepsilon }^{2}}}/{2}\;}}}{\varepsilon }$ and $P\left( \left| {{{\bar{X}}}_{n}} \right|&amp;gt;\varepsilon \right)\le \frac{2}{\sqrt{n}\varepsilon }{{e}^{-{n{{\varepsilon }^{2}}}/{2}\;}}\overset{l\arg e\ n}{\mathop{\le }}\,{{e}^{-{n{{\varepsilon }^{2}}}/{2}\;}}$.
+Proof of Gaussian Tail Inequality Consider a univariate ${{x}_{1}},\cdots ,{{x}_{n}}\sim N\left( 0,1 \right)$, then the probability density function is given as $\phi \left( x \right)=\frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}}$.
+Let&amp;rsquo;s take the derivative w.r.t $x$ we get: $$\frac{d\phi \left( x \right)}{dx}={\phi }&amp;rsquo;\left( x \right)=\frac{d\left( \frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{dx}=\frac{1}{\sqrt{2\pi }}\frac{d\left( \,{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{dx}=\frac{1}{\sqrt{2\pi }}\frac{d\left( \,{{e}^{-\frac{{{x}^{2}}}{2}}} \right)}{d\left( -\frac{{{x}^{2}}}{2} \right)}\frac{d\left( -\frac{{{x}^{2}}}{2} \right)}{dx}=\frac{1}{\sqrt{2\pi }}{{e}^{-\frac{{{x}^{2}}}{2}}}\left( -x \right)=-x\phi \left( x \right)$$</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning Theory</title>
+      <link>/tutorial/02slt/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/02slt/</guid>
+      <description>Before, I start the solution of Hoeffding&amp;rsquo;s Inequality, let me first quickly note Markov&amp;rsquo;s Inequality and Chebyshev&amp;rsquo;s Inequality.
+Markov&amp;rsquo;s Inequality Let $X$ be a non-negative random variable and $E\left( X \right)$ exists, For any $t&amp;gt;0$; $P\left( X&amp;gt;t \right)\le \frac{E\left( X \right)}{t}$
+Proof of Markov&amp;rsquo;s Inequality For $X&amp;gt;0$ we can write expectation of $X$ as: $$E\left( X \right)=\int\limits_{0}^{\infty }{xp\left( x \right)dx}=\int\limits_{0}^{t}{xp\left( x \right)dx}+\int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}$$ $$E\left( X \right)\ge \int\limits_{t}^{\infty }{xp\left( x \right)dx}\ge t\int\limits_{t}^{\infty }{p\left( x \right)dx}=tP\left( X&amp;gt;t \right)$$ $$\frac{E\left( X \right)}{t}\ge P\left( X&amp;gt;t \right)$$ $$P\left( X&amp;gt;t \right)\le \frac{E\left( X \right)}{t}$$</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning Theory</title>
+      <link>/tutorial/03slt/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/03slt/</guid>
+      <description>Kullback Leibler Distance Proof for distance between density is greater than zero. Proof that the distance between any two density $p$ and $q$ whose random variable is $X\tilde{\ }p$ ($p$ is some distribution) is always greater than or equal to zero.
+Prior answering this, let&amp;rsquo;s quickly note two inequality, namely Cauchy-Swartz Inequality and Jensen&amp;rsquo;s inequality.
+Cauchy-Swartz Inequality $\left| EXY \right|\le E\left| XY \right|\le \sqrt{E\left( {{X}^{2}} \right)}\sqrt{E\left( {{Y}^{2}} \right)}$.
+Jensen&amp;rsquo;s inequality If $g$ is convex then$Eg\left( X \right)\ge g\left( EX \right)$.</description>
+    </item>
+    
+    <item>
+      <title>Statistical Learning Theory</title>
+      <link>/tutorial/04slt/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/04slt/</guid>
+      <description>Maximum of a random variable Let ${{X}_{i}},\ldots {{X}_{n}}$ be random variable. Suppose there exist $\sigma &amp;gt;0$ such that $E\left( {{e}^{t{{X}_{i}}}} \right)\le {{e}^{\frac{{{t}^{2}}{{\sigma }^{2}}}{2}}}$. Then, $E\underset{1\le i\le n}{\mathop{\max }}\,{{X}_{i}}\le \sigma \sqrt{2\log n}$.
+Maximum of a random variable represents how to bound maximum value of a random variable? i.e. Say the random variable is ${{X}_{1}},\ldots ,{{X}_{n}}$ and say it is arranged in ascending order such that ${{X}_{\left( 1 \right)}}\le {{X}_{\left( 2 \right)}}\le \ldots \le {{X}_{\left( n \right)}}$ and ${{X}_{\left( n \right)}}={{E}_{\max }}\left{ {{X}_{1}},\cdots ,{{X}_{n}} \right}$ how to compute the distribution of that maximum value?</description>
+    </item>
+    
+    <item>
+      <title>Shiny Tutorial</title>
+      <link>/tutorial/01shiny/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/01shiny/</guid>
+      <description>Shiny Tutorial The following two links show my online course on the Shiny App development and deployment. This course was co-designed with Prof. Greg DeAngelo and was taught in summer of 2017 and 2018 for BUDA 550: Business Data Visualization course of Business and Data Analytics (M.S).
+Part-1 | Part-2</description>
+    </item>
+    
+  </channel>
+</rss>
