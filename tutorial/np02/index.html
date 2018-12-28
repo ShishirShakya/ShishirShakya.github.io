@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Shishir Shakya">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Univariate NonParametric Density Estimation Set-up Consider $i.i.d$ data ${{X}_{1}},{{X}_{2}},\ldots ,{{X}_{n}}$ with $F\left( \centerdot \right)$ an unknown $CDF$ where $F\left( x \right)=P\left[ X\le x \right]$ or $CDF$ of $X$ evaluated at $x$. We can do a naive estimation as $F\left( x \right)=P\left[ X\le x \right]$ as cumulative sums of relative frequency as: $${{F}_{n}}\left( x \right)={{n}^{-1}}\left( numbers\ of\ {{X}_{i}}\le x \right)$$ and $n\to\infty$ yields ${{F}_{n}}\left( x \right)\to F\left( x \right)$.
+The $PDF$ of $F\left( x \right)=P\left[ X\le x \right]$ is given as $f\left( x \right)=\frac{d}{dx}F\left( x \right)$ and an obvious estimator is: $$\hat{f}\left( x \right)=\frac{rise}{run}=\frac{{{F}_{n}}\left( x&#43;h \right)-{{F}_{n}}\left( x-h \right)}{x&#43;h-\left( x-h \right)}=\frac{{{F}_{n}}\left( x&#43;h \right)-{{F}_{n}}\left( x-h \right)}{2h}$$ $$\hat{f}\left( x \right)={{n}^{-1}}\frac{1}{2h}\left( numbers\ of\ {{X}_{i}}\ in\ between\ \left[ x-h,x&#43;h \right] \right)$$">
+
+  
+  <link rel="alternate" hreflang="en-us" href="../../tutorial/np02/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="../../styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-131353943-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="Shishir Shakya">
+  <link rel="feed" href="../../index.xml" type="application/rss+xml" title="Shishir Shakya">
+  
+
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
+
+  <link rel="canonical" href="../../tutorial/np02/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@econshishir">
+  <meta property="twitter:creator" content="@econshishir">
+  
+  <meta property="og:site_name" content="Shishir Shakya">
+  <meta property="og:url" content="/tutorial/np02/">
+  <meta property="og:title" content="Nonparametric Econometrics | Shishir Shakya">
+  <meta property="og:description" content="Univariate NonParametric Density Estimation Set-up Consider $i.i.d$ data ${{X}_{1}},{{X}_{2}},\ldots ,{{X}_{n}}$ with $F\left( \centerdot \right)$ an unknown $CDF$ where $F\left( x \right)=P\left[ X\le x \right]$ or $CDF$ of $X$ evaluated at $x$. We can do a naive estimation as $F\left( x \right)=P\left[ X\le x \right]$ as cumulative sums of relative frequency as: $${{F}_{n}}\left( x \right)={{n}^{-1}}\left( numbers\ of\ {{X}_{i}}\le x \right)$$ and $n\to\infty$ yields ${{F}_{n}}\left( x \right)\to F\left( x \right)$.
+The $PDF$ of $F\left( x \right)=P\left[ X\le x \right]$ is given as $f\left( x \right)=\frac{d}{dx}F\left( x \right)$ and an obvious estimator is: $$\hat{f}\left( x \right)=\frac{rise}{run}=\frac{{{F}_{n}}\left( x&#43;h \right)-{{F}_{n}}\left( x-h \right)}{x&#43;h-\left( x-h \right)}=\frac{{{F}_{n}}\left( x&#43;h \right)-{{F}_{n}}\left( x-h \right)}{2h}$$ $$\hat{f}\left( x \right)={{n}^{-1}}\frac{1}{2h}\left( numbers\ of\ {{X}_{i}}\ in\ between\ \left[ x-h,x&#43;h \right] \right)$$"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-09-09T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2018-09-09T00:00:00-04:00">
+  
+
+  
+
+  
+
+  <title>Nonparametric Econometrics | Shishir Shakya</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="../../">Shishir Shakya</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#publications_selected">
+            
+            <span>Research</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../tutorial/">
+            
+            <span>Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="../../files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" id="search-query" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/">Overview</a>
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/ci01/">Causal Inference</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/ci01/">C1: Fundamental problem of causal inference</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/np01/">Nonparametric Econometrics</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/np01/">NP1: Parametric density estimation (univariate case)</a>
+      </li>
+      
+      <li class="active">
+        <a href="../../tutorial/np02/">NP2: NonParametric density estimation (univariate case)</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/np03/">NP3: Three properties of kernel</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/np04/">NP4: Taylor, MSE, Bias, Variance, Big O and Small o</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/np05/">NP5: Nonparametric density estimation (Proof of Theorem 1.1)</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/shiny01/">Shiny Tutorial</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/shiny01/">Two Shiny</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="../../tutorial/slt01/">Statistical Learning Theory</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="../../tutorial/slt01/">S1: Gaussian Tail Inequality</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/slt02/">S2: Hoeffding Inequality</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/slt03/">S3: Kullback Leibler Distance</a>
+      </li>
+      
+      <li >
+        <a href="../../tutorial/slt04/">S4: Maximum of a random variable</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+      <p class="docs-toc-title">On this page</p>
+      
+
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#univariate-nonparametric-density-estimation">Univariate NonParametric Density Estimation</a>
+<ul>
+<li><a href="#set-up">Set-up</a></li>
+<li><a href="#naive-kernel">Naive Kernel</a></li>
+<li><a href="#epanechnikov-kernel">Epanechnikov kernel</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      <ul class="nav toc-top">
+        <li><a href="#">Back to top</a></li>
+      </ul>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">Nonparametric Econometrics</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+
+<h1 id="univariate-nonparametric-density-estimation">Univariate NonParametric Density Estimation</h1>
+
+<h2 id="set-up">Set-up</h2>
+
+<p>Consider $i.i.d$ data ${{X}_{1}},{{X}_{2}},\ldots ,{{X}_{n}}$ with $F\left( \centerdot  \right)$ an unknown $CDF$ where $F\left( x \right)=P\left[ X\le x \right]$ or $CDF$ of $X$ evaluated at $x$. We can do a naive estimation as $F\left( x \right)=P\left[ X\le x \right]$ as cumulative sums of relative frequency as:
+    $${{F}_{n}}\left( x \right)={{n}^{-1}}\left( numbers\ of\ {{X}_{i}}\le x \right)$$
+ and $n\to\infty$ yields ${{F}_{n}}\left( x \right)\to F\left( x \right)$.</p>
+
+<p>The $PDF$ of $F\left( x \right)=P\left[ X\le x \right]$ is given as $f\left( x \right)=\frac{d}{dx}F\left( x \right)$ and an obvious estimator is:
+    $$\hat{f}\left( x \right)=\frac{rise}{run}=\frac{{{F}_{n}}\left( x+h \right)-{{F}_{n}}\left( x-h \right)}{x+h-\left( x-h \right)}=\frac{{{F}_{n}}\left( x+h \right)-{{F}_{n}}\left( x-h \right)}{2h}$$
+$$\hat{f}\left( x \right)={{n}^{-1}}\frac{1}{2h}\left( numbers\ of\ {{X}_{i}}\ in\ between\ \left[ x-h,x+h \right] \right)$$</p>
+
+<h2 id="naive-kernel">Naive Kernel</h2>
+
+<p>The $k\left( \centerdot  \right)$ can be any kernel function, If we define a uniform kernel function or also known as naive kernel function then: $k\left( z \right)=\frac{1}{2}$ if $f\left| z \right|\le 1$ and $0$ otherwise.</p>
+
+<p>Where $\left| {{z}_{i}} \right|=\left| \frac{{{X}_{i}}-x}{h} \right|$ and therefore is symmetric and hence $numbers\ of\ {{X}_{i}}\ in\ between\ \left[ x-h,x+h \right]$ means $2\left( \frac{{{X}_{i}}-x}{h} \right)$. Then it is easy to see $\hat{f}\left( x \right)$ to be expressed as:
+    $$\hat{f}\left( x \right)=\frac{1}{2h}{{n}^{-1}}\left( numbers\ of\ {{X}_{i}}\ in\ between\ \left[ x-h,x+h \right] \right)$$
+    $$\hat{f}\left( x \right)=\frac{1}{2h}{{n}^{-1}}\sum\limits_{i=1}^{n}{k\left( 2\frac{{{X}_{i}}-x}{h} \right)}=\frac{1}{nh}\sum\limits_{i=1}^{n}{k\left( \frac{{{X}_{i}}-x}{h} \right)}$$</p>
+
+<p>We can use following code for naive kernel.</p>
+
+<pre><code class="language-r">x &lt;- c(-0.57, 0.25, -0.08, 1.40, -1.05, 1.00, 0.37, -1.15, 0.73, 1.59)
+x &lt;- sort(x)
+</code></pre>
+
+<pre><code class="language-r">naive_kernel &lt;- function(x,y,h){
+  z &lt;- (x-y)/h
+  ifelse(abs(z) &lt;= 1, 1/2, 0)
+}
+</code></pre>
+
+<pre><code class="language-r">naive_density &lt;- function(x, h){
+  val &lt;- c()
+  for(i in 1:length(x)) {
+    val[i] &lt;- sum(naive_kernel(x,x[i],h)/(length(x)*h))
+  }
+  val
+}
+</code></pre>
+
+<pre><code class="language-r">H &lt;- c(0.5, 1.0, 1.5)
+
+names &lt;- as.vector(paste0(&quot;H = &quot;, H))
+density_data &lt;- list()
+for(i in 1:length(H)){
+  density_data[[i]] &lt;- naive_density(x, H[i])
+}
+density_data &lt;- do.call(cbind.data.frame, density_data)
+colnames(density_data) &lt;- names
+
+
+matplot(density_data, type = &quot;b&quot;, xlab = &quot;x&quot;,
+        ylab = &quot;Density&quot;, pch=1:length(H), col = 1:length(H),
+        main = &quot;Naive Density for various Smoothing Parameter H&quot;)
+legend(&quot;topleft&quot;, legend=names,  bty = &quot;n&quot;, pch=1:length(H), col = 1:length(H))
+</code></pre>
+
+<h2 id="epanechnikov-kernel">Epanechnikov kernel</h2>
+
+<p>Consider another optimal kernel known as Epanechnikov kernel given by:$k\left( \frac{{{X}_{i}}-x}{h} \right)=\frac{3}{4\sqrt{5}}\left( 1-\frac{1}{5}{{\left( \frac{{{X}_{i}}-x}{h} \right)}^{2}} \right)$  if $\left| \frac{{{X}_{i}}-x}{h} \right|&lt;5$ and $0$ otherwise.
+Let&rsquo;s use x = (-0.57, 0.25, -0.08, 1.40, -1.05, 1.00, 0.37, -1.15, 0.73, 1.59) and compute the kernel estimator of the density function of every sample realization using bandwidth of $h=0.5$, $h=1$, $h=1.5$, where, $h$  is smoothing parameter restricted to lie in the range of $(0,\infty ]$. We can use follwoing codes to estimate the density using Epanechnikov kernel.</p>
+
+<pre><code class="language-r">x &lt;- c(-0.57, 0.25, -0.08, 1.40, -1.05, 1.00, 0.37, -1.15, 0.73, 1.59)
+x &lt;- sort(x)
+</code></pre>
+
+<pre><code class="language-r">epanichnikov_kernel &lt;- function(x,y,h){
+  z &lt;- (x-y)/h
+  ifelse(abs(z) &lt; sqrt(5), (1-z^2/5)*(3/(4*sqrt(5))), 0)
+}
+</code></pre>
+
+<pre><code class="language-r">epanichnikov_density &lt;- function(x, h){
+  val &lt;- c()
+  for(i in 1:length(x)) {
+    val[i] &lt;- sum(epanichnikov_kernel(x,x[i],h)/(length(x)*h))
+  }
+  val
+}
+</code></pre>
+
+<pre><code class="language-r">H &lt;- c(0.5, 1.0, 1.5)
+
+names &lt;- as.vector(paste0(&quot;H = &quot;, H))
+density_data &lt;- list()
+for(i in 1:length(H)){
+  density_data[[i]] &lt;- epanichnikov_density(x, H[i])
+}
+density_data &lt;- do.call(cbind.data.frame, density_data)
+colnames(density_data) &lt;- names
+
+
+matplot(density_data, type = &quot;b&quot;, xlab = &quot;x&quot;,
+        ylab = &quot;Density&quot;, pch=1:length(H), col = 1:length(H),
+        main = &quot;Epanichnikov Density for various Smoothing Parameter H&quot;)
+legend(&quot;topleft&quot;, legend=names,  bty = &quot;n&quot;, pch=1:length(H), col = 1:length(H))
+
+</code></pre>
+
+          </div>
+
+          
+
+        </div>
+
+        <div class="body-footer">
+          Last updated on Sep 9, 2018
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="../../privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="../../js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//SS.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="../../js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+
+
