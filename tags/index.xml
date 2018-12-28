@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shishir Shakya</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Shishir Shakya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ARDL,</title>
+      <link>/tags/ardl/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/ardl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>American Community Survey,</title>
+      <link>/tags/american-community-survey/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/american-community-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CART,</title>
+      <link>/tags/cart/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/cart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal Forest,</title>
+      <link>/tags/causal-forest/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/causal-forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal Tree,</title>
+      <link>/tags/causal-tree/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/causal-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crime,</title>
+      <link>/tags/crime/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/crime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Density,</title>
+      <link>/tags/density/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/density/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Double Machine Learning,</title>
+      <link>/tags/double-machine-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/double-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy,</title>
+      <link>/tags/energy/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSynth,</title>
+      <link>/tags/gsynth/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/gsynth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health,</title>
+      <link>/tags/health/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Treatment Effect,</title>
+      <link>/tags/heterogeneous-treatment-effect/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/heterogeneous-treatment-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High dimensional Panel data,</title>
+      <link>/tags/high-dimensional-panel-data/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/high-dimensional-panel-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Input-output,</title>
+      <link>/tags/input-output/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/input-output/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning,</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matrix completion,</title>
+      <link>/tags/matrix-completion/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/matrix-completion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network,</title>
+      <link>/tags/network/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Parametric,</title>
+      <link>/tags/non-parametric/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/non-parametric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opioid,</title>
+      <link>/tags/opioid/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/opioid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Policy Learning,</title>
+      <link>/tags/optimal-policy-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/optimal-policy-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oregon Health Insurance,</title>
+      <link>/tags/oregon-health-insurance/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/oregon-health-insurance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probability,</title>
+      <link>/tags/probability/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/probability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof,</title>
+      <link>/tags/proof/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/proof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public,</title>
+      <link>/tags/public/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/public/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R,</title>
+      <link>/tags/r/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RCT,</title>
+      <link>/tags/rct/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/rct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regional,</title>
+      <link>/tags/regional/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/regional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible,</title>
+      <link>/tags/reproducible/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reproducible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial,</title>
+      <link>/tags/spatial/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/spatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics,</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory,</title>
+      <link>/tags/theory/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time series,</title>
+      <link>/tags/time-series/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trade,</title>
+      <link>/tags/trade/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/tags/trade/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

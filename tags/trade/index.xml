@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trade, on Shishir Shakya</title>
+    <link>/tags/trade/</link>
+    <description>Recent content in Trade, on Shishir Shakya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/tags/trade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compensation-Productivity Gap–Mixing Spatial and Trade Network Dependency Approach (WP)</title>
+      <link>/publication/2018-networkautoregressivemodel/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/2018-networkautoregressivemodel/</guid>
+      <description>This paper was presented in the 58th Annual Meetings of Southern Regional Science Association held on March 15 – 17, 2018 at Philadelphia, PA Courtyard Philadelphia Downtown. This paper is still under development.</description>
+    </item>
+    
+  </channel>
+</rss>
