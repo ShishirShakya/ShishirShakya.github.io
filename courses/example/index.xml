@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Shishir Shakya</title>
+    <link>/courses/example/</link>
+      <atom:link href="/courses/example/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Overview</title>
+      <link>/courses/example/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>
+
+&lt;h1 id=&#34;potential-outcome-framework&#34;&gt;Potential Outcome Framework&lt;/h1&gt;
+
+&lt;p&gt;There are at least three different school of thoughts regarding causality: 1) granger causality; 2) Rubin’s potential outcome framework and 3) Pearl’s causality. Each of these thoughts have their own pros and cons. I will quickly discuss about the Rubin’s potential outcome framework and show the fundamental problem of causal inference.&lt;/p&gt;
+
+&lt;p&gt;For an example, say a researcher wants to study impact of certain treatment (say performance enhancing drug say $T$) on some outcomes (say capacity to solve riddle quizzes say $Y$).&lt;/p&gt;
+
+&lt;p&gt;He randomly sampled the total population and divided the total sample population $N$ to the control group of ${{N}_{co}}$ and treatment group ${{N}_{Tr}}$ such that ${{N}_{co}}+{{N}_{Tr}}=N$.&lt;/p&gt;
+
+&lt;p&gt;Say the treatment group are exposed to the treatment i.e. $T=1$ for intervening with performance enhancing drug and control group is not intervened or given a placebo i.e. $T=0$.&lt;/p&gt;
+
+&lt;p&gt;After this experiment, researcher takes test of all the individual and records numbers of minutes to solve the questions.&lt;/p&gt;
+
+&lt;p&gt;The average outcome of treated group is $E\left[ Y\left( 1 \right)|T=1 \right]$ and average outcome of control group is given as $E\left[ Y\left( 0 \right)|T=0 \right]$.  Both averages can be estimated easily as the data are observed. The simple difference of means $SDoM$ between average outcome of treated and average outcome of control group given as:&lt;/p&gt;
+
+&lt;p&gt;$$SDoM=E\left[ Y\left( 1 \right)|T=1 \right]-E\left[ Y\left( 0 \right)|T=0 \right]$$&lt;/p&gt;
+
+&lt;p&gt;The potential outcome framework, however, look at this problem and ask a simple question i.e. “What is the counterfactual?”. In another word, what would be the outcome of those who are treated if they were not been treated i.e. $E\left[ Y\left( 0 \right)|T=1 \right]=??$. Similarly, what would be the outcome of control if they had been treated i.e. $E\left[ Y\left( 1 \right)|T=0 \right]=??$.&lt;/p&gt;
+
+&lt;p&gt;Then, the average treatment effect is given as:&lt;/p&gt;
+
+&lt;p&gt;$$ATE=\left( E\left[ Y\left( 1 \right)|T=1 \right]-E\left[ Y\left( 0 \right)|T=1 \right] \right)-\left( E\left[ Y\left( 0 \right)|T=0 \right]-E\left[ Y\left( 1 \right)|T=0 \right] \right)$$&lt;/p&gt;
+
+&lt;p&gt;Where,&lt;/p&gt;
+
+&lt;p&gt;$E\left[ Y\left( 1 \right)|T=1 \right]$ represents, given treated, the average outcome of treated group (observed in data).&lt;/p&gt;
+
+&lt;p&gt;$E\left[ Y\left( 0 \right)|T=1 \right]$ represents, given treated, the average outcome of treated group if they were controlled (unobserved).&lt;/p&gt;
+
+&lt;p&gt;$E\left[ Y\left( 0 \right)|T=0 \right]$ represents, given controlled, the average outcome of controlled group (observed in data).&lt;/p&gt;
+
+&lt;p&gt;$E\left[ Y\left( 1 \right)|T=0 \right]$ represents, given controlled, the average outcome of controlled group if they were treated (unobserved).&lt;/p&gt;
+
+&lt;p&gt;We can also correct this estimate with sampling weights as:&lt;/p&gt;
+
+&lt;p&gt;$$ATE=\lambda \left( E\left[ Y\left( 1 \right)|T=1 \right]-E\left[ Y\left( 0 \right)|T=1 \right] \right)-\left( 1-\lambda  \right)\left( E\left[ Y\left( 0 \right)|T=0 \right]-E\left[ Y\left( 1 \right)|T=0 \right] \right)$$&lt;/p&gt;
+
+&lt;p&gt;Where, $\lambda =\frac{{{N}_{Tr}}}{N}$ or proportion of treated group and $1-\lambda =1-\frac{{{N}_{Tr}}}{N}=\frac{{{N}_{co}}}{N}$ proportion of control group.&lt;/p&gt;
+
+&lt;p&gt;If we closely look at estimate of $ATE$ we find that each counterfactual of treated and control group is missing data problem, this is the fundamental problem of causal inference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>
+
+&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

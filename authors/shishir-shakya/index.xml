@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shishir Shakya</title>
+    <link>/authors/shishir-shakya/</link>
+      <atom:link href="/authors/shishir-shakya/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shishir Shakya</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sun, 01 Apr 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Shishir Shakya</title>
+      <link>/authors/shishir-shakya/</link>
+    </image>
+    
+    <item>
+      <title>Quantifying the Announcement Effects in the U.S. Lumber Market (WP)</title>
+      <link>/publication/2018-lumber/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
+      <guid>/publication/2018-lumber/</guid>
+      <description>&lt;p&gt;*This paper was presented at Paper presented at the NCCC-134 Conference on Applied Commodity Price Analysis, Forecasting, and Market Risk Management in Minneapolis, Minnesota, April 16-17, 2018.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

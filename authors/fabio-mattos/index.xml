@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabio Mattos | Shishir Shakya</title>
+    <link>/authors/fabio-mattos/</link>
+      <atom:link href="/authors/fabio-mattos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fabio Mattos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Fabio Mattos</title>
+      <link>/authors/fabio-mattos/</link>
+    </image>
+    
+    <item>
+      <title>Quantifying the Announcement Effects in the U.S. Lumber Market</title>
+      <link>/publication/2018-lumber/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-lumber/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
