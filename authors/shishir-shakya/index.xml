@@ -5,7 +5,7 @@
     <link>/authors/shishir-shakya/</link>
       <atom:link href="/authors/shishir-shakya/index.xml" rel="self" type="application/rss+xml" />
     <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sun, 06 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Shishir Shakya</title>
@@ -15,9 +15,11 @@
     <item>
       <title>Slides</title>
       <link>/slides/jmp/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/slides/jmp/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shishirshakya.github.io/publication/2019-jmp/&#34; target=&#34;_blank&#34;&gt;Heterogeneous Effects of Medicaid and Efficient Policy Learning: Evidence from the Oregon Health Insurance Experiment.&lt;/a&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://shishirshakya.github.io/publication/2019-jmp/&#34; target=&#34;_blank&#34;&gt;Heterogeneous Effects of Medicaid and Efficient Policy Learning: Evidence from the Oregon Health Insurance Experiment.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Shishir Shakya&lt;/p&gt;
 
@@ -27,9 +29,377 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&#34;outpatient.gif&#34; alt=&#34;Heterogeneous Effects of Medicaid on Outpatient Visits.&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;research-questions&#34;&gt;Research Questions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+What are the &lt;code&gt;heterogeneous treatment effect&lt;/code&gt; of Medicaid?
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+What are the &lt;code&gt;efficient policy reforms&lt;/code&gt;?
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Dependent variables: &lt;strong&gt;health care utilization&lt;/strong&gt;, preventive care utilization, financial strains, self-reported health and well beings, and several other mechanisms.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
+
+&lt;h4 id=&#34;data-methods-and-results&#34;&gt;Data, Methods, and Results&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;code&gt;Data&lt;/code&gt;: Oregon Health Insurance Experiment &lt;code&gt;(OHIE)&lt;/code&gt;,
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+random assingment of Medicaid which is likely to circumvent &lt;code&gt;selection bias.&lt;/code&gt;
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;code&gt;Methods&lt;/code&gt;:
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Causal Random Forest and
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Optimal Policy Learning strategies.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;code&gt;Findings&lt;/code&gt;:
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+There exists treatment heterogeneities,
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+causal thresholds that exibit &lt;code&gt;adverse selection,&lt;/code&gt; and
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+impacts of proposed policies are &lt;code&gt;better&lt;/code&gt; than impacts of random assingments.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;ohie-dataset&#34;&gt;OHIE dataset&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+In 2008, additional fund for 10,000 OHP standard &lt;code&gt;(Medicaid)&lt;/code&gt; was available.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+About &lt;code&gt;90,000&lt;/code&gt; Oregonians were &lt;strong&gt;non-categorical&lt;/strong&gt; eligible and needed Health insurance badly.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+DHS took permission and got approved to &lt;strong&gt;lottery OHP standard&lt;/strong&gt; from CMS.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Data comprises 74,922 individuals (representing 66,385 households).
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;mean-comparision-pre-treatment&#34;&gt;Mean comparision (pre-treatment)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/meancompare.PNG&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:100%;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;intent-to-treat-effect-itt&#34;&gt;Intent-to-Treat Effect (ITT)&lt;/h4&gt;
+
+&lt;p&gt;$$
+{{Y}_{i,h}}={{\beta }_{0}}+{{\beta }_{1}} {{W}_{i,h}}+ {{x}_{ih}}{{\beta }_{2}} + {{\varepsilon }_{it}}
+$$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;${{\beta }_{1}}$ is the relationship between winning the lottery ${{W}_{i,h}}$ and the outcome ${{Y}_{i,h}}$.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The ITT provides a &lt;strong&gt;causal assessment of the net impact&lt;/strong&gt; of expanding access to public health insurance.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;local-average-treatment-effect-of-medicaid&#34;&gt;Local Average Treatment Effect of Medicaid&lt;/h4&gt;
+
+&lt;p&gt;${{Z}_{i,h}}={{\delta }_{0}} + {{\delta }_{1}} {{W}_{i,h}} + {{x}_{ih}}{{\delta }_{2}} +{{\mu }_{it}}$
+${{Y}_{i,h}}={{\phi }_{0}} +{{\phi }_{1}}{\widehat{Z}_{i,h}}+{{x}_{ih}}{{\phi }_{2}}+{{\nu }_{it}}$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;${{\phi }_{1}}$ is LATE of Medicaid and the causal impact of Medicaid among the &lt;code&gt;compliers.&lt;/code&gt;
+&lt;img src=&#34;images/IV.png&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:85%;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;methods&#34;&gt;Methods&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Cluster-robust random forest of the Wager and Athey (2018).
+&lt;/span&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Efficient policy learning strategies Athey and Wager (2019).
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Classification and Regression Tree (CART);
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;code&gt;Causal Trees&lt;/code&gt; of Athey and Imbense (2016); and
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Random Forest.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;classification-and-regression-tree-cart&#34;&gt;Classification and Regression Tree (CART)&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CART ML recursively filters and partitions the dataset into binary homogeneous sub-groups.
+&lt;img src=&#34;images/02Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:100%;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;causal-tree-athey-and-imbens-2016&#34;&gt;Causal Tree (Athey and Imbens, 2016)&lt;/h4&gt;
+
+&lt;p&gt;Training dataset that includes $Y$, $W$ and $x$.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/02Bcart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;out-of-sample-prediction&#34;&gt;Out-of-sample prediction&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/03Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;random-forest&#34;&gt;Random Forest&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/02Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;random-forest-1&#34;&gt;Random Forest&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/04Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;random-forest-2&#34;&gt;Random Forest&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/05Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;out-of-sample-prediction-1&#34;&gt;Out-of-sample prediction&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/03Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;out-of-sample-prediction-2&#34;&gt;Out-of-sample prediction&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/06Acart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;accessing-treatment-heterogeneties&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Heuristic approach.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Group observation based on CATE (above or below median CATE).
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Test if the ATE of these two group are different with each other or not.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+This provide at least qualitative insights about the strength of heterogeneity.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;accessing-treatment-heterogeneties-1&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;BLP&lt;/code&gt; method by of Chernozhukov et al. (2018)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mean Forest Prediction (MFP)&lt;/li&gt;
+&lt;li&gt;$B_i = Y_i - \hat{y_i}^{(-i)}$&lt;/li&gt;
+&lt;li&gt;$C_i = \bar\tau W_i - \bar\tau \hat{e_i}^{(-i)}$&lt;/li&gt;
+&lt;li&gt;$\bar\tau$ is out-of-sample ATE, and $\hat{e_i}^{(-i)}$ is propensity.&lt;/li&gt;
+&lt;li&gt;$\frac{dB_i}{dC_i}=1$, for calibrated model.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;accessing-treatment-heterogeneties-2&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;BLP&lt;/code&gt; method by of Chernozhukov et al. (2018)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Differential Forest Prediction (DFP)&lt;/li&gt;
+&lt;li&gt;$B_i = Y_i - \hat{y_i}^{(-i)}$ shows residuals.&lt;/li&gt;
+&lt;li&gt;$D_i = (\hat\tau^{(-i)}(X_i)-\bar\tau)(W_i - \hat{e_i}^{(-i)})$&lt;/li&gt;
+&lt;li&gt;$\frac{dB_i}{dD_i}&amp;gt;0$, for existence of treament heterogeneities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;recap-before-results&#34;&gt;Recap before Results.&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Intent-to-treat (ITT) shows &lt;strong&gt;net-impact&lt;/strong&gt; of access.
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Local Average Treatment Effect (LATE) shows impact among &lt;strong&gt;compliers&lt;/strong&gt;.
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Conditional Average Treatment Effect (&lt;strong&gt;CATE&lt;/strong&gt;) capture treatment heterogeneities
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Average of CATE is ATE, and ATE = ITT
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Measure of Treatment Heterogeneties: Heuristic*, MFP = 1, and DFP &amp;gt; 0.
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/hcu.PNG&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/MainPic.PNG&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/outpatient.gif&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/MainPic2.PNG&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;efficient-policy-learning&#34;&gt;efficient policy learning&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Main idea: &lt;strong&gt;intervene those who are more likely to benefit the most&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Find policy (tree) $\pi $ that maximize expected outcomes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$
+{{\pi }^{*}}\in \arg \ \underset{\pi \in \prod{{}}}{\mathop{\max }}\,E\left[ {{Y}_{i}}\left( \pi \left( {{X}_{i}} \right) \right) \right]
+$$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Any other non-optimal policy experiences regret $R\left( \pi  \right)$ so, we would like to minimize the regret function:$
+R\left( \pi  \right)=E\left[ {{Y}_{i}}\left( {{\pi }^{*}}\left( {{X}_{i}} \right) \right) \right]-E\left[ {{Y}_{i}}\left( \pi \left( {{X}_{i}} \right) \right) \right]
+$
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;efficient-policy-learning-1&#34;&gt;efficient policy learning&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Estimate regret by Q-learning: $
+\hat{Q}\left( \pi  \right)={{n}^{-1}}\sum\limits_{i}{\pi \left( {{X}_{i}} \right)|{{{\hat{\Gamma }}}_{i}}|sign\left( {{{\hat{\Gamma }}}_{i}} \right)}$&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+The regret converges as: $\sqrt{n}\left( {{{\hat{R}}}_{DML}}\left( \pi  \right)-R\left( \pi  \right) \right)\overset{d}{\mathop{\to }}\,N\left( 0,{{\sigma }^{2}}\left( \pi  \right) \right)$
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/ep.PNG&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:90%&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/ep_eg.PNG&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:100%&#34;&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;discussion-and-conclusion&#34;&gt;Discussion and Conclusion&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;code&gt;Intent-to-treat&lt;/code&gt; approach.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Eligibility criteria and not the take-up.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Higher effect among impoverished households.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Standard adverse selection theory.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Exclusion of gender, race and residency variables.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;discussion-and-conclusion-1&#34;&gt;Discussion and Conclusion&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Conservative approach of cluster-robust.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Equally weighted observation to generalize.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One-year impact of expanding Medicaid access.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Oregonian population $\neq$ the low-income U.S. adults.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+Reforms would improve selected outcome by a range of 2%-9% against random assignment.
+&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shishirshakya.github.io&#34; target=&#34;_blank&#34;&gt;Thank you.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/econshishir&#34; target=&#34;_blank&#34;&gt;Reach me: @econshishir&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
