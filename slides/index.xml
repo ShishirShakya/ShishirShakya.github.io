@@ -27,11 +27,11 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;heterogeneous treatment effect&lt;/code&gt; of Medicaid?
+What are the heterogeneous treatment effect of Medicaid?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;efficient policy reforms&lt;/code&gt;?
+What are the efficient policy reforms?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -49,7 +49,7 @@ What are the causal impacts of Medicaid?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-Medicaid mixed-bag effect challanges policymakers&lt;br /&gt;
+Medicaid mixed-bag effect challenges policymakers&lt;br /&gt;
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
@@ -57,7 +57,7 @@ why previous literature finds the mixed-bag effect of Medicaid?&lt;br /&gt;
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;heterogeneous treatment effect&lt;/code&gt; of Medicaid?
+What are the heterogeneous treatment effect of Medicaid?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -75,7 +75,7 @@ Florida, Minnesota, and North Carolina are re-analyzing their Medicaid programs 
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Medicaid work requirements&lt;/code&gt;&lt;br /&gt;
+Medicaid work requirements&lt;br /&gt;
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
@@ -83,7 +83,7 @@ How to think about Medicaid reforms while improving the effectiveness of Medicai
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;efficient policy reforms&lt;/code&gt;?
+What are the efficient policy reforms?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -93,11 +93,11 @@ What are the &lt;code&gt;efficient policy reforms&lt;/code&gt;?
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;heterogeneous treatment effect&lt;/code&gt; of Medicaid?
+What are the heterogeneous treatment effect of Medicaid?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-What are the &lt;code&gt;efficient policy reforms&lt;/code&gt;?
+What are the efficient policy reforms?
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
@@ -111,14 +111,14 @@ Dependent variables: &lt;strong&gt;health care utilization&lt;/strong&gt;, preve
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Data&lt;/code&gt;: Oregon Health Insurance Experiment &lt;code&gt;(OHIE)&lt;/code&gt;,
+Data: Oregon Health Insurance Experiment (OHIE),
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-random assingment of Medicaid which is likely to circumvent &lt;code&gt;selection bias.&lt;/code&gt;
+random assignment of Medicaid which is likely to circumvent selection bias.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Methods&lt;/code&gt;:
+Methods:
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
 Causal Random Forest and
@@ -128,16 +128,16 @@ Optimal Policy Learning strategies.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Findings&lt;/code&gt;:
+Findings:
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
 There exists treatment heterogeneities,
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-causal thresholds that exibit &lt;code&gt;adverse selection,&lt;/code&gt; and
+causal thresholds that exhibit adverse selection, and
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-impacts of proposed policies are &lt;code&gt;better&lt;/code&gt; than impacts of random assingments.
+impacts of proposed policies are better than impacts of random assignments.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -147,11 +147,11 @@ impacts of proposed policies are &lt;code&gt;better&lt;/code&gt; than impacts of
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-In 2008, additional fund for 10,000 OHP standard &lt;code&gt;(Medicaid)&lt;/code&gt; was available.
+In 2008, additional fund for 10,000 OHP standard (Medicaid) was available.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-About &lt;code&gt;90,000&lt;/code&gt; Oregonians were &lt;strong&gt;non-categorical&lt;/strong&gt; eligible and needed Health insurance badly.
+About 90,000 Oregonians were &lt;strong&gt;non-categorical&lt;/strong&gt; eligible and needed Health insurance badly.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
@@ -165,7 +165,7 @@ Data comprises 74,922 individuals (representing 66,385 households).
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;mean-comparision-pre-treatment&#34;&gt;Mean comparision (pre-treatment)&lt;/h4&gt;
+&lt;h4 id=&#34;mean-comparison-pre-treatment&#34;&gt;Mean comparison (pre-treatment)&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&#34;images/meancompare.PNG&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:100%;&#34;&gt;&lt;/p&gt;
 
@@ -191,7 +191,7 @@ $$&lt;/p&gt;
 ${{Y}_{i,h}}={{\phi }_{0}} +{{\phi }_{1}}{\widehat{Z}_{i,h}}+{{x}_{ih}}{{\phi }_{2}}+{{\nu }_{it}}$&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;${{\phi }_{1}}$ is LATE of Medicaid and the causal impact of Medicaid among the &lt;code&gt;compliers.&lt;/code&gt;
+&lt;li&gt;${{\phi }_{1}}$ is LATE of Medicaid and the causal impact of Medicaid among the compliers.
 &lt;img src=&#34;images/IV.png&#34; style=&#34;background:none; border:none; box-shadow:none; max-width:85%;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -212,7 +212,7 @@ Efficient policy learning strategies Athey and Wager (2019).
 Classification and Regression Tree (CART);
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Causal Trees&lt;/code&gt; of Athey and Imbense (2016); and
+Causal Trees of Athey and Imbens (2016); and
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
 Random Forest.
@@ -232,7 +232,7 @@ Random Forest.
 
 &lt;h4 id=&#34;causal-tree-athey-and-imbens-2016&#34;&gt;Causal Tree (Athey and Imbens, 2016)&lt;/h4&gt;
 
-&lt;p&gt;Training dataset that includes $Y$, $W$ and $x$.&lt;/p&gt;
+&lt;p&gt;Training dataset that includes $Y$, $W$, and $x$.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;images/02Bcart.png&#34; style=&#34;background:none; border:none; box-shadow:none;&#34;&gt;&lt;/p&gt;
 
@@ -274,7 +274,7 @@ Random Forest.
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;accessing-treatment-heterogeneties&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+&lt;h4 id=&#34;accessing-treatment-heterogeneities&#34;&gt;Accessing Treatment Heterogeneities.&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
@@ -296,9 +296,9 @@ This provide at least qualitative insights about the strength of heterogeneity.
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;accessing-treatment-heterogeneties-1&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+&lt;h4 id=&#34;accessing-treatment-heterogeneities-1&#34;&gt;Accessing Treatment Heterogeneities.&lt;/h4&gt;
 
-&lt;p&gt;&lt;code&gt;BLP&lt;/code&gt; method by of Chernozhukov et al. (2018)&lt;/p&gt;
+&lt;p&gt;BLP method by of Chernozhukov et al. (2018)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mean Forest Prediction (MFP)&lt;/li&gt;
@@ -310,15 +310,15 @@ This provide at least qualitative insights about the strength of heterogeneity.
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;accessing-treatment-heterogeneties-2&#34;&gt;Accessing Treatment Heterogeneties.&lt;/h4&gt;
+&lt;h4 id=&#34;accessing-treatment-heterogeneities-2&#34;&gt;Accessing Treatment Heterogeneities.&lt;/h4&gt;
 
-&lt;p&gt;&lt;code&gt;BLP&lt;/code&gt; method by of Chernozhukov et al. (2018)&lt;/p&gt;
+&lt;p&gt;BLP method by of Chernozhukov et al. (2018)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Differential Forest Prediction (DFP)&lt;/li&gt;
 &lt;li&gt;$B_i = Y_i - \hat{y_i}^{(-i)}$ shows residuals.&lt;/li&gt;
 &lt;li&gt;$D_i = (\hat\tau^{(-i)}(X_i)-\bar\tau)(W_i - \hat{e_i}^{(-i)})$&lt;/li&gt;
-&lt;li&gt;$\frac{dB_i}{dD_i}&amp;gt;0$, for existence of treament heterogeneities.&lt;/li&gt;
+&lt;li&gt;$\frac{dB_i}{dD_i}&amp;gt;0$, for existence of treatment heterogeneities.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -339,7 +339,7 @@ Conditional Average Treatment Effect (&lt;strong&gt;CATE&lt;/strong&gt;) capture
 Average of CATE is ATE, and ATE = ITT
 &lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-Measure of Treatment Heterogeneties: Heuristic*, MFP = 1, and DFP &amp;gt; 0.
+Measure of Treatment Heterogeneities: Heuristic*, MFP = 1, and DFP &amp;gt; 0.
 &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -365,7 +365,7 @@ Measure of Treatment Heterogeneties: Heuristic*, MFP = 1, and DFP &amp;gt; 0.
 
 &lt;ul&gt;
 &lt;li&gt;Main idea: &lt;strong&gt;intervene those who are more likely to benefit the most&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Find policy (tree) $\pi $ that maximize expected outcomes.&lt;/li&gt;
+&lt;li&gt;Find policy (tree) $\pi $ that maximizes expected outcomes.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;$$
@@ -407,7 +407,7 @@ The regret converges as: $\sqrt{n}\left( {{{\hat{R}}}_{DML}}\left( \pi  \right)-
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-&lt;code&gt;Intent-to-treat&lt;/code&gt; approach.
+Intent-to-treat approach.
 &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;

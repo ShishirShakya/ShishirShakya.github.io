@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Sun, 06 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Shishir Shakya</title>
-      <link>/authors/shishir-shakya/</link>
-      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/shishir-shakya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University.&lt;/p&gt;
 
@@ -38,8 +30,56 @@
     <item>
       <title>Alicia Plemmons</title>
       <link>/authors/alicia-plemmons/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/alicia-plemmons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shishir Shakya</title>
+      <link>/authors/shishir-shakya/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/shishir-shakya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabio Mattos</title>
+      <link>/authors/fabio-mattos/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/fabio-mattos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaoli L. Etienne</title>
+      <link>/authors/xiaoli-l.-etienne/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/xiaoli-l.-etienne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zarina Ismailova</title>
+      <link>/authors/zarina-ismailova/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/zarina-ismailova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexandre R. Scarcioffolo</title>
+      <link>/authors/alexandre-r.-scarcioffolo/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/alexandre-r.-scarcioffolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jousha C. Hall</title>
+      <link>/authors/jousha-c.-hall/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jousha-c.-hall/</guid>
       <description></description>
     </item>
     
@@ -48,22 +88,6 @@
       <link>/authors/tuyen-pham/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/authors/tuyen-pham/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexandre R. Scarcioffolo</title>
-      <link>/authors/alexandre-r.-scarcioffolo/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/alexandre-r.-scarcioffolo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jousha C. Hall</title>
-      <link>/authors/jousha-c.-hall/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/jousha-c.-hall/</guid>
       <description></description>
     </item>
     
@@ -80,30 +104,6 @@
       <link>/authors/rabindra-nepal/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/authors/rabindra-nepal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabio Mattos</title>
-      <link>/authors/fabio-mattos/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/fabio-mattos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiaoli L. Etienne</title>
-      <link>/authors/xiaoli-l.-etienne/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoli-l.-etienne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zarina Ismailova</title>
-      <link>/authors/zarina-ismailova/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/zarina-ismailova/</guid>
       <description></description>
     </item>
     

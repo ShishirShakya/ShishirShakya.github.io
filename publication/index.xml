@@ -5,12 +5,52 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Impact of Must-access Prescription Drug Monitoring Program on Prescription Opioid Overdose Death Rates</title>
+      <link>/publication/2019-pdmp/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-pdmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Trade Networks Explain the Productivity-Compensation Gap?</title>
+      <link>/publication/2018-networkautoregressivemodel/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-networkautoregressivemodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dark Side of the Shale Boom-Increased Crime among Economically-small, Relatively Rural American States</title>
+      <link>/publication/2019-shalecrime/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-shalecrime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying the Announcement Effects in the U.S. Lumber Market</title>
+      <link>/publication/2018-lumber/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-lumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Political Economy of Vermont’s Anti-Fracking Movement</title>
+      <link>/publication/2018-vermont/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-vermont/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Heterogeneous Treatment Effects of Medicaid and Efficient Policies: Evidence from the Oregon Health Insurance Experiment</title>
@@ -29,30 +69,6 @@
     </item>
     
     <item>
-      <title>Can Trade Networks Explain the Productivity-Compensation Gap?</title>
-      <link>/publication/2018-networkautoregressivemodel/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-networkautoregressivemodel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Impact of Must-access Prescription Drug Monitoring Program on Prescription Opioid Overdose Death Rates</title>
-      <link>/publication/2019-pdmp/</link>
-      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019-pdmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Political Economy of Vermont’s Anti-Fracking Movement</title>
-      <link>/publication/2018-vermont/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-vermont/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Regional Institutional Quality and Startup Activities in the US</title>
       <link>/publication/2018-economicfreedom/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
@@ -61,26 +77,10 @@
     </item>
     
     <item>
-      <title>The Dark Side of the Shale Boom--Increased Crime among Economically-small, Relatively Rural American States</title>
-      <link>/publication/2019-shalecrime/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019-shalecrime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Electricity consumption and economic growth: empirical evidence from a resource-rich landlocked economy (Published)</title>
       <link>/publication/2018-ijgei/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>/publication/2018-ijgei/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantifying the Announcement Effects in the U.S. Lumber Market</title>
-      <link>/publication/2018-lumber/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-lumber/</guid>
       <description></description>
     </item>
     
