@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shishir Shakya</title>
-    <link>/teaching/example/</link>
-      <atom:link href="/teaching/example/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/teaching/example/</link>
+      <atom:link href="https://ShishirShakya.github.io/teaching/example/index.xml" rel="self" type="application/rss+xml" />
     <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright><lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Shishir Shakya</title>
-      <link>/teaching/example/</link>
+      <link>https://ShishirShakya.github.io/teaching/example/</link>
     </image>
     
   </channel>

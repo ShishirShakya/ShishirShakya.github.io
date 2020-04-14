@@ -2,103 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Shishir Shakya</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/tags/</link>
+      <atom:link href="https://ShishirShakya.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://ShishirShakya.github.io/tags/</link>
     </image>
-    
-    <item>
-      <title>Causal Inference,</title>
-      <link>/tags/causal-inference/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/causal-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Density,</title>
-      <link>/tags/density/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/density/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non Parametric,</title>
-      <link>/tags/non-parametric/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/non-parametric/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Proof,</title>
-      <link>/tags/proof/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/proof/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R,</title>
-      <link>/tags/r/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theory,</title>
-      <link>/tags/theory/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/theory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Probability,</title>
-      <link>/tags/probability/</link>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/probability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reproducible,</title>
-      <link>/tags/reproducible/</link>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/reproducible/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics,</title>
-      <link>/tags/statistics/</link>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/tags/demo/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

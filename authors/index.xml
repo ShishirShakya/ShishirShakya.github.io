@@ -2,117 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Shishir Shakya</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/authors/</link>
+      <atom:link href="https://ShishirShakya.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://ShishirShakya.github.io/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University.&lt;/p&gt;
-
-&lt;p&gt;I am an applied economist, with a focus on health, public/regional economics, causal machine learning, and policy evaluation. My research explores the U.S. health care policies, the opioid epidemic, and Medicaid.&lt;/p&gt;
-
-&lt;p&gt;My job market paper is: &lt;a href=&#34;https://shishirshakya.github.io/publication/2019-jmp/&#34; target=&#34;_blank&#34;&gt;Heterogeneous Treatment Effects of Medicaid and Efficient Policies&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I will be available for interviews at the ASSA/AEA Annual Meeting in San Diego in January 2020.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alicia Plemmons</title>
-      <link>/authors/alicia-plemmons/</link>
-      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/alicia-plemmons/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shishir Shakya</title>
-      <link>/authors/shishir-shakya/</link>
-      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/shishir-shakya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabio Mattos</title>
-      <link>/authors/fabio-mattos/</link>
-      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/fabio-mattos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiaoli L. Etienne</title>
-      <link>/authors/xiaoli-l.-etienne/</link>
-      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoli-l.-etienne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zarina Ismailova</title>
-      <link>/authors/zarina-ismailova/</link>
-      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/zarina-ismailova/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexandre R. Scarcioffolo</title>
-      <link>/authors/alexandre-r.-scarcioffolo/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/alexandre-r.-scarcioffolo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jousha C. Hall</title>
-      <link>/authors/jousha-c.-hall/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/jousha-c.-hall/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tuyen Pham</title>
-      <link>/authors/tuyen-pham/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/tuyen-pham/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kishor Sharma</title>
-      <link>/authors/kishor-sharma/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/kishor-sharma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rabindra Nepal</title>
-      <link>/authors/rabindra-nepal/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/rabindra-nepal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feiyu Liu</title>
-      <link>/authors/feiyu-liu/</link>
+      <link>https://ShishirShakya.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/feiyu-liu/</guid>
-      <description></description>
+      <guid>https://ShishirShakya.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University. My main research interest is applied economics, with a focus on on health, energy, public/regional economics, and applied machine learning.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

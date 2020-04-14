@@ -2,47 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Shishir Shakya</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/categories/</link>
+      <atom:link href="https://ShishirShakya.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2019` Shishir Shakya</copyright><lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://ShishirShakya.github.io/categories/</link>
     </image>
-    
-    <item>
-      <title>Causal Inference</title>
-      <link>/categories/causal-inference/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/causal-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non Parametric Econometrics</title>
-      <link>/categories/non-parametric-econometrics/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/non-parametric-econometrics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theoritical Statistics</title>
-      <link>/categories/theoritical-statistics/</link>
-      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/categories/theoritical-statistics/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
