@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Shishir Shakya</title>
-    <link>https://ShishirShakya.github.io/authors/</link>
-      <atom:link href="https://ShishirShakya.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Authors</title>
-      <link>https://ShishirShakya.github.io/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://ShishirShakya.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ShishirShakya.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University. My main research interest is applied economics, with a focus on on health, energy, public/regional economics, and applied machine learning.&lt;/p&gt;
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University. My main research interest is applied economics, with a focus on health, energy, public/regional economics, and applied machine learning.&lt;/p&gt;
 </description>
     </item>
     

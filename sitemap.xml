@@ -3,36 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ShishirShakya.github.io/teaching/example/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <loc>/teaching/</loc>
+    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/authors/admin/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/teaching/</loc>
+    <loc>/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/authors/</loc>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/categories/</loc>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/publication_types/</loc>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://ShishirShakya.github.io/tags/</loc>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>

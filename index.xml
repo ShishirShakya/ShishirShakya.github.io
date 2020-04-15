@@ -2,29 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shishir Shakya</title>
-    <link>https://ShishirShakya.github.io/</link>
-      <atom:link href="https://ShishirShakya.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Shishir Shakya</title>
-      <link>https://ShishirShakya.github.io/</link>
+      <link>/</link>
     </image>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/teaching/</guid>
+      <description>
+
+&lt;h2 id=&#34;instructor-of-record-west-virginia-university&#34;&gt;&lt;strong&gt;Instructor of Record, West Virginia University&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Econ 225: Elementary Business and Economic Statistics Spring 2020&lt;/li&gt;
+&lt;li&gt;Econ 225: Elementary Business and Economic Statistics Fall 2020&lt;/li&gt;
+&lt;li&gt;Econ 225: Elementary Business and Economic Statistics Summer 2019&lt;/li&gt;
+&lt;li&gt;Econ 202: Principles of Macroeconomics Spring 2019&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;other-teaching-related-experiences-west-virginia-university&#34;&gt;&lt;strong&gt;Other Teaching Related Experiences, West Virginia University&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Econ 721: Mathematical Economics (TA, PhD Econ course, teaching 30% of course) Fall 2018&lt;/li&gt;
+&lt;li&gt;BUDA 550: Business Data Visualization (Online course design) Summer 2017 &amp;amp; 2018&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;selected-student-comments&#34;&gt;&lt;strong&gt;Selected Student Comments&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;I thought this class was well thought out and organized in a logical manner. The instructor was helpful and positive in his feedback and general statements to the class. One of the better classes I&amp;rsquo;ve taken at WVU and other colleges.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;…the instructor had answered questions regarding assignments quickly and was able to offer help when needed…&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;…all the assignments were organized and clearly explained to us helped my learning experience greatly. Also, the fact that the instructor emailed us frequently and kept in contact with us all semester was great.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Shishir was always willing to help and was great at reminding us about assignments which I found very helpful.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The syllabus was very clear, and the professor was always open to answering any questions.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The additional programming part was useful, and it would be better if we had more than three classes for programming. Otherwise, everything went well.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Having the slides sent to us to help us review. Also making the exams online and taking them when we want during the day, gave us more time to take the exam and made it less stressful.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Connecting topics to real-world examples, along with his positive attitude to teaching Macroeconomics. He made the course interesting.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The lecture slides and the written notes were extremely helpful personally.&amp;rdquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ShishirShakya.github.io/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ShishirShakya.github.io/teaching/</guid>
       <description></description>
     </item>
     

@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shishir Shakya</title>
-    <link>https://ShishirShakya.github.io/teaching/</link>
-      <atom:link href="https://ShishirShakya.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
-    <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
+    <title>Teaching | Shishir Shakya</title>
+    <link>/teaching/</link>
+      <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright><lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
-      <title>Shishir Shakya</title>
-      <link>https://ShishirShakya.github.io/teaching/</link>
+      <url>/img/icon-192.png</url>
+      <title>Teaching</title>
+      <link>/teaching/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>https://ShishirShakya.github.io/teaching/example/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://ShishirShakya.github.io/teaching/example/</guid>
-      <description>
-
-&lt;p&gt;This section has links of my teaching experiences at West Virginia University.&lt;/p&gt;
-
-&lt;h2 id=&#34;econ-202&#34;&gt;Econ 202&lt;/h2&gt;
-
-&lt;p&gt;Principles of Macroeconomics (Instructor of Record)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://shishirshakya.github.io/files/Syllabus/Shakya-Syllabus-Econ202-SPRING2019.pdf&#34; target=&#34;_blank&#34;&gt;SPRING 2019 Syllabus&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;econ-225&#34;&gt;Econ 225&lt;/h2&gt;
-
-&lt;p&gt;Elementary Business and Economic Statistics (Instructor of Record)&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;SUMMER 2019&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://shishirshakya.github.io/files/Syllabus/Shakya-Syllabus-Econ225-FALL2019.pdf&#34; target=&#34;_blank&#34;&gt;FALL 2019 Syllabus&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;SPRING 2020&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;buda-550&#34;&gt;BUDA 550&lt;/h2&gt;
-
-&lt;p&gt;Business Data Visualization course of Business (Online course design)&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Summer 2017&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Summer 2018&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rpubs.com/samshky/ggplot2/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; | &lt;a href=&#34;https://npcapp.shinyapps.io/IntroShiny/&#34; target=&#34;_blank&#34;&gt;Shiny Part-1&lt;/a&gt; | &lt;a href=&#34;https://npcapp.shinyapps.io/IntroShiny2/&#34; target=&#34;_blank&#34;&gt;Shiny Part-2&lt;/a&gt; |&lt;/p&gt;
-
-&lt;p&gt;The sections in the &lt;code&gt;left-hand side&lt;/code&gt; show various &lt;code&gt;tutorials&lt;/code&gt; and my previous &lt;a href=&#34;https://shishirshakya.blogspot.com/&#34; target=&#34;_blank&#34;&gt;blogpost&lt;/a&gt; (comming soon).&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
