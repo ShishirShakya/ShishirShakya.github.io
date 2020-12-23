@@ -2,22 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shishir Shakya</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/</link>
+      <atom:link href="https://ShishirShakya.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Shishir Shakya</title>
-      <link>/</link>
+      <link>https://ShishirShakya.github.io/</link>
     </image>
     
     <item>
       <title>Teaching</title>
-      <link>/teaching/</link>
+      <link>https://ShishirShakya.github.io/teaching/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/teaching/</guid>
+      <guid>https://ShishirShakya.github.io/teaching/</guid>
       <description>
+
+&lt;h2 id=&#34;assistant-professor-shippensburg-university-of-pennsylvania&#34;&gt;&lt;strong&gt;Assistant Professor, Shippensburg University of Pennsylvania&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ECO 393: Economic Analysis of Big Data Spring 2021&lt;/li&gt;
+&lt;li&gt;ECO 101: Principles of Macroeconomics Spring 2021&lt;/li&gt;
+&lt;li&gt;ECO 113: Principles of Economics Fall 2020&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;selected-student-comments-shippensburg-university-fall-2020&#34;&gt;&lt;strong&gt;Selected Student Comments  Shippensburg University Fall 2020&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya is a wonderful man. He connects with his students, he wants the best for us and on top of that, he makes us laugh every time we have class. Overall, he is really good at his job and I truly appreciate him for everything.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya was a very understanding and nice guy. He made this class easy to learn in and was very engaging.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I feel that Professor Shakya is very passionate about this course and that made it very easy to pay attention and learn the materials. Economics was a new topic for me this semester and his passion helped make the topic easier to learn.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This class is a ton of work but professor Shakya made it very manageable. He made this course very fun and interesting.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya was very considerate and helpful anytime anything was needed. Energetic personality.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I wouldn’t change a thing. The work load was a little much, but in the end, it helped a lot because it prepared us for the quizzes.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I would not recommend any specific changes to this course.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I really enjoy attending class because you are a great speaker and you help the class understand things very well. You are also very accommodating and I really appreciated that.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The professor always offered additional support for students who were struggling, and consistently made sure to answer any questions or doubts.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shishir Shakaya is a fantastic person and is super understanding when things happen in our personal lives. He is willing to change dates and things and is very personable.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;You were very enthusiastic about the material and were very nice, despite not being in person I still enjoyed your teaching.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Economics was a difficult subject to learn about, and I&amp;rsquo;m sure it can be just as difficult to teach. However, the professor structured his class very well and he helped students feel comfortable enough to ask questions.&amp;rdquo;&lt;/p&gt;
 
 &lt;h2 id=&#34;instructor-of-record-west-virginia-university&#34;&gt;&lt;strong&gt;Instructor of Record, West Virginia University&lt;/strong&gt;&lt;/h2&gt;
 
@@ -35,7 +69,7 @@
 &lt;li&gt;BUDA 550: Business Data Visualization (Online course design) Summer 2017 &amp;amp; 2018&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;selected-student-comments&#34;&gt;&lt;strong&gt;Selected Student Comments&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;selected-student-comments-west-virginia-university&#34;&gt;**Selected Student Comments  West Virginia University **&lt;/h2&gt;
 
 &lt;p&gt;&amp;ldquo;I thought this class was well thought out and organized in a logical manner. The instructor was helpful and positive in his feedback and general statements to the class. One of the better classes I&amp;rsquo;ve taken at WVU and other colleges.&amp;rdquo;&lt;/p&gt;
 
@@ -54,24 +88,6 @@
 &lt;p&gt;&amp;ldquo;Connecting topics to real-world examples, along with his positive attitude to teaching Macroeconomics. He made the course interesting.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;The lecture slides and the written notes were extremely helpful personally.&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

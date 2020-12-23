@@ -2,22 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Shishir Shakya</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShishirShakya.github.io/authors/</link>
+      <atom:link href="https://ShishirShakya.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2020` Shishir Shakya</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://ShishirShakya.github.io/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://ShishirShakya.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. candidate in Economics at West Virginia University. My main research interest is applied economics, with a focus on health, energy, public/regional economics, and applied machine learning.&lt;/p&gt;
+      <guid>https://ShishirShakya.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;My name is Shishir Shakya. I am an Assistant Professor of Economics in the Department of Economics at the Shippensburg University of Pennsylvania.&lt;/p&gt;
+
+&lt;p&gt;Spring 2021, I am teaching  Economic Analysis of Big Data (ECO 393), collaborating with DataCamp. I have taught Principles of Economics, Principles of Macroeconomics, Business Data Visualization, Elementary Business, and Economic Statistics.&lt;/p&gt;
+
+&lt;p&gt;My research interests include applied economics, health, energy, public/regional economics, applied machine learning, and data science. My research explores the U.S. health care policies, the opioid epidemic, and Medicaid.&lt;/p&gt;
+
+&lt;p&gt;Click these links for highlights:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://pdaps.org/resources&#34; target=&#34;_blank&#34;&gt;Prescription Drug Abuse Policy System - PDAPS.org put my &amp;ldquo;County-Level Assessment of Prescription Drug Monitoring Program and Opioid Prescription Rate&amp;rdquo; working paper in their resource&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/Alicia_Plemmons/status/1283125188972949508&#34; target=&#34;_blank&#34;&gt;Scope of practice laws and the mobility of nurse practitioners published in Journal of Labor Research&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/13504851.2020.1854663&#34; target=&#34;_blank&#34;&gt;The political economy of Vermont’s abortion bill published in Applied Economics Letters&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/Alicia_Plemmons/status/1286032276841693187&#34; target=&#34;_blank&#34;&gt;Exploration into the causal relationship between institutional quality and startup density&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
