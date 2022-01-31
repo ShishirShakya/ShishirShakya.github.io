@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ShishirShakya.github.io/highlights/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Feb 2022: Scheduled to present Does Gender Gap in Test Score Exist? Evidence from Administrative Data from Afghanistan paper at &lt;strong&gt;Dickinson College&lt;/strong&gt;, Carlisle, PA.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;March 2022: Scheduled to present Does Gender Gap in Test Score Exist? Evidence from Administrative Data from Afghanistan paper at &lt;strong&gt;Dickinson College&lt;/strong&gt;, Carlisle, PA.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Jan 2022: I will be presenting in The Effect of Regulating Healthcare Workers on Patients and Practitioners symposium organized by the &lt;strong&gt;Institute for Humane Studies&lt;/strong&gt; and co-hosted by &lt;strong&gt;Arkansas Center for Research in Economics&lt;/strong&gt; on January 28th, 2022 at 3:00 – 6:00 PM ET. Registration is free and available &lt;a href=&#34;https://theihs.org/academic-events/research-workshops-and-symposia/academic-research-seminars/the-effect-of-regulating-healthcare-workers-on-patients-and-practitioners-2/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;Search like a pro in google: &lt;a href=&#34;https://twitter.com/lotusthadon/status/1418938064781590534/photo/1&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sebastian Tello-Trillo&amp;rsquo;s resources:&lt;a href=&#34;https://dsebastiantello.files.wordpress.com/2019/08/where-to-find-data-a-primer.pdf&#34; target=&#34;_blank&#34;&gt;Where to find data? pdf version&lt;/a&gt; | &lt;a href=&#34;https://dsebastiantello.wordpress.com/dataandtips/&#34; target=&#34;_blank&#34;&gt;Resources page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sebastian Tello-Trillo&amp;rsquo;s resources: &lt;a href=&#34;https://dsebastiantello.files.wordpress.com/2019/08/where-to-find-data-a-primer.pdf&#34; target=&#34;_blank&#34;&gt;Where to find data? pdf version&lt;/a&gt; | &lt;a href=&#34;https://dsebastiantello.wordpress.com/dataandtips/&#34; target=&#34;_blank&#34;&gt;Resources page&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Research data search in google: &lt;a href=&#34;https://datasetsearch.research.google.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
@@ -93,6 +93,8 @@
 &lt;p&gt;Our World in Data: &lt;a href=&#34;https://ourworldindata.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Data Resources on Medical Providers: &lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-issue-20201/data-resources-on-medical-providers/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;repository of CMS hospital cost report (HCRIS) data and processing code: &lt;a href=&#34;https://github.com/asacarny/hospital-cost-reports&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Data Resources on Health Care Encounter Data: &lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-20211/data-resources-on-health-care-encounter-data/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
@@ -214,6 +216,8 @@
 
 &lt;p&gt;Using Music to Teach Agricultural, Applied, and Environmental Economics: &lt;a href=&#34;https://www.aaea.org/UserFiles/file/AETR_2021_002RProofFinal.pdf&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;Illustration of the two-way fixed effects estimator decomposition: &lt;a href=&#34;https://hhsievertsen.shinyapps.io/twowayfedecomp/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Lists of statistical packages for Recent Difference-in-Differences methods &lt;a href=&#34;https://twitter.com/lihua_lei_stat/status/1480993321900146688&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Implementing fixed effects panel models in R: &lt;a href=&#34;http://karthur.org/2019/implementing-fixed-effects-panel-models-in-r.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
@@ -250,13 +254,21 @@
 
 &lt;p&gt;Machine Learning by Jordan Boyd-Graber: &lt;a href=&#34;https://home.cs.colorado.edu/~jbg/teaching/CSCI_5622/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;A history of econometric debates: &lt;a href=&#34;https://twitter.com/Undercoverhist/status/1105851715461570560&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;books&#34;&gt;&lt;strong&gt;Books&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.tmwr.org/&#34; target=&#34;_blank&#34;&gt;Tidy Modeling with R by Max Kuhn and Julia Silge&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://geocompr.robinlovelace.net/&#34; target=&#34;_blank&#34;&gt;Geocomputation with R&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/marcosci/layer&#34; target=&#34;_blank&#34;&gt;Stacked tilted maps&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://jaeyk.github.io/comp_thinking_social_science/&#34; target=&#34;_blank&#34;&gt;Computational Thinking for Social Scientists&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://hhsievertsen.github.io/applied_econ_with_r/&#34; target=&#34;_blank&#34;&gt;Applied Economics with R by Hans H. Sievertsen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://hhsievertsen.shinyapps.io/r_introduction/&#34; target=&#34;_blank&#34;&gt;Introduction to R by Hans H. Sievertsen&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://theeffectbook.net/&#34; target=&#34;_blank&#34;&gt;The Effect: An Introduction to Research Design and Causality, by Nick Huntington-Klein&lt;/a&gt; and &lt;a href=&#34;https://github.com/NickCH-K/causaldata&#34; target=&#34;_blank&#34;&gt;data resources&lt;/a&gt;&lt;/p&gt;
 
@@ -292,7 +304,11 @@
 
 &lt;p&gt;&lt;a href=&#34;https://therinspark.com/&#34; target=&#34;_blank&#34;&gt;Mastering Spark with R by Javier Luraschi, Kevin Kuo, Edgar Ruiz&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://avehtari.github.io/ROS-Examples/index.html&#34; target=&#34;_blank&#34;&gt;Regression and Other Stories by Andrew Gelman, Jennifer Hill, and Aki Vehtari&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;others&#34;&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://apps.automeris.io/wpd/&#34; target=&#34;_blank&#34;&gt;Recover data from an Image&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.aeaweb.org/about-aea/committees/cswep/programs/resources&#34; target=&#34;_blank&#34;&gt;AEA&amp;rsquo;s Professional Development Resources&lt;/a&gt;&lt;/p&gt;
 
