@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Lecture 8 Application-2 | Mostly Handsdirty Econometrics</title>
+<meta name="author" content="Shishir Shakya">
+<meta name="description" content="8.1 Recursive investment Imagine that you intend to do a recursive investing. This means, you intended to invest every year. In the table below, I show you the value of your portfolio. In column...">
+<meta name="generator" content="bookdown 0.27 with bs4_book()">
+<meta property="og:title" content="Lecture 8 Application-2 | Mostly Handsdirty Econometrics">
+<meta property="og:type" content="book">
+<meta property="og:description" content="8.1 Recursive investment Imagine that you intend to do a recursive investing. This means, you intended to invest every year. In the table below, I show you the value of your portfolio. In column...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lecture 8 Application-2 | Mostly Handsdirty Econometrics">
+<meta name="twitter:description" content="8.1 Recursive investment Imagine that you intend to do a recursive investing. This means, you intended to invest every year. In the table below, I show you the value of your portfolio. In column...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Mostly Handsdirty Econometrics</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> Set up</a></li>
+<li><a class="" href="data-types-structures-and-extractions.html"><span class="header-section-number">2</span> Data types, structures, and extractions</a></li>
+<li><a class="" href="sampling.html"><span class="header-section-number">3</span> Sampling</a></li>
+<li><a class="" href="for-loop-and-probability.html"><span class="header-section-number">4</span> For loop and probability</a></li>
+<li><a class="" href="if-else-and-probability.html"><span class="header-section-number">5</span> If else and probability</a></li>
+<li><a class="" href="basic-statistics.html"><span class="header-section-number">6</span> Basic statistics</a></li>
+<li><a class="" href="application-1.html"><span class="header-section-number">7</span> Application-1</a></li>
+<li><a class="active" href="application-2.html"><span class="header-section-number">8</span> Application-2</a></li>
+<li><a class="" href="application-3.html"><span class="header-section-number">9</span> Application-3</a></li>
+<li><a class="" href="application-4.html"><span class="header-section-number">10</span> Application-4</a></li>
+<li><a class="" href="confidence-interval-z-scores-hypothesis-testing.html"><span class="header-section-number">11</span> Confidence interval, z-scores, hypothesis testing</a></li>
+<li><a class="" href="unconstrainted-optimization.html"><span class="header-section-number">12</span> Unconstrainted optimization</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="application-2" class="section level1" number="8">
+<h1>
+<span class="header-section-number">Lecture 8</span> Application-2<a class="anchor" aria-label="anchor" href="#application-2"><i class="fas fa-link"></i></a>
+</h1>
+<div id="recursive-investment" class="section level2" number="8.1">
+<h2>
+<span class="header-section-number">8.1</span> Recursive investment<a class="anchor" aria-label="anchor" href="#recursive-investment"><i class="fas fa-link"></i></a>
+</h2>
+<p>Imagine that you intend to do a recursive investing. This means, you intended to invest every year. In the table below, I show you the value of your portfolio. In column (8), the cumulative value of your portfolio at the fifth year is 6.129.</p>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="15%">
+<col width="15%">
+<col width="15%">
+<col width="10%">
+<col width="10%">
+<col width="10%">
+<col width="10%">
+<col width="10%">
+</colgroup>
+<thead><tr class="header">
+<th align="center">r</th>
+<th align="center">R = (1+r)</th>
+<th align="center">t</th>
+<th align="right">Year1</th>
+<th align="right">Year2</th>
+<th align="right">Year3</th>
+<th align="right">Year4</th>
+<th align="right">Cumulative</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="center">(1)</td>
+<td align="center">(2)</td>
+<td align="center">(3)</td>
+<td align="right">(4)</td>
+<td align="right">(5)</td>
+<td align="right">(6)</td>
+<td align="right">(7)</td>
+<td align="right">(8)</td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(-0.05\)</span></td>
+<td align="center"><span class="math inline">\(0.95\)</span></td>
+<td align="center"><span class="math inline">\(1\)</span></td>
+<td align="right"><span class="math inline">\(0.95\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(0.95\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(0.1\)</span></td>
+<td align="center"><span class="math inline">\(1.1\)</span></td>
+<td align="center"><span class="math inline">\(2\)</span></td>
+<td align="right"><span class="math inline">\(0.95 \times 1.1 = 1.045\)</span></td>
+<td align="right"><span class="math inline">\(1.1\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(2.145\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(0.2\)</span></td>
+<td align="center"><span class="math inline">\(1.2\)</span></td>
+<td align="center"><span class="math inline">\(3\)</span></td>
+<td align="right"><span class="math inline">\(0.95 \times 1.1 \times 1.2 = 1.254\)</span></td>
+<td align="right"><span class="math inline">\(1.1 \times 1.2 = 1.32\)</span></td>
+<td align="right"><span class="math inline">\(1.1\)</span></td>
+<td align="right"><span class="math inline">\(0\)</span></td>
+<td align="right"><span class="math inline">\(3.674\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(0.3\)</span></td>
+<td align="center"><span class="math inline">\(1.3\)</span></td>
+<td align="center"><span class="math inline">\(4\)</span></td>
+<td align="right"><span class="math inline">\(0.95 \times 1.1 \times 1.2 \times 1.3 = 1.643\)</span></td>
+<td align="right"><span class="math inline">\(1.1 \times 1.2 \times 1.3 = 1.716\)</span></td>
+<td align="right"><span class="math inline">\(1.2 \times 1.3 = 1.56\)</span></td>
+<td align="right"><span class="math inline">\(1.3\)</span></td>
+<td align="right"><span class="math inline">\(6.219\)</span></td>
+</tr>
+</tbody>
+</table></div>
+<p>Let me break this table for you. Let’s first focus on column (4). So you invested 1 dollar, first year you lost 5%, thus your portfolio is only 1(1-0.05) = 0.95. However, second year your growth was 10%, thus your 0.95 dollar grew by 10% or 0.95(1+0.1) = 0.95(1.1) =1.045. On the third year, your growth was 20%, hence your 1.045 dollar grew as 1.045(1.2)=1.32, then 1.32 dollar grew by 30% as 1.32(1.3) = 1.716. Hence the first dollar you invested grew to 1.716 dollar, solid 71.6% return.</p>
+<p>However, you were smart to do recursive investing. See column (5). So on the second year you did additional 1 dollar investment, which grew 10% to become 1.1 dollar. That 1.1 dollar grew 20% in third year to become 1.1(1.2)=1.32 dollars, which in fourth year became 1.32(1.3)=1.56. Hence 1 dollar you invested in second year became 1.56 dollar, another solid 56% growth.</p>
+<p>Now you work your logic through column (6) and column (7).</p>
+<p>So overall you invested 4 dollars, which became 6.219 dollar at the end of the fourth year.</p>
+<p>let code this in R.</p>
+<div class="sourceCode" id="cb60"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Let call the growth rate as r</span></span>
+<span><span class="va">r</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">0.05</span>, <span class="fl">0.1</span>,<span class="fl">0.2</span>,<span class="fl">0.3</span><span class="op">)</span></span>
+<span><span class="co"># Lets define the 1+r </span></span>
+<span><span class="va">R</span> <span class="op">&lt;-</span> <span class="fl">1</span><span class="op">+</span><span class="va">r</span></span>
+<span></span>
+<span><span class="co"># Initialize a vector</span></span>
+<span><span class="va">fifth_year_return</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Perform a for loop</span></span>
+<span><span class="kw">for</span><span class="op">(</span><span class="va">i</span> <span class="kw">in</span> <span class="fl">1</span><span class="op">:</span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">R</span><span class="op">)</span><span class="op">)</span><span class="op">{</span></span>
+<span>    <span class="va">growth</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/cumsum.html">cumprod</a></span><span class="op">(</span><span class="va">R</span><span class="op">[</span><span class="va">i</span><span class="op">:</span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">R</span><span class="op">)</span><span class="op">]</span><span class="op">)</span></span>
+<span>  </span>
+<span>    <span class="va">fifth_year_return</span><span class="op">[</span><span class="va">i</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="va">growth</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">growth</span><span class="op">)</span><span class="op">]</span></span>
+<span><span class="op">}</span></span>
+<span><span class="va">fifth_year_return</span></span>
+<span><span class="co">#&gt; [1] 1.6302 1.7160 1.5600 1.3000</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">fifth_year_return</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 6.2062</span></span></code></pre></div>
+<p>This code calculates the cumulative product of the elements in the R vector. It does this by creating an empty vector called fifth_year_return and then using a for loop to iterate over the elements of the R vector.</p>
+<p>For each iteration of the loop, the code calculates the cumulative product of the elements in the R vector using the cumprod() function. This function calculates the cumulative product of the elements in a vector, which is the product of all of the elements in the vector up to a given point.</p>
+<p>The code then stores the result of the cumprod() function in a temporary vector called growth. This vector contains the cumulative product of the elements in the R vector up to the current iteration of the loop.</p>
+<p>Next, the code stores the last element of the growth vector in the fifth_year_return vector. This means that the fifth_year_return vector will contain the cumulative product of the elements in the R vector for each element in the R vector.</p>
+<p>Once the for loop has finished executing, the code prints the fifth_year_return vector to the console and then calculates the sum of the elements in the vector using the sum() function. This gives the total cumulative product of the elements in the R vector.</p>
+<p>Let’s examine the code in more detailed way. <code><a href="https://rdrr.io/r/base/length.html">length()</a></code> function. The length() function is a built-in function in the R programming language. It is used to determine the length of an object, such as a vector or a list. <code>length(R)</code> prompts 4 which means the vector is has 4 elements.</p>
+<p><code>R[]</code> helps to extract the elements. For example <code>R[1]</code> will extract the first element which is 0.95. We can extract multiple elements as well. <code>R[1:3]</code> will extract first three elements 0.95, 1.1, and 1.2. Thus <code>R[i:length(R)]</code> will extract multiple element where <code>i</code> runs from 1 to the length of R. Hence <code>R[1:5]</code> will give first four element of vector R, <code>R[2:5]</code> gives second element to fourth element.</p>
+<p>Then we can implement <code><a href="https://rdrr.io/r/base/cumsum.html">cumprod()</a></code> function to run a cumulative product function. Note that <code><a href="https://rdrr.io/r/base/cumsum.html">cumprod()</a></code> generates a vector, which we store in object called <code>growth</code>. We are only interested in the last element of the growth vector. Then we save this in <code>fifth_year_return</code> vector. Finally we sum all the elements of <code>fifth_year_return</code> vector.</p>
+<blockquote>
+<p>Case-1: You decided to do recursive investing. Your friends say that he can deliver a growth rate of 10%, 20%, and 30%, but in one year there will be 5% loss. But he is not so sure of the sequences of returns. Since he is not so sure about the squence of returns, you can simulate the sequences of returns with random sampling. Perform 1000 random draws and record the probable values of your portfolio. What is the 95% confidence interval of the cumulative portfolio value?</p>
+</blockquote>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="application-2.html#cb61-1" aria-hidden="true" tabindex="-1"></a>portfolio_value <span class="ot">&lt;-</span> <span class="fu">c</span>()</span>
+<span id="cb61-2"><a href="application-2.html#cb61-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(....){</span>
+<span id="cb61-3"><a href="application-2.html#cb61-3" aria-hidden="true" tabindex="-1"></a>  r <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">0.3</span>, <span class="fl">0.1</span>, <span class="fl">0.2</span>, <span class="sc">-</span><span class="fl">0.05</span>)</span>
+<span id="cb61-4"><a href="application-2.html#cb61-4" aria-hidden="true" tabindex="-1"></a>  sample_r <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="at">x =</span> ..., <span class="at">size =</span> ..., <span class="at">replace =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb61-5"><a href="application-2.html#cb61-5" aria-hidden="true" tabindex="-1"></a>  R <span class="ot">&lt;-</span> ....</span>
+<span id="cb61-6"><a href="application-2.html#cb61-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-7"><a href="application-2.html#cb61-7" aria-hidden="true" tabindex="-1"></a>  portfolio <span class="ot">&lt;-</span> <span class="fu">c</span>()</span>
+<span id="cb61-8"><a href="application-2.html#cb61-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span>(...){</span>
+<span id="cb61-9"><a href="application-2.html#cb61-9" aria-hidden="true" tabindex="-1"></a>    portfolio[i] <span class="ot">&lt;-</span> <span class="fu">cumprod</span>(...)[...]</span>
+<span id="cb61-10"><a href="application-2.html#cb61-10" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb61-11"><a href="application-2.html#cb61-11" aria-hidden="true" tabindex="-1"></a>  portfolio_value[j] <span class="ot">&lt;-</span> <span class="fu">sum</span>(...)</span>
+<span id="cb61-12"><a href="application-2.html#cb61-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb61-13"><a href="application-2.html#cb61-13" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(portfolio_value)</span></code></pre></div>
+<blockquote>
+<p>Case-2: In the following R codes, I provide Historical S&amp;P 500 Index Stock Market Returns (<a href="https://www.thebalancemoney.com/stock-market-returns-by-year-2388543" class="uri">https://www.thebalancemoney.com/stock-market-returns-by-year-2388543</a>) from 1980 onwards. What is your expected growth of your recursive investment. Let’s imagine you only invested $1 religiously every year.</p>
+</blockquote>
+<div class="sourceCode" id="cb62"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">snp_ret</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="fl">0.185</span>,</span>
+<span>  <span class="fl">0.052</span>,</span>
+<span>  <span class="fl">0.168</span>,</span>
+<span>  <span class="fl">0.315</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.031</span>,</span>
+<span>  <span class="fl">0.305</span>,</span>
+<span>  <span class="fl">0.076</span>,</span>
+<span>  <span class="fl">0.101</span>,</span>
+<span>  <span class="fl">0.011</span>,</span>
+<span>  <span class="fl">0.372</span>,</span>
+<span>  <span class="fl">0.227</span>,</span>
+<span>  <span class="fl">0.330</span>,</span>
+<span>  <span class="fl">0.2858</span>,</span>
+<span>  <span class="fl">0.2104</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.091</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.1189</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.221</span>,</span>
+<span>  <span class="fl">0.2868</span>,</span>
+<span>  <span class="fl">0.1088</span>,</span>
+<span>  <span class="fl">0.0491</span>,</span>
+<span>  <span class="fl">0.1579</span>,</span>
+<span>  <span class="fl">0.0549</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.370</span>,</span>
+<span>  <span class="fl">0.2646</span>,</span>
+<span>  <span class="fl">0.1506</span>,</span>
+<span>  <span class="fl">0.0211</span>,</span>
+<span>  <span class="fl">0.160</span>,</span>
+<span>  <span class="fl">0.3239</span>,</span>
+<span>  <span class="fl">0.1369</span>,</span>
+<span>  <span class="fl">0.0138</span>,</span>
+<span>  <span class="fl">0.1196</span>,</span>
+<span>  <span class="fl">0.2183</span>,</span>
+<span>  <span class="op">-</span><span class="fl">0.0438</span>,</span>
+<span>  <span class="fl">0.3149</span></span>
+<span><span class="op">)</span></span></code></pre></div>
+<blockquote>
+<p>Case-3: What past 35 year looked like, it might look different in upcoming future. You decided to remain invested for next 35 years. You don’t know the future sequences of growth or risk. So you can simply randomize the historical sequences. As these returns could occured in any random order. Simulate in 1000 trials R. With your simulation, should a rational investor should invest in the US stock market? What is the 95% confidence interval of the cumulative portfolio value at the end of 35 years?</p>
+</blockquote>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="application-1.html"><span class="header-section-number">7</span> Application-1</a></div>
+<div class="next"><a href="application-3.html"><span class="header-section-number">9</span> Application-3</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#application-2"><span class="header-section-number">8</span> Application-2</a></li>
+<li><a class="nav-link" href="#recursive-investment"><span class="header-section-number">8.1</span> Recursive investment</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/07-recursive-investing.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/07-recursive-investing.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Mostly Handsdirty Econometrics</strong>" was written by Shishir Shakya. It was last built on 2022-12-13.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

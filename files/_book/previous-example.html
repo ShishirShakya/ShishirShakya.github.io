@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Lecture 7 Previous example | Mostly Handsdirty Econometrics</title>
+<meta name="author" content="Shishir Shakya">
+<meta name="description" content="We will try to understand basic statistics using previous example game. We will use the previous example game of “if head you get 2 dollars else you loose 1 dollar”. If somebody played this game...">
+<meta name="generator" content="bookdown 0.27 with bs4_book()">
+<meta property="og:title" content="Lecture 7 Previous example | Mostly Handsdirty Econometrics">
+<meta property="og:type" content="book">
+<meta property="og:description" content="We will try to understand basic statistics using previous example game. We will use the previous example game of “if head you get 2 dollars else you loose 1 dollar”. If somebody played this game...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lecture 7 Previous example | Mostly Handsdirty Econometrics">
+<meta name="twitter:description" content="We will try to understand basic statistics using previous example game. We will use the previous example game of “if head you get 2 dollars else you loose 1 dollar”. If somebody played this game...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Mostly Handsdirty Econometrics</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> Set up</a></li>
+<li><a class="" href="data-types-structures-and-extractions.html"><span class="header-section-number">2</span> Data types, structures, and extractions</a></li>
+<li><a class="" href="sampling.html"><span class="header-section-number">3</span> Sampling</a></li>
+<li><a class="" href="for-loop-and-probability.html"><span class="header-section-number">4</span> For loop and probability</a></li>
+<li><a class="" href="if-else-and-probability.html"><span class="header-section-number">5</span> If else and probability</a></li>
+<li><a class="" href="basic-statistics.html"><span class="header-section-number">6</span> Basic statistics</a></li>
+<li><a class="active" href="previous-example.html"><span class="header-section-number">7</span> Previous example</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">8</span> Sharing your book</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="previous-example" class="section level1" number="7">
+<h1>
+<span class="header-section-number">Lecture 7</span> Previous example<a class="anchor" aria-label="anchor" href="#previous-example"><i class="fas fa-link"></i></a>
+</h1>
+<p>We will try to understand basic statistics using previous example game.</p>
+<p>We will use the previous example game of “if head you get 2 dollars else you loose 1 dollar”. If somebody played this game 50 times a day for 3 years, what would be potential value of their portfolio.</p>
+<div class="sourceCode" id="cb44"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Multiple for loop with one if else together</span></span>
+<span><span class="co"># Define the possible outcomes of the coin: head and tail</span></span>
+<span><span class="va">coin</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"head"</span>, <span class="st">"tail"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Define the rewards for each coin flip: head wins 2 dollars, tail loses 1 dollar</span></span>
+<span><span class="va">rewards</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2</span>, <span class="op">-</span><span class="fl">1</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Initialize the sum of total winnings vector</span></span>
+<span><span class="va">sum_total_winnings</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="kw">for</span><span class="op">(</span><span class="va">j</span> <span class="kw">in</span> <span class="fl">1</span><span class="op">:</span><span class="fl">365</span><span class="op">*</span><span class="fl">3</span><span class="op">)</span><span class="op">{</span></span>
+<span>  <span class="co"># Initialize the total winnings vector</span></span>
+<span>  <span class="va">total_winnings</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  </span>
+<span>  <span class="co"># Simulate playing the game 50 times</span></span>
+<span>  <span class="kw">for</span> <span class="op">(</span><span class="va">i</span> <span class="kw">in</span> <span class="fl">1</span><span class="op">:</span><span class="fl">50</span><span class="op">)</span> <span class="op">{</span></span>
+<span>    <span class="co"># Simulate the coin flip from the possible outcomes</span></span>
+<span>    <span class="va">coin_flip</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">coin</span>, size <span class="op">=</span> <span class="fl">1</span>, replace <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
+<span>    </span>
+<span>    <span class="co"># Calculate the win based on the outcome of the coin flip using an if...else statement</span></span>
+<span>    <span class="kw">if</span><span class="op">(</span><span class="va">coin_flip</span> <span class="op">==</span> <span class="st">"head"</span><span class="op">)</span><span class="op">{</span></span>
+<span>      <span class="va">win</span> <span class="op">&lt;-</span> <span class="va">rewards</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span>    <span class="op">}</span> <span class="kw">else</span> <span class="op">{</span></span>
+<span>      <span class="va">win</span> <span class="op">&lt;-</span> <span class="va">rewards</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span></span>
+<span>    <span class="op">}</span></span>
+<span>    </span>
+<span>    <span class="co"># store the value of win in total_winnings vector</span></span>
+<span>    <span class="va">total_winnings</span><span class="op">[</span><span class="va">i</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="va">win</span></span>
+<span>    </span>
+<span>  <span class="op">}</span></span>
+<span>  <span class="co"># store the value of sum of total winnings of the day.</span></span>
+<span>  <span class="va">sum_total_winnings</span><span class="op">[</span><span class="va">j</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">total_winnings</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="co"># To plot the distribution you can use the hist()</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">sum_total_winnings</span><span class="op">)</span></span></code></pre></div>
+<div class="inline-figure"><img src="05-blocks_files/figure-html/unnamed-chunk-1-1.png" width="672"></div>
+<p>Basic statistics are measures that are used to describe and summarize datasets. Some common basic statistics include the following:</p>
+<ul>
+<li>Mean: The average, or arithmetic mean, is a measure of the central tendency of a dataset. It is calculated by adding all the values in the dataset and dividing by the total number of values. The average is a useful measure because it provides an overall summary of the dataset and can be used to compare different datasets. Lets find the average of <code>sum_total_winnings</code> from our previous lecture.</li>
+</ul>
+<div class="sourceCode" id="cb45"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># We can use na.rm to remove NA and NaN values. NA and NaN values are not allowed in numeric vectors unless na.rm is TRUE.</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 25.2137</span></span></code></pre></div>
+<p>If the mean of your wining are positive then it mean you are expected to make some positive gains.</p>
+<ul>
+<li>Median: The median is the middle value in a dataset when the values are sorted in ascending or descending order. It is a measure of the central tendency of the dataset that is not affected by extreme values.</li>
+</ul>
+<div class="sourceCode" id="cb46"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/median.html">median</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 25</span></span></code></pre></div>
+<p>So, it appears more than half of the times your wins were NA or better. Note that to calculate the median, we first need to sort the values in ascending or descending order.</p>
+<ul>
+<li>Min and Max: The minimum of a dataset is the smallest value in the dataset. The maximum of a dataset is the largest value in the dataset. These values are commonly referred to as the min and max of the dataset.</li>
+</ul>
+<div class="sourceCode" id="cb47"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 1</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 52</span></span></code></pre></div>
+<p>Min examines your maximum downside, it appers your maximum downside is NA dollars. WoW! you upside looks really bright at NA dollars.</p>
+<ul>
+<li>Range: The range is the difference between the largest and smallest values in a dataset. It is a measure of the dispersion of the dataset.</li>
+</ul>
+<div class="sourceCode" id="cb48"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Calculate the range</span></span>
+<span><span class="va">winning_range</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/range.html">range</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Print the range of the dataset</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">winning_range</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1]  1 52</span></span>
+<span></span>
+<span><span class="co"># Min</span></span>
+<span><span class="va">winning_range</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span><span class="co">#&gt; [1] 1</span></span>
+<span></span>
+<span><span class="co"># Max</span></span>
+<span><span class="va">winning_range</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span></span>
+<span><span class="co">#&gt; [1] 52</span></span>
+<span></span>
+<span><span class="co"># Range</span></span>
+<span><span class="va">winning_range</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span> <span class="op">-</span> <span class="va">winning_range</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span><span class="co">#&gt; [1] 51</span></span></code></pre></div>
+<p>Here the minimum value is 1 and maximum value is 52, thus range is maximum minus minimum which is 51.</p>
+<p>Range is one of the measures of dispersion. Measures of dispersion indicates how spread out the values in a dataset are. Infact there are several measures of dispersion. Let examine variance and standard deviation.</p>
+<ul>
+<li>Variance: The variance is a measure of how much the values in a dataset differ from the mean. It is a measure of the dispersion of the dataset.</li>
+</ul>
+<div class="sourceCode" id="cb49"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># variance</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/cor.html">var</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 97.61904</span></span>
+<span></span>
+<span><span class="co"># sd</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 9.880235</span></span></code></pre></div>
+<ul>
+<li>Standard deviation: The standard deviation is the square root of the variance. It is a measure of the dispersion of the dataset that is expressed in the same units as the original data.</li>
+</ul>
+<div id="quantiles-to-answer-probability" class="section level2" number="7.1">
+<h2>
+<span class="header-section-number">7.1</span> Quantiles to answer probability<a class="anchor" aria-label="anchor" href="#quantiles-to-answer-probability"><i class="fas fa-link"></i></a>
+</h2>
+<p>If you recall, we have previously defined median as following.</p>
+<div class="sourceCode" id="cb50"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">median_win</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/median.html">median</a></span><span class="op">(</span><span class="va">sum_total_winnings</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">median_win</span></span>
+<span><span class="co">#&gt; [1] NA</span></span></code></pre></div>
+<p>We interpret the median value of NA as you are 50 percentage likely to make NA or less. Thus in a way median captures the probability.</p>
+<p>Let’s define quantiles and percentiles. Quantiles are values that divide a dataset into equal parts. For example, the median is the value that divides a dataset into two equal parts, and the lower and upper quartiles are the values that divide a dataset into four equal parts.</p>
+<p>Quantiles are useful for identifying the values at specific positions in a dataset. For example, the median is used to identify the middle value in a dataset, and the quartiles are used to identify the values at the 25th, 50th, and 75th percentiles.</p>
+<p>In general, quantiles are calculated by sorting the values in a dataset in ascending or descending order and then taking the value at a specific position. For example, the median is the middle value in a dataset with an odd number of values, or the average of the two middle values in a dataset with an even number of values. The quartiles are the values at the 25th, 50th, and 75th percentiles.</p>
+<p>Quantiles are commonly used in statistics to describe the distribution of a dataset and to identify specific values in the dataset. They are also useful for comparing datasets with different numbers of values. For example, you can compare the median of two datasets to see which has a higher or lower central tendency.</p>
+<p>To calculate the quantiles of this dataset in R, we can use the quantile() function. Here’s an example:</p>
+<div class="sourceCode" id="cb51"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Calculate the quantiles of the dataset, we can use na.rm to remove NA and NaN values. NA and NaN values are not allowed in numeric vectors unless na.rm is TRUE.</span></span>
+<span><span class="va">win_quantiles</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Print the quantiles of the dataset</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">win_quantiles</span><span class="op">)</span></span>
+<span><span class="co">#&gt;   0%  25%  50%  75% 100% </span></span>
+<span><span class="co">#&gt;    1   19   25   31   52</span></span></code></pre></div>
+<p>Note that <code>win_quantiles</code> comprises of 5 different values. We can define those values as following.</p>
+<div class="sourceCode" id="cb52"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># minimum value of dataset</span></span>
+<span><span class="va">win_quantiles</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 0% </span></span>
+<span><span class="co">#&gt;  1</span></span>
+<span></span>
+<span><span class="co"># 25 percentile of dataset</span></span>
+<span><span class="va">win_quantiles</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 25% </span></span>
+<span><span class="co">#&gt;  19</span></span>
+<span></span>
+<span><span class="co"># 50 percentile or median of dataset</span></span>
+<span><span class="va">win_quantiles</span><span class="op">[</span><span class="fl">3</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 50% </span></span>
+<span><span class="co">#&gt;  25</span></span>
+<span></span>
+<span><span class="co"># 75 percentile or median of dataset</span></span>
+<span><span class="va">win_quantiles</span><span class="op">[</span><span class="fl">4</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 75% </span></span>
+<span><span class="co">#&gt;  31</span></span>
+<span></span>
+<span><span class="co"># 50 percentile or median of dataset</span></span>
+<span><span class="va">win_quantiles</span><span class="op">[</span><span class="fl">5</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 100% </span></span>
+<span><span class="co">#&gt;   52</span></span></code></pre></div>
+<p>Its seems like you are 25 percent likely to make 19 or less, 50 percent likely to make 19 or less, and 75 percentage likely to make 25 or less.</p>
+</div>
+<div id="quantiles-to-generate-confidence-interval" class="section level2" number="7.2">
+<h2>
+<span class="header-section-number">7.2</span> Quantiles to generate confidence interval<a class="anchor" aria-label="anchor" href="#quantiles-to-generate-confidence-interval"><i class="fas fa-link"></i></a>
+</h2>
+<p>In the context of quantiles, the probs argument specifies the probabilities of the quantiles that you want to calculate. For example, if you set probs = c(0.5), the quantile() function will calculate the median of the dataset. If you set probs = c(0.25, 0.75), the quantile() function will calculate the lower and upper quartiles of the dataset.</p>
+<p>If you set probs = c(0.025, 0.05, 0.95, 0.975), the quantile() function will calculate the quantiles at the 2.5th, 5th, 95th, and 97.5th percentiles of the dataset. These quantiles are commonly used in statistics to identify extreme values in a dataset. For example, the 2.5th and 97.5th percentiles are used to identify the lower and upper bounds of a 95% confidence interval.</p>
+<p>Here’s an example of how you could use the probs argument to calculate these quantiles:</p>
+<div class="sourceCode" id="cb53"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Calculate the 2.5th, 5th, 95th, and 97.5th percentiles of the dataset</span></span>
+<span><span class="va">dataset_quantiles</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="va">sum_total_winnings</span>, probs <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0.025</span>, <span class="fl">0.05</span>, <span class="fl">0.95</span>, <span class="fl">0.975</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">dataset_quantiles</span><span class="op">)</span></span>
+<span><span class="co">#&gt;  2.5%    5%   95% 97.5% </span></span>
+<span><span class="co">#&gt;     7    10    40    46</span></span></code></pre></div>
+<p>Running this code will print the quantiles at the 2.5th, 5th, 95th, and 97.5th percentiles of the dataset in the format “0% 2.5% 5% 95% 97.5% 100%”</p>
+<div class="sourceCode" id="cb54"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">dataset_quantiles</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 2.5% </span></span>
+<span><span class="co">#&gt;    7</span></span>
+<span></span>
+<span><span class="va">dataset_quantiles</span><span class="op">[</span><span class="fl">4</span><span class="op">]</span></span>
+<span><span class="co">#&gt; 97.5% </span></span>
+<span><span class="co">#&gt;    46</span></span></code></pre></div>
+<p>It appears that there is 2.5% likely or probable that your winnings can be 7 or less and 97.5% likely that your winnings can be 46 Alternatively, we can be confident that your winning is 97.5%-2.5%=95% likely to range in between lower bound of 7 and upper bound of 46.</p>
+<p>A confidence interval is a range of values that is used to estimate a population parameter. It is calculated by taking a sample from the population and using statistics such as the mean or median to estimate the population parameter. The confidence interval is then calculated by adding and subtracting a margin of error to the estimate. To calculate the margin of error, you would multiply the standard deviation of the sample by the critical value. However to understand the critical values, we have to understand the z-statistics. For now, we will skip this.</p>
+</div>
+<div id="exercise-1" class="section level2" number="7.3">
+<h2>
+<span class="header-section-number">7.3</span> Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>A stop loss is an order to sell a security when it reaches a certain price. It is used to limit the loss on a trade. For example, if you buy a stock at <span class="math inline">\(100\)</span> and set a stop loss at <span class="math inline">\(95\)</span>, the stop loss order will be triggered if the stock price falls to <span class="math inline">\(95\)</span> or lower. This will sell the stock and limit your loss to <span class="math inline">\(5\)</span> per share.</p>
+<p>A take profit is the opposite of a stop loss. It is an order to sell a security when it reaches a certain price. It is used to lock in a profit on a trade. For example, if you buy a stock at <span class="math inline">\(100\)</span> and set a take profit at <span class="math inline">\(110\)</span>, the take profit order will be triggered if the stock price rises to <span class="math inline">\(110\)</span> or higher. This will sell the stock and lock in a profit of <span class="math inline">\(10\)</span> per share.</p>
+<p>Stop losses and take profits are commonly used by traders to manage their trades and limit their risk. They are often used in conjunction with each other to create a trade management strategy. For example, a trader might buy a stock and set a stop loss at the entry price to protect against a sudden drop in the stock price. They might also set a take profit at a higher price to lock in a profit if the stock price rises.</p>
+<p>Overall, stop losses and take profits are useful tools for managing risk and protecting against potential losses in a trade. They can help traders to be more disciplined and consistent in their trading, and to manage their trades more effectively.</p>
+<blockquote>
+<p>Let’s imagine I decided to day trade (not a financial advice). My trading philosophy is straight forward. I put stop loss at 100 dollars and take profit at 125 dollars. Or if my stock goes down, I limit the loss at 100 dollars and if my stock goes up, I limit the win at 125. However, call it your skill or the way Mr. Market works, I are no better than a coin flip, so its 50% likely that I make or lose. I can trigger trade about 99 times a day, and the robinhood software limits me. However, I can come back tommrrow and again trade. In a year we have 200 trading days, and I have been doing this for past 5 years. What is the 90%, 95%, and 99% confidence interval of my cumulative portfolio value? What is the probability that I suffer loss? For sake of simplicity there is no fees and commissions.</p>
+</blockquote>
+<p>Above example is not to promote day trade. The economics states that no one can consistently beat the Market. See the Marginal Revolution University’s Macroeconomics course’s Personal Finance section (<a href="https://mru.org/courses/principles-economics-macroeconomics/expert-stock-picks" class="uri">https://mru.org/courses/principles-economics-macroeconomics/expert-stock-picks</a>).</p>
+<p>The best way of generating wealth is to invest recursively in low cost index funds, if possible within tax advantage accounts. See Bogleheads® investment philosophy (<a href="https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy" class="uri">https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy</a>).</p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="basic-statistics.html"><span class="header-section-number">6</span> Basic statistics</a></div>
+<div class="next"><a href="sharing-your-book.html"><span class="header-section-number">8</span> Sharing your book</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#previous-example"><span class="header-section-number">7</span> Previous example</a></li>
+<li><a class="nav-link" href="#quantiles-to-answer-probability"><span class="header-section-number">7.1</span> Quantiles to answer probability</a></li>
+<li><a class="nav-link" href="#quantiles-to-generate-confidence-interval"><span class="header-section-number">7.2</span> Quantiles to generate confidence interval</a></li>
+<li><a class="nav-link" href="#exercise-1"><span class="header-section-number">7.3</span> Exercise</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/05-blocks.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/05-blocks.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Mostly Handsdirty Econometrics</strong>" was written by Shishir Shakya. It was last built on 2022-12-12.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

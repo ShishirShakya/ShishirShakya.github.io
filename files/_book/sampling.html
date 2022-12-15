@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Lecture 3 Sampling | Mostly Handsdirty Metrics</title>
+<meta name="author" content="Shishir Shakya">
+<meta name="description" content="Sampling is the process of selecting a subset of elements from a larger population of elements, in order to study or analyze the properties of the subset. Sampling is a common technique used in...">
+<meta name="generator" content="bookdown 0.27 with bs4_book()">
+<meta property="og:title" content="Lecture 3 Sampling | Mostly Handsdirty Metrics">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Sampling is the process of selecting a subset of elements from a larger population of elements, in order to study or analyze the properties of the subset. Sampling is a common technique used in...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lecture 3 Sampling | Mostly Handsdirty Metrics">
+<meta name="twitter:description" content="Sampling is the process of selecting a subset of elements from a larger population of elements, in order to study or analyze the properties of the subset. Sampling is a common technique used in...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Mostly Handsdirty Metrics</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> This is a work in progress!</a></li>
+<li><a class="" href="data-types-structures-and-extractions.html"><span class="header-section-number">2</span> Data types, structures, and extractions</a></li>
+<li><a class="active" href="sampling.html"><span class="header-section-number">3</span> Sampling</a></li>
+<li><a class="" href="for-loop-and-probability.html"><span class="header-section-number">4</span> For loop and probability</a></li>
+<li><a class="" href="if-else-and-probability.html"><span class="header-section-number">5</span> If else and probability</a></li>
+<li><a class="" href="basic-statistics.html"><span class="header-section-number">6</span> Basic statistics</a></li>
+<li><a class="" href="investing-basics.html"><span class="header-section-number">7</span> Investing basics</a></li>
+<li><a class="" href="recursive-investment.html"><span class="header-section-number">8</span> Recursive investment</a></li>
+<li><a class="" href="index-universal-life-insurance.html"><span class="header-section-number">9</span> Index universal life insurance</a></li>
+<li><a class="" href="stock-market-monte-carlo-simulation.html"><span class="header-section-number">10</span> Stock market monte-carlo simulation</a></li>
+<li><a class="" href="confidence-interval-z-scores-hypothesis-testing.html"><span class="header-section-number">11</span> Confidence interval, z-scores, hypothesis testing</a></li>
+<li><a class="" href="unconstrainted-optimization.html"><span class="header-section-number">12</span> Unconstrainted optimization</a></li>
+<li><a class="" href="gradient-descent.html"><span class="header-section-number">13</span> Gradient descent</a></li>
+<li><a class="" href="gradient-descent-for-more-than-one-variable.html"><span class="header-section-number">14</span> Gradient descent for more than one variable</a></li>
+<li><a class="" href="gradient-descent-for-simple-regression.html"><span class="header-section-number">15</span> Gradient descent for simple regression</a></li>
+<li><a class="" href="standard-error.html"><span class="header-section-number">16</span> Standard error</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="sampling" class="section level1" number="3">
+<h1>
+<span class="header-section-number">Lecture 3</span> Sampling<a class="anchor" aria-label="anchor" href="#sampling"><i class="fas fa-link"></i></a>
+</h1>
+<p>Sampling is the process of selecting a subset of elements from a larger population of elements, in order to study or analyze the properties of the subset. Sampling is a common technique used in statistics, research, and other fields, where it is often impractical or infeasible to study the entire population of elements. Instead, by selecting a representative sample of the population, researchers can study the sample and make inferences about the properties of the population as a whole.</p>
+<p>Different types of sampling methods can be used to select a sample from a population, depending on the goals and constraints of the study. For example, random sampling is a method where each element in the population has an equal probability of being selected for the sample. Stratified sampling is a method where the population is divided into different groups or strata, and a representative sample is selected from each group. Cluster sampling is a method where the population is divided into different clusters or groups, and a sample is selected from each cluster.</p>
+<p>Sampling can be an effective way to study a population of elements and to make inferences about the properties of the population. By selecting a representative sample of the population, researchers can study the sample and make statistical estimates or other inferences about the population as a whole. However, it is important to carefully design and implement the sampling process in order to ensure that the sample is representative of the population and that the inferences made from the sample are valid and accurate.</p>
+<div id="random-sampling" class="section level2" number="3.1">
+<h2>
+<span class="header-section-number">3.1</span> Random sampling<a class="anchor" aria-label="anchor" href="#random-sampling"><i class="fas fa-link"></i></a>
+</h2>
+<p>In our course, we will mainly focus on random sampling. Random sampling is a method of sampling where each element in the population has an equal probability of being selected for the sample. Random sampling is a widely used method in statistics, research, and other fields, where it is often important to select a representative sample of a population in an unbiased and objective manner.</p>
+<p>There are many different examples of how random sampling can be used in statistics, research, and other fields. Some common examples of random sampling include:</p>
+<ul>
+<li><p>Surveys and polls: Random sampling is often used in surveys and polls, where it is important to select a representative sample of a population in order to make inferences about the attitudes, opinions, or behaviors of the population as a whole. By using random sampling, researchers can ensure that the sample is selected in an unbiased and objective manner and that the sample is representative of the population.</p></li>
+<li><p>Clinical trials: Random sampling is commonly used in clinical trials, where it is important to select a representative sample of patients in order to evaluate the effectiveness of a new treatment or intervention. By using random sampling, researchers can ensure that the sample of patients is selected in an unbiased and objective manner and that the sample is representative of the population of patients who could potentially benefit from the treatment.</p></li>
+<li><p>Social experiments: Random sampling is often used in social experiments, where it is important to select a representative sample of individuals or groups in order to study the effects of a particular treatment or intervention. By using random sampling, researchers can ensure that the sample is selected in an unbiased and objective manner and that the sample is representative of the population of individuals or groups who could potentially be affected by the treatment.</p></li>
+</ul>
+<p>These are just a few examples of how random sampling can be used in different contexts. There are many other examples of random sampling, and the specific applications and methods used will vary depending on the goals and constraints of the study. However, in all of these examples, random sampling is a useful technique for selecting a representative sample of a population and for making inferences about the population based on the sample.</p>
+</div>
+<div id="coin-flipping" class="section level2" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Coin flipping<a class="anchor" aria-label="anchor" href="#coin-flipping"><i class="fas fa-link"></i></a>
+</h2>
+<p>Coin flipping is a form of random sampling because it is a simple and unbiased way of selecting one of two options, such as heads or tails. In statistics, random sampling is the process of selecting a subset of observations from a larger population in such a way that each member of the population has an equal probability of being chosen. Coin flipping is a random sampling method because it satisfies this criteria: each time a coin is flipped, there is a 50% probability of it landing on heads and a 50% probability of it landing on tails, regardless of any previous flips. This makes it a useful tool for generating random samples in statistical analysis.</p>
+<div id="coin-flip-in-r" class="section level3" number="3.2.1">
+<h3>
+<span class="header-section-number">3.2.1</span> Coin flip in R<a class="anchor" aria-label="anchor" href="#coin-flip-in-r"><i class="fas fa-link"></i></a>
+</h3>
+<p>Let coin flip using R. To create a vector that contains the values “head” and “tail” in random locations, you can use the sample() function in R. Here is an example of how to do this:</p>
+<div class="sourceCode" id="cb30"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># create a vector of the values "head" and "tail"</span></span>
+<span><span class="va">coin_flip</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"head"</span>, <span class="st">"tail"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># shuffle the values in the vector</span></span>
+<span><span class="va">coin_flip</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">coin_flip</span>, size <span class="op">=</span> <span class="fl">1</span>, replace <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># print the shuffled vector</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">coin_flip</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "tail"</span></span></code></pre></div>
+<p>In this code, we first create a vector called coin_flip that holds the values “head” and “tail”. We then use the sample() function to shuffle the values in this vector, which randomly rearranges them. Finally, we print the resulting vector to the R console to verify that the values have been shuffled.</p>
+<p>Note that the sample() function will always generate a different result each time it is called, so the exact sequence of values in the resulting vector will vary depending on the random seed used by R. However, the vector will always contain the values “head” and “tail”, just in a different order each time. You can use this technique to create a vector of randomly-ordered values for any purpose, such as simulating a coin flip or other random event.</p>
+<p>Alternatively, you can code as:</p>
+<div class="sourceCode" id="cb31"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"head"</span>, <span class="st">"tail"</span><span class="op">)</span>, size <span class="op">=</span> <span class="fl">1</span>, replace <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] "head"</span></span></code></pre></div>
+</div>
+</div>
+<div id="rolling-dice" class="section level2" number="3.3">
+<h2>
+<span class="header-section-number">3.3</span> Rolling dice<a class="anchor" aria-label="anchor" href="#rolling-dice"><i class="fas fa-link"></i></a>
+</h2>
+<p>Rolling dice is a form of random sampling because it is a simple and unbiased way of selecting a number from a set of possible values. Rolling dice is a random sampling method because it satisfies this criterion: each time a die is rolled, there is an equal probability of it landing on any of the possible values (e.g., 1, 2, 3, 4, 5, or 6 for a standard six-sided die), regardless of any previous rolls. This makes it a useful tool for generating random samples in statistical analysis.</p>
+<div id="dice-roll-in-r" class="section level3" number="3.3.1">
+<h3>
+<span class="header-section-number">3.3.1</span> Dice roll in R<a class="anchor" aria-label="anchor" href="#dice-roll-in-r"><i class="fas fa-link"></i></a>
+</h3>
+<p>To simulate rolling a die in R, you can create a vector that holds the values 1 through 6 and then uses the sample() function to shuffle the values in this vector. Here is an example of how to do this:</p>
+<div class="sourceCode" id="cb32"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># create a vector of the values 1 through 6</span></span>
+<span><span class="va">dice</span> <span class="op">&lt;-</span> <span class="fl">1</span><span class="op">:</span><span class="fl">6</span></span>
+<span></span>
+<span><span class="co"># shuffle the values in the vector</span></span>
+<span><span class="va">dice</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="va">dice</span>, size <span class="op">=</span> <span class="fl">1</span>, replace <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># print the shuffled vector</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">dice</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 3</span></span></code></pre></div>
+<p>In this code, we first create a vector called dice that holds the values 1 through 6. We then use the sample() function to shuffle the values in this vector, which randomly rearranges them. Finally, we print the resulting vector to the R console to verify that the values have been shuffled.</p>
+<p>As with the previous example, the sample() function will generate a different result each time it is called, so the exact sequence of values in the resulting vector will vary depending on the random seed used by R. However, the vector will always contain the values 1 through 6, just in a different order each time. You can use this technique to simulate rolling a die or other random event that involves a set of values.</p>
+</div>
+</div>
+<div id="additional-arguments-in-sample" class="section level2" number="3.4">
+<h2>
+<span class="header-section-number">3.4</span> Additional arguments in sample()<a class="anchor" aria-label="anchor" href="#additional-arguments-in-sample"><i class="fas fa-link"></i></a>
+</h2>
+<p>The sample() function in R has two optional arguments: size and replace. The size argument specifies the number of values to be returned by the function, while the replace argument specifies whether the sampling should be done with or without replacement. Here is an example of how to use these arguments:</p>
+<div class="sourceCode" id="cb33"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># create a vector of the values 1 through 6</span></span>
+<span><span class="va">dice</span> <span class="op">&lt;-</span> <span class="fl">1</span><span class="op">:</span><span class="fl">6</span></span>
+<span></span>
+<span><span class="co"># shuffle the values in the vector with replacement, returning 3 values</span></span>
+<span><span class="va">dice</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="va">dice</span>, size <span class="op">=</span> <span class="fl">3</span>, replace <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># print the shuffled vector</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">dice</span><span class="op">)</span></span>
+<span><span class="co">#&gt; [1] 5 3 2</span></span></code></pre></div>
+<p>In this code, we first create a vector called dice that holds the values 1 through 6. We then use the sample() function to shuffle the values in this vector, using the size and replace arguments to specify that we want 3 values to be returned, and that the sampling should be done with replacement. This means that the same value can be returned multiple times in the resulting vector. Finally, we print the resulting vector to the R console to verify that the values have been shuffled and that the size and replacement arguments have been applied correctly.</p>
+<p>If we had omitted the replace argument or set it to FALSE, the sample() function would have returned a vector of values that were randomly shuffled, but without replacement. This means that each value would only appear once in the resulting vector, and no value would be repeated. For example, in standard 52 cards, if the first value returned by the sample() function was “3 of Spades”, then the remaining 2 values would not be “3 of Spades”, but some other cards from the deck.</p>
+<p>The size and replace arguments can be useful for controlling the behavior of the sample() function and for generating specific types of random samples. For example, you could use the size argument to simulate drawing a certain number of cards from a deck, or to simulate rolling a certain number of dice. Similarly, you could use the replace argument to specify whether the sampling should be done with or without replacement, depending on the specific application.</p>
+</div>
+<div id="exercises" class="section level2" number="3.5">
+<h2>
+<span class="header-section-number">3.5</span> Exercises<a class="anchor" aria-label="anchor" href="#exercises"><i class="fas fa-link"></i></a>
+</h2>
+<blockquote>
+<p>E1. Show R codes to simulate sum of the roll two standard six-sided dice.</p>
+</blockquote>
+<blockquote>
+<p>E2. Show R codes to draw 7 cards from a deck of 52 standard playing cards <strong>with</strong> and <strong>without</strong> replacement.</p>
+</blockquote>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="data-types-structures-and-extractions.html"><span class="header-section-number">2</span> Data types, structures, and extractions</a></div>
+<div class="next"><a href="for-loop-and-probability.html"><span class="header-section-number">4</span> For loop and probability</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#sampling"><span class="header-section-number">3</span> Sampling</a></li>
+<li><a class="nav-link" href="#random-sampling"><span class="header-section-number">3.1</span> Random sampling</a></li>
+<li>
+<a class="nav-link" href="#coin-flipping"><span class="header-section-number">3.2</span> Coin flipping</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#coin-flip-in-r"><span class="header-section-number">3.2.1</span> Coin flip in R</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#rolling-dice"><span class="header-section-number">3.3</span> Rolling dice</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#dice-roll-in-r"><span class="header-section-number">3.3.1</span> Dice roll in R</a></li></ul>
+</li>
+<li><a class="nav-link" href="#additional-arguments-in-sample"><span class="header-section-number">3.4</span> Additional arguments in sample()</a></li>
+<li><a class="nav-link" href="#exercises"><span class="header-section-number">3.5</span> Exercises</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/02-sampling-01.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/02-sampling-01.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Mostly Handsdirty Metrics</strong>" was written by Shishir Shakya. It was last built on 2022-12-15.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>
