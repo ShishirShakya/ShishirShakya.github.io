@@ -5,12 +5,52 @@
     <link>https://ShishirShakya.github.io/categories/</link>
       <atom:link href="https://ShishirShakya.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2022` Shishir Shakya</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2023` Shishir Shakya</copyright><lastBuildDate>Fri, 21 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://ShishirShakya.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>Product Life Cycle</title>
+      <link>https://ShishirShakya.github.io/categories/product-life-cycle/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/categories/product-life-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal Inference</title>
+      <link>https://ShishirShakya.github.io/categories/causal-inference/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/categories/causal-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non Parametric Econometrics</title>
+      <link>https://ShishirShakya.github.io/categories/non-parametric-econometrics/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/categories/non-parametric-econometrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://ShishirShakya.github.io/categories/r/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoritical Statistics</title>
+      <link>https://ShishirShakya.github.io/categories/theoritical-statistics/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/categories/theoritical-statistics/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

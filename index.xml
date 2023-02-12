@@ -5,12 +5,20 @@
     <link>https://ShishirShakya.github.io/</link>
       <atom:link href="https://ShishirShakya.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shishir Shakya</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2022` Shishir Shakya</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© `2023` Shishir Shakya</copyright><lastBuildDate>Fri, 21 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ShishirShakya.github.io/img/icon-192.png</url>
       <title>Shishir Shakya</title>
       <link>https://ShishirShakya.github.io/</link>
     </image>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://ShishirShakya.github.io/post/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://ShishirShakya.github.io/post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -54,17 +62,7 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;The Effect of Prescription Drug Monitoring Programs on County-Level Opioid Prescribing Practices and Spillovers&amp;rdquo; with Jane E. Ruseski (West Virginia University)&lt;/td&gt;
-&lt;td&gt;Revision requested&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;&amp;ldquo;Do Public Libraries Help Mitigate Crime? Evidence from Kansas City, MO&amp;rdquo; with Amir Neto (Florida Gulf Coast University) and Jennifer Nowicki (The Pennsylvania State University)&lt;/td&gt;
-&lt;td&gt;Revision requested&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Grading Policy, Email Nudges, and Grade Outcomes&amp;rdquo; with Michael Levinstein (Shippensburg University)&lt;/td&gt;
 &lt;td&gt;Revision requested&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -162,87 +160,97 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Exploring the Relationship between Nurse Practitioner Full Practice Authority, Nurse Practitioner Workforce Diversity, and Disparate Primary Care Access&amp;rdquo; with Alicia Plemmons (West Virginia University), Kenrick Dwain Cato (Columbia University), Tina Sadarangani (New York University), Lusine Poghosyan (Columbia University), and Edward Timmons (West Virginia University)&lt;/td&gt;
+&lt;td&gt;19. &amp;ldquo;Grading Policy, Email Nudges, and Grade Outcomes&amp;rdquo; with Michael Levinstein (Shippensburg University)&lt;/td&gt;
+&lt;td&gt;Journal of Economic Education (2023)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18. &amp;ldquo;The Effect of Prescription Drug Monitoring Programs on County-Level Opioid Prescribing Practices and Spillovers&amp;rdquo; with Jane E. Ruseski (West Virginia University)&lt;/td&gt;
+&lt;td&gt;Contemporary Economic Policy (2023)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17. &amp;ldquo;Exploring the Relationship between Nurse Practitioner Full Practice Authority, Nurse Practitioner Workforce Diversity, and Disparate Primary Care Access&amp;rdquo; with Alicia Plemmons (West Virginia University), Kenrick Dwain Cato (Columbia University), Tina Sadarangani (New York University), Lusine Poghosyan (Columbia University), and Edward Timmons (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Policy, Politics, &amp;amp; Nursing Practice (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Must-access Prescription Drug Monitoring Programs and Retail Opioid Sales&amp;rdquo; with Collin Hodges (University of Central Arkansas)&lt;/td&gt;
+&lt;td&gt;16. &amp;ldquo;Must-access Prescription Drug Monitoring Programs and Retail Opioid Sales&amp;rdquo; with Collin Hodges (University of Central Arkansas)&lt;/td&gt;
 &lt;td&gt;Contemporary Economic Policy (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Medicaid Expansion and Opioid Supply Policies to Address the Opioid Crisis&amp;rdquo; with Samantha Harrish (John Hopkins University)&lt;/td&gt;
+&lt;td&gt;15. &amp;ldquo;Medicaid Expansion and Opioid Supply Policies to Address the Opioid Crisis&amp;rdquo; with Samantha Harrish (John Hopkins University)&lt;/td&gt;
 &lt;td&gt;Drug and Alcohol Dependence Reports (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Shale Revolution, Oil and Gas Prices, and Drilling Activities in the United States&amp;rdquo; with Xiaoli Etienne (University of Idaho) and Bingxin Li (West Virginia University)&lt;/td&gt;
+&lt;td&gt;14. &amp;ldquo;Shale Revolution, Oil and Gas Prices, and Drilling Activities in the United States&amp;rdquo; with Xiaoli Etienne (University of Idaho) and Bingxin Li (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Energy Economics (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Spatial Spillovers and the Productivity&amp;ndash;compensation Gap in the United States&amp;rdquo; with Alicia Plemmons (West Virginia University) and Juan Tomas Sayago-Gomez (Universidad Icesi)&lt;/td&gt;
+&lt;td&gt;13. &amp;ldquo;Spatial Spillovers and the Productivity&amp;ndash;compensation Gap in the United States&amp;rdquo; with Alicia Plemmons (West Virginia University) and Juan Tomas Sayago-Gomez (Universidad Icesi)&lt;/td&gt;
 &lt;td&gt;The Annals of Regional Science (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Natural Disasters and Labor Migration: Evidence from Nepal&amp;rsquo;s Earthquake&amp;rdquo; with Subuna Basnet (University of Essex) and Jayash Paudel (University of Oklahoma)&lt;/td&gt;
+&lt;td&gt;12. &amp;ldquo;Natural Disasters and Labor Migration: Evidence from Nepal&amp;rsquo;s Earthquake&amp;rdquo; with Subuna Basnet (University of Essex) and Jayash Paudel (University of Oklahoma)&lt;/td&gt;
 &lt;td&gt;World Development (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Productivity Spillovers and the Productivity&amp;ndash;compensation Gap&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
+&lt;td&gt;11. &amp;ldquo;Productivity Spillovers and the Productivity&amp;ndash;compensation Gap&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Spatial Economic Analysis (2022)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;The Fracking Boom and Crime Rates in the Rural American States: Some Critical Insights&amp;rdquo; with Kazi Sohag (Ural Federal University)&lt;/td&gt;
+&lt;td&gt;10. &amp;ldquo;The Fracking Boom and Crime Rates in the Rural American States: Some Critical Insights&amp;rdquo; with Kazi Sohag (Ural Federal University)&lt;/td&gt;
 &lt;td&gt;The Extractive Industries and Society (2021)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;The Impact of Economic Freedom on Startups&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
+&lt;td&gt;9. &amp;ldquo;The Impact of Economic Freedom on Startups&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Journal of Regional Analysis &amp;amp; Policy (2021)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;The Political Economy of Vermont&amp;rsquo;s Abortion Bill&amp;rdquo; with Elham Erfanian (Ohio University) and Alexandre Scarcioffolo (Georgia College &amp;amp; State University)&lt;/td&gt;
+&lt;td&gt;8. &amp;ldquo;The Political Economy of Vermont&amp;rsquo;s Abortion Bill&amp;rdquo; with Elham Erfanian (Ohio University) and Alexandre Scarcioffolo (Georgia College &amp;amp; State University)&lt;/td&gt;
 &lt;td&gt;Applied Economics Letters (2021)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Does Scope of Practice Affect Mobility of Nurse Practitioners Serving Medicare Beneficiaries&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
+&lt;td&gt;7. &amp;ldquo;Does Scope of Practice Affect Mobility of Nurse Practitioners Serving Medicare Beneficiaries&amp;rdquo; with Alicia Plemmons (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Journal of Labor Research (2020)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Quantifying the Announcement Effects in the US Lumber Futures Market&amp;rdquo; with Xiaoli Etienne (University of Idaho) and Zarina Ismailova (PNC Bank)&lt;/td&gt;
+&lt;td&gt;6. &amp;ldquo;Quantifying the Announcement Effects in the US Lumber Futures Market&amp;rdquo; with Xiaoli Etienne (University of Idaho) and Zarina Ismailova (PNC Bank)&lt;/td&gt;
 &lt;td&gt;Journal of Forest Economics (2020)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;The Political Economy of Vermont&amp;rsquo;s Anti-fracking Movement&amp;rdquo; with Josh Hall (West Virginia University) and Alexandre Scarcioffolo (Georgia College &amp;amp; State University)&lt;/td&gt;
+&lt;td&gt;5. &amp;ldquo;The Political Economy of Vermont&amp;rsquo;s Anti-fracking Movement&amp;rdquo; with Josh Hall (West Virginia University) and Alexandre Scarcioffolo (Georgia College &amp;amp; State University)&lt;/td&gt;
 &lt;td&gt;Journal of Public Finance and Public Choice (2021)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Replication of a Research Claim from Bersani and Doherty (2013), from Criminology (2020)&amp;rdquo; with Eric L. Sevigny (Georgia State University)&lt;/td&gt;
+&lt;td&gt;4. &amp;ldquo;Replication of a Research Claim from Bersani and Doherty (2013), from Criminology (2020)&amp;rdquo; with Eric L. Sevigny (Georgia State University)&lt;/td&gt;
 &lt;td&gt;Center for Open Science, Systematizing Confidence in Open Research and Evidence (2020)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Federal Regulations and US Energy Sector Output&amp;rdquo; with Josh Hall (West Virginia University)&lt;/td&gt;
+&lt;td&gt;3. &amp;ldquo;Federal Regulations and US Energy Sector Output&amp;rdquo; with Josh Hall (West Virginia University)&lt;/td&gt;
 &lt;td&gt;Oil, Gas, Energy Quarterly (2019)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Electricity Consumption and Economic Growth: Empirical Evidence from a Resource-rich Landlocked Economy&amp;rdquo; with Rabindra Nepal (University of Tasmania) and Kishor Sharma (Charles Darwin University)&lt;/td&gt;
+&lt;td&gt;2. &amp;ldquo;Electricity Consumption and Economic Growth: Empirical Evidence from a Resource-rich Landlocked Economy&amp;rdquo; with Rabindra Nepal (University of Tasmania) and Kishor Sharma (Charles Darwin University)&lt;/td&gt;
 &lt;td&gt;International Journal of Global Energy Issues (2018)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&amp;ldquo;Possible Decision Rules to Allocate Quotas and Reservations to Ensure Equity for Nepalese Poor&amp;rdquo; with Nabraj Lama&lt;/td&gt;
+&lt;td&gt;1. &amp;ldquo;Possible Decision Rules to Allocate Quotas and Reservations to Ensure Equity for Nepalese Poor&amp;rdquo; with Nabraj Lama&lt;/td&gt;
 &lt;td&gt;Economic Journal of Development Issues (2016)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -259,157 +267,193 @@
 
 &lt;h2 id=&#34;economics-virtual-seminar-calendar&#34;&gt;&lt;strong&gt;Economics Virtual Seminar Calendar&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Economics Virtual Seminar Calendar: &lt;a href=&#34;https://ideas.repec.org/v/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Economics Virtual Seminar Calendar: (&lt;a href=&#34;https://ideas.repec.org/v/&#34; target=&#34;_blank&#34;&gt;https://ideas.repec.org/v/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Economics Conferences (Compiled by Anne M. Burton and Barton Willage): &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MNeXLKiwQA4MK3cZ3Hr1WWXZTReh3rKQU_yfTKnu-hg/edit#gid=1595158205&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1MNeXLKiwQA4MK3cZ3Hr1WWXZTReh3rKQU_yfTKnu-hg/edit#gid=1595158205&#34; target=&#34;_blank&#34;&gt;Economics Conferences (Compiled by Anne M. Burton and Barton Willage)&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;ph-d-fellowships-and-deadlines&#34;&gt;&lt;strong&gt;Ph.D. fellowships and deadlines&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Macromom&amp;rsquo;s blog page &lt;a href=&#34;https://macromomblog.com/2020/01/27/you-can-do-it/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://macromomblog.com/2020/01/27/you-can-do-it/&#34; target=&#34;_blank&#34;&gt;Macromom&amp;rsquo;s blog page&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;advice-for-phd-students-in-economics&#34;&gt;&lt;strong&gt;Advice for Phd Students in Economics&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Econ grad advice by Chris Roth and David Schindler &lt;a href=&#34;https://sites.google.com/view/econgradadvice/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/MichelNivard/gptstudio/&#34; target=&#34;_blank&#34;&gt;Include ChatGpt in your Rstudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sites.google.com/view/econgradadvice/&#34; target=&#34;_blank&#34;&gt;Econ grad advice by Chris Roth and David Schindler&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://t.co/Co167shTrN&#34; target=&#34;_blank&#34;&gt;Amy Finkelstein’s advice on how to write great research papers in economics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://t.co/ZVyIUnMlaY&#34; target=&#34;_blank&#34;&gt;The 2023 𝗔𝗘𝗔 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗶𝗻𝗴 𝗘𝗱𝘂𝗰𝗮𝘁𝗶𝗼𝗻 𝗪𝗲𝗯𝗰𝗮𝘀𝘁𝘀&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.aeaweb.org/conference/cont-ed/2020-webcasts&#34; target=&#34;_blank&#34;&gt;2020 AEA Continuing Education Webcasts: Mastering Mostly Harmless Econometrics (Alberto Abadie, Joshua Angrist, and Christopher Walters&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;data-resources&#34;&gt;&lt;strong&gt;Data resources&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Useful data resources: &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1xjw5Z0LLK4Fp-vrEK523uvMnSfxtJOb_5f_vKUrZJDg/edit#gid=0&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home&#34; target=&#34;_blank&#34;&gt;Federal Bureau of Investigation Crime Data Explorer&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Search like a pro in google: &lt;a href=&#34;https://twitter.com/lotusthadon/status/1418938064781590534/photo/1&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cdc.gov/injury/wisqars/index.html&#34; target=&#34;_blank&#34;&gt;WISQARS Fatal Injury Data Visualization&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sebastian Tello-Trillo&amp;rsquo;s resources: &lt;a href=&#34;https://dsebastiantello.files.wordpress.com/2019/08/where-to-find-data-a-primer.pdf&#34; target=&#34;_blank&#34;&gt;Where to find data? pdf version&lt;/a&gt; | &lt;a href=&#34;https://dsebastiantello.wordpress.com/dataandtips/&#34; target=&#34;_blank&#34;&gt;Resources page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ejd.econ.mathematik.uni-ulm.de/&#34; target=&#34;_blank&#34;&gt;Find Economic Articles with Data and codes&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Research data search in google: &lt;a href=&#34;https://datasetsearch.research.google.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/skranz/RTutor&#34; target=&#34;_blank&#34;&gt;RTutor: Interactive R Problem Sets with data and solution&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Google Public data repository: &lt;a href=&#34;https://cloud.google.com/solutions/datasets&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34; target=&#34;_blank&#34;&gt;If you want a summary of papers and a reference list use https://perplexity.ai&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Our World in Data: &lt;a href=&#34;https://ourworldindata.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://vincentarelbundock.github.io/Rdatasets/index.html&#34; target=&#34;_blank&#34;&gt;Rdatasets is a collection of 2127 datasets&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Data Resources on Medical Providers: &lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-issue-20201/data-resources-on-medical-providers/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1xjw5Z0LLK4Fp-vrEK523uvMnSfxtJOb_5f_vKUrZJDg/edit#gid=0&#34; target=&#34;_blank&#34;&gt;Useful data resources&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Repository of CMS hospital cost report (HCRIS) data and processing code: &lt;a href=&#34;https://github.com/asacarny/hospital-cost-reports&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/lotusthadon/status/1418938064781590534/photo/1&#34; target=&#34;_blank&#34;&gt;Search like a pro in google&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Data Resources on Health Care Encounter Data: &lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-20211/data-resources-on-health-care-encounter-data/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dsebastiantello.files.wordpress.com/2019/08/where-to-find-data-a-primer.pdf&#34; target=&#34;_blank&#34;&gt;Sebastian Tello-Trillo&amp;rsquo;s resources: Where to find data? pdf version&lt;/a&gt; | &lt;a href=&#34;https://dsebastiantello.wordpress.com/dataandtips/&#34; target=&#34;_blank&#34;&gt;Resources page&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Hospital Financial Characteristics Datasets: &lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-issue-20194/hospital-financial-characteristics-datasets/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://datasetsearch.research.google.com/&#34; target=&#34;_blank&#34;&gt;Research data search in google&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;LobbyView dataset: Advancing data science research in interest group politics &lt;a href=&#34;https://www.lobbyview.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.google.com/solutions/datasets&#34; target=&#34;_blank&#34;&gt;Google Public data repository&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sebastian Bauhoff&amp;rsquo;s Household datasets for development economic research: &lt;a href=&#34;https://scholar.harvard.edu/bauhoff/datalinks.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ourworldindata.org/&#34; target=&#34;_blank&#34;&gt;Our World in Data&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;NPPES Downloadable file: &lt;a href=&#34;https://download.cms.gov/nppes/NPI_Files.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://experience.arcgis.com/experience/6e360741bfd84db79d5db774a1147815&#34; target=&#34;_blank&#34;&gt;Abortion Dataset&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Mediacare data download page: &lt;a href=&#34;https://www.medicare.gov/download/downloaddb.asp&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jfjelstul/worldcup&#34; target=&#34;_blank&#34;&gt;The Fjelstul World Cup Database By Josh Fjelstul&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;J-PAL&amp;rsquo;s &lt;a href=&#34;https://www.povertyactionlab.org/catalog-administrative-data-sets&#34; target=&#34;_blank&#34;&gt;Catalog of Administrative Data Sets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-issue-20201/data-resources-on-medical-providers/&#34; target=&#34;_blank&#34;&gt;Data Resources on Medical Providers:&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Kimberley H Geissler expressed in her &lt;a href=&#34;https://twitter.com/khgeissler/status/1482848608458264583&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; that she is willing to provide data for cannabis use and SUD.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/asacarny/hospital-cost-reports&#34; target=&#34;_blank&#34;&gt;Repository of CMS hospital cost report (HCRIS) data and processing code: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Kevin N.Griffith&amp;rsquo;s data on Appointment Wait Times for Primary and Specialty Care in Veterans Health Administration Facilities vs. Community Medical Centers; &lt;a href=&#34;https://data.mendeley.com/datasets/rmk89k4rhb/12&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-20211/data-resources-on-health-care-encounter-data/&#34; target=&#34;_blank&#34;&gt;Data Resources on Health Care Encounter Data: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Grid cell-month environmental and conflict data (AfroGrid) by Justin Schon and and Ore Koren &lt;a href=&#34;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LDI5TK&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ashecon.org/newsletter/newsletter-issue-20194/hospital-financial-characteristics-datasets/&#34; target=&#34;_blank&#34;&gt;Hospital Financial Characteristics Datasets: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Get PUMS data on ACS &lt;a href=&#34;https://twitter.com/kyle_e_walker/status/1357063080417648640&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.lobbyview.org/&#34; target=&#34;_blank&#34;&gt;LobbyView dataset: Advancing data science research in interest group politics &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Christoph Kronenberg&amp;rsquo;s way to Literature review plots &lt;a href=&#34;https://twitter.com/C__Kronenberg/status/1356643125373128704&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.harvard.edu/bauhoff/datalinks.html&#34; target=&#34;_blank&#34;&gt;Sebastian Bauhoff&amp;rsquo;s Household datasets for development economic research: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;CMS Hospital Compare Data 2004-2016: &lt;a href=&#34;https://github.com/asacarny/hospital-compare&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.cms.gov/nppes/NPI_Files.html&#34; target=&#34;_blank&#34;&gt;NPPES Downloadable file: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;OPEN ICPSR dataset: &lt;a href=&#34;https://www.openicpsr.org/openicpsr/search/aea/studies&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.medicare.gov/download/downloaddb.asp&#34; target=&#34;_blank&#34;&gt;Mediacare data download page: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Medical Expenditure Panel Survey (MEPS): &lt;a href=&#34;https://www.meps.ahrq.gov/mepsweb/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.povertyactionlab.org/catalog-administrative-data-sets&#34; target=&#34;_blank&#34;&gt;J-PAL&amp;rsquo;s Catalog of Administrative Data Sets&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Longitudinal datasets of potential interest to health economists &lt;a href=&#34;https://aheblog.com/2013/10/09/longitudinal-datasets-of-potential-interest-to-health-economists/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/khgeissler/status/1482848608458264583&#34; target=&#34;_blank&#34;&gt;Kimberley H Geissler expressed in her Twitter&lt;/a&gt; that she is willing to provide data for cannabis use and SUD.&lt;/p&gt;
 
-&lt;p&gt;International GIS Data: Global: &lt;a href=&#34;https://guides.library.upenn.edu/globalgis&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.mendeley.com/datasets/rmk89k4rhb/12&#34; target=&#34;_blank&#34;&gt;Kevin N.Griffith&amp;rsquo;s data on Appointment Wait Times for Primary and Specialty Care in Veterans Health Administration Facilities vs. Community Medical Centers&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;TAMU GeoServices: &lt;a href=&#34;https://geoservices.tamu.edu/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LDI5TK&#34; target=&#34;_blank&#34;&gt;Grid cell-month environmental and conflict data (AfroGrid) by Justin Schon and and Ore Koren &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Accessing OpenStreetMap data with R: &lt;a href=&#34;https://dominicroye.github.io/en/2018/accessing-openstreetmap-data-with-r/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/kyle_e_walker/status/1357063080417648640&#34; target=&#34;_blank&#34;&gt;Get PUMS data on ACS &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Mapping Routes - mapping routes with tidygeocoder and osrm: &lt;a href=&#34;https://bensstats.wordpress.com/2021/10/21/robservations-15-i-reverse-engineered-atlas-co-well-some-of-it/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/C__Kronenberg/status/1356643125373128704&#34; target=&#34;_blank&#34;&gt;Christoph Kronenberg&amp;rsquo;s way to Literature review plots &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Road Routing In R: &lt;a href=&#34;https://www.jla-data.net/eng/routing-in-r-context/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/asacarny/hospital-compare&#34; target=&#34;_blank&#34;&gt;CMS Hospital Compare Data 2004-2016: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Zoning ATLAS: &lt;a href=&#34;https://zoningatlas.mapc.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nber.org/papers/w30578?utm_campaign=ntwh&amp;amp;utm_medium=email&amp;amp;utm_source=ntwg3&#34; target=&#34;_blank&#34;&gt;The Early County Business Pattern Files: 1946-1974&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;National Sample Survey of Registered Nurses (NSSRN): &lt;a href=&#34;https://bhw.hrsa.gov/data-research/access-data-tools/national-sample-survey-registered-nurses&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.openicpsr.org/openicpsr/search/aea/studies&#34; target=&#34;_blank&#34;&gt;OPEN ICPSR dataset: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Data is plural archive: &lt;a href=&#34;https://www.data-is-plural.com/archive/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; and &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0&#34; target=&#34;_blank&#34;&gt;Spreadsheet of data list&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.meps.ahrq.gov/mepsweb/&#34; target=&#34;_blank&#34;&gt;Medical Expenditure Panel Survey (MEPS): &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Education Data at Your Fingertips: &lt;a href=&#34;https://educationdata.urban.org/data-explorer&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/giswqs/geospatial-data-catalogs&#34; target=&#34;_blank&#34;&gt;NASA&amp;rsquo;s Common Metadata Repository (CMR) with 350 datasets&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The General Social Survey: &lt;a href=&#34;https://gss.norc.org/get-the-data&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://aheblog.com/2013/10/09/longitudinal-datasets-of-potential-interest-to-health-economists/&#34; target=&#34;_blank&#34;&gt;Longitudinal datasets of potential interest to health economists &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Tidy USDA data in R: &lt;a href=&#34;https://bradlindblad.github.io/tidyUSDA/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://guides.library.upenn.edu/globalgis&#34; target=&#34;_blank&#34;&gt;International GIS Data: Global: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DataUSA.io: &lt;a href=&#34;https://datausa.io/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://geoservices.tamu.edu/&#34; target=&#34;_blank&#34;&gt;TAMU GeoServices: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Alex Cookson webscraped data: &lt;a href=&#34;https://www.alexcookson.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt; and &lt;a href=&#34;https://github.com/tacookson/data&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dominicroye.github.io/en/2018/accessing-openstreetmap-data-with-r/&#34; target=&#34;_blank&#34;&gt;Accessing OpenStreetMap data with R: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Dat.CMS.gov: &lt;a href=&#34;https://data.cms.gov/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bensstats.wordpress.com/2021/10/21/robservations-15-i-reverse-engineered-atlas-co-well-some-of-it/&#34; target=&#34;_blank&#34;&gt;Mapping Routes - mapping routes with tidygeocoder and osrm: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;AEA data sources: &lt;a href=&#34;https://www.aeaweb.org/resources/data&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.jla-data.net/eng/routing-in-r-context/&#34; target=&#34;_blank&#34;&gt;Road Routing In R: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;NBER Public Use Data Archive: &lt;a href=&#34;https://www.nber.org/research/data?page=1&amp;amp;perPage=100&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zoningatlas.mapc.org/&#34; target=&#34;_blank&#34;&gt;Zoning ATLAS: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;IRS data: &lt;a href=&#34;https://www.irs.gov/statistics&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bhw.hrsa.gov/data-research/access-data-tools/national-sample-survey-registered-nurses&#34; target=&#34;_blank&#34;&gt;National Sample Survey of Registered Nurses (NSSRN): &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Transport for London open data: &lt;a href=&#34;https://tfl.gov.uk/info-for/open-data-users/our-open-data?intcmp=3671&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.data-is-plural.com/archive/&#34; target=&#34;_blank&#34;&gt;Data is plural archive: &lt;/a&gt; and &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0&#34; target=&#34;_blank&#34;&gt;Spreadsheet of data list&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Institute for Development Research Riinvest: &lt;a href=&#34;http://data.riinvestinstitute.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://educationdata.urban.org/data-explorer&#34; target=&#34;_blank&#34;&gt;Education Data at Your Fingertips: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Law Enforcement Management and Administrative Statistics (LEMAS): &lt;a href=&#34;https://bjs.ojp.gov/data-collection/law-enforcement-management-and-administrative-statistics-lemas&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gss.norc.org/get-the-data&#34; target=&#34;_blank&#34;&gt;The General Social Survey: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;GapMinder data: &lt;a href=&#34;https://www.gapminder.org/data/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bradlindblad.github.io/tidyUSDA/&#34; target=&#34;_blank&#34;&gt;Tidy USDA data in R: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Employment, unemployment and economic inactivity for people aged 16 and over and aged from 16 to 64 (seasonally adjusted): &lt;a href=&#34;https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/employmentunemploymentandeconomicinactivityforpeopleaged16andoverandagedfrom16to64seasonallyadjusteda02sa&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://datausa.io/&#34; target=&#34;_blank&#34;&gt;DataUSA.io: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Kaggle dataset: &lt;a href=&#34;https://www.kaggle.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt; codes &lt;a href=&#34;https://www.kaggle.com/code&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.alexcookson.com/&#34; target=&#34;_blank&#34;&gt;Alex Cookson webscraped data: &lt;/a&gt; and (&lt;a href=&#34;https://github.com/tacookson/data&#34; target=&#34;_blank&#34;&gt;https://github.com/tacookson/data&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;US CBS Supplemental Surveys: &lt;a href=&#34;https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.cms.gov/&#34; target=&#34;_blank&#34;&gt;Dat.CMS.gov: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The Early County Business Pattern Files: 1946-1974 : &lt;a href=&#34;https://www.nber.org/system/files/working_papers/w30578/w30578.pdf&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.aeaweb.org/resources/data&#34; target=&#34;_blank&#34;&gt;AEA data sources: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The European Social Survey (ESS): &lt;a href=&#34;https://www.europeansocialsurvey.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nber.org/research/data?page=1&amp;amp;perPage=100&#34; target=&#34;_blank&#34;&gt;NBER Public Use Data Archive: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Analyze Boston Dataset: &lt;a href=&#34;https://data.boston.gov/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.irs.gov/statistics&#34; target=&#34;_blank&#34;&gt;IRS data: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The DHS dataset: &lt;a href=&#34;https://dhsprogram.com/data/Model-Datasets.cfm&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://tfl.gov.uk/info-for/open-data-users/our-open-data?intcmp=3671&#34; target=&#34;_blank&#34;&gt;Transport for London open data: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Data.gov: &lt;a href=&#34;https://www.data.gov/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://data.riinvestinstitute.org/&#34; target=&#34;_blank&#34;&gt;Institute for Development Research Riinvest: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Global Data Hub On Human Trafficking: &lt;a href=&#34;https://www.ctdatacollaborative.org/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bjs.ojp.gov/data-collection/law-enforcement-management-and-administrative-statistics-lemas&#34; target=&#34;_blank&#34;&gt;Law Enforcement Management and Administrative Statistics (LEMAS): &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;RESDAC data and prices: &lt;a href=&#34;https://www2.ccwdata.org/web/guest/pricing/data-pricing&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gapminder.org/data/&#34; target=&#34;_blank&#34;&gt;GapMinder data: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Higher Ed Data Stories: &lt;a href=&#34;https://www.highereddatastories.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/employmentunemploymentandeconomicinactivityforpeopleaged16andoverandagedfrom16to64seasonallyadjusteda02sa&#34; target=&#34;_blank&#34;&gt;Employment, unemployment and economic inactivity for people aged 16 and over and aged from 16 to 64 (seasonally adjusted):&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Public Safety Lab data: &lt;a href=&#34;https://github.com/publicsafetylab/public-psl-jdi-pops&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/&#34; target=&#34;_blank&#34;&gt;Kaggle dataset: &lt;/a&gt; &lt;a href=&#34;https://www.kaggle.com/code&#34; target=&#34;_blank&#34;&gt;codes&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Facebook Social Connectedness Index: &lt;a href=&#34;https://data.humdata.org/dataset/social-connectedness-index&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html&#34; target=&#34;_blank&#34;&gt;US CBS Supplemental Surveys: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;American Community Survey Data via FTP: &lt;a href=&#34;nsus.gov/programs-surveys/acs/data/data-via-ftp.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nber.org/system/files/working_papers/w30578/w30578.pdf&#34; target=&#34;_blank&#34;&gt;The Early County Business Pattern Files: 1946-1974&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;National Welfare Data: &lt;a href=&#34;https://ukcpr.org/resources/national-welfare-data&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.europeansocialsurvey.org/&#34; target=&#34;_blank&#34;&gt;The European Social Survey (ESS): &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Union Membership, Coverage, and Earnings from the CPS: &lt;a href=&#34;http://www.unionstats.com/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.boston.gov/&#34; target=&#34;_blank&#34;&gt;Analyze Boston Dataset: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Input-Output matrix from 1997-2020: &lt;a href=&#34;https://www.bls.gov/emp/data/input-output-matrix.htm&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dhsprogram.com/data/Model-Datasets.cfm&#34; target=&#34;_blank&#34;&gt;The DHS dataset: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Online Tool Provides Individual Energy Sustainability Scores data: &lt;a href=&#34;https://www.maisyenergyapps.com/sustainability_tool.htm&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.data.gov/&#34; target=&#34;_blank&#34;&gt;Data.gov: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Bureau of Economic Analysis data: &lt;a href=&#34;https://www.bea.gov/data&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt; bulk downloads &lt;a href=&#34;https://apps.bea.gov/regional/downloadzip.cfm&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ctdatacollaborative.org/&#34; target=&#34;_blank&#34;&gt;Global Data Hub On Human Trafficking: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;U.S. Bureau Of Labor Statistics data: &lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www2.ccwdata.org/web/guest/pricing/data-pricing&#34; target=&#34;_blank&#34;&gt;RESDAC data and prices: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Abortion Access Dashboard: &lt;a href=&#34;https://experience.arcgis.com/experience/6e360741bfd84db79d5db774a1147815&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.highereddatastories.com/&#34; target=&#34;_blank&#34;&gt;Higher Ed Data Stories: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;World Bank’s Open Night Lights tutorial: &lt;a href=&#34;https://worldbank.github.io/OpenNightLights/welcome.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/publicsafetylab/public-psl-jdi-pops&#34; target=&#34;_blank&#34;&gt;Public Safety Lab data: &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The California Health Interview Survey (CHIS) : &lt;a href=&#34;https://healthpolicy.ucla.edu/chis/data/Pages/GetCHISData.aspx&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://data.humdata.org/dataset/social-connectedness-index&#34; target=&#34;_blank&#34;&gt;Facebook Social Connectedness Index: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;nsus.gov/programs-surveys/acs/data/data-via-ftp.html&#34; target=&#34;_blank&#34;&gt;American Community Survey Data via FTP: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ukcpr.org/resources/national-welfare-data&#34; target=&#34;_blank&#34;&gt;National Welfare Data: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.unionstats.com/&#34; target=&#34;_blank&#34;&gt;Union Membership, Coverage, and Earnings from the CPS: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.bls.gov/emp/data/input-output-matrix.htm&#34; target=&#34;_blank&#34;&gt;Input-Output matrix from 1997-2020: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.maisyenergyapps.com/sustainability_tool.htm&#34; target=&#34;_blank&#34;&gt;Online Tool Provides Individual Energy Sustainability Scores data: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.bea.gov/data&#34; target=&#34;_blank&#34;&gt;Bureau of Economic Analysis data:&lt;/a&gt; &lt;a href=&#34;https://apps.bea.gov/regional/downloadzip.cfm&#34; target=&#34;_blank&#34;&gt;bulk downloads&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;U.S. Bureau Of Labor Statistics data: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://experience.arcgis.com/experience/6e360741bfd84db79d5db774a1147815&#34; target=&#34;_blank&#34;&gt;Abortion Access Dashboard: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://worldbank.github.io/OpenNightLights/welcome.html&#34; target=&#34;_blank&#34;&gt;World Bank’s Open Night Lights tutorial: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://healthpolicy.ucla.edu/chis/data/Pages/GetCHISData.aspx&#34; target=&#34;_blank&#34;&gt;The California Health Interview Survey (CHIS) : &lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;teaching-resources&#34;&gt;&lt;strong&gt;Teaching resources&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://quantecon.org/&#34; target=&#34;_blank&#34;&gt;Quant Econ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.aeaweb.org/conference/cont-ed/2019-webcasts&#34; target=&#34;_blank&#34;&gt;Time-Series Econometrics (James H. Stock, Mark W. Watson)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/msu-econ-data-analytics/course-materials&#34; target=&#34;_blank&#34;&gt;Advanced Data Analytics in Economics By Nick Hagerty&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLvsPPwF_252LKEUfcCsvPwUMwd7_cU_md&#34; target=&#34;_blank&#34;&gt;introductory environmental and resource economics By John Whitehead&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Kevin Murphy teaching developing the monocentric city model &lt;a href=&#34;https://www.youtube.com/watch?v=PbudgN5S48I&#34; target=&#34;_blank&#34;&gt;6 videos&lt;/a&gt;&lt;/p&gt;
 
@@ -417,58 +461,67 @@
 
 &lt;p&gt;Videos&amp;rsquo; to teach economics: &lt;a href=&#34;https://econ.video/&#34; target=&#34;_blank&#34;&gt;Economics Media Library or econ.video&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Teaching economics with baking cakes: &lt;a href=&#34;https://www.bakeonomics350.com/spring2022&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Teaching economics with baking cakes: (&lt;a href=&#34;https://www.bakeonomics350.com/spring2022&#34; target=&#34;_blank&#34;&gt;https://www.bakeonomics350.com/spring2022&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Teaching Health Economics in the time of COVID-19: &lt;a href=&#34;https://www.healtheconomics.org/page/COVID19&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Teaching Health Economics in the time of COVID-19: (&lt;a href=&#34;https://www.healtheconomics.org/page/COVID19&#34; target=&#34;_blank&#34;&gt;https://www.healtheconomics.org/page/COVID19&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Using Music to Teach Agricultural, Applied, and Environmental Economics: &lt;a href=&#34;https://www.aaea.org/UserFiles/file/AETR_2021_002RProofFinal.pdf&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using Music to Teach Agricultural, Applied, and Environmental Economics: (&lt;a href=&#34;https://www.aaea.org/UserFiles/file/AETR_2021_002RProofFinal.pdf&#34; target=&#34;_blank&#34;&gt;https://www.aaea.org/UserFiles/file/AETR_2021_002RProofFinal.pdf&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Illustration of the two-way fixed effects estimator decomposition: &lt;a href=&#34;https://hhsievertsen.shinyapps.io/twowayfedecomp/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Illustration of the two-way fixed effects estimator decomposition: (&lt;a href=&#34;https://hhsievertsen.shinyapps.io/twowayfedecomp/&#34; target=&#34;_blank&#34;&gt;https://hhsievertsen.shinyapps.io/twowayfedecomp/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Lists of statistical packages for Recent Difference-in-Differences methods &lt;a href=&#34;https://twitter.com/lihua_lei_stat/status/1480993321900146688&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lists of statistical packages for Recent Difference-in-Differences methods (&lt;a href=&#34;https://twitter.com/lihua_lei_stat/status/1480993321900146688&#34; target=&#34;_blank&#34;&gt;https://twitter.com/lihua_lei_stat/status/1480993321900146688&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Implementing fixed effects panel models in R: &lt;a href=&#34;http://karthur.org/2019/implementing-fixed-effects-panel-models-in-r.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Implementing fixed effects panel models in R: (&lt;a href=&#34;http://karthur.org/2019/implementing-fixed-effects-panel-models-in-r.html&#34; target=&#34;_blank&#34;&gt;http://karthur.org/2019/implementing-fixed-effects-panel-models-in-r.html&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Asjad Naqvi&amp;rsquo;s website to that tracks the recent developments in the Difference-in-Difference (DiD) literature &lt;a href=&#34;https://asjadnaqvi.github.io/DiD/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Asjad Naqvi&amp;rsquo;s website to that tracks the recent developments in the Difference-in-Difference (DiD) literature (&lt;a href=&#34;https://asjadnaqvi.github.io/DiD/&#34; target=&#34;_blank&#34;&gt;https://asjadnaqvi.github.io/DiD/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Literature on Recent Advances in Applied Micro Methods: &lt;a href=&#34;https://christinecai.github.io/PublicGoods/applied_micro_methods.pdf&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Literature on Recent Advances in Applied Micro Methods: (&lt;a href=&#34;https://christinecai.github.io/PublicGoods/applied_micro_methods.pdf&#34; target=&#34;_blank&#34;&gt;https://christinecai.github.io/PublicGoods/applied_micro_methods.pdf&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Health Economics Teaching Materials Repository: &lt;a href=&#34;https://www.ashecon.org/teaching-materials-repository/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Health Economics Teaching Materials Repository: (&lt;a href=&#34;https://www.ashecon.org/teaching-materials-repository/&#34; target=&#34;_blank&#34;&gt;https://www.ashecon.org/teaching-materials-repository/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;Amanda Gregg&amp;rsquo;s &lt;a href=&#34;https://professoramanda.github.io/econsimulations/&#34; target=&#34;_blank&#34;&gt;statistics/econometrics simulations site&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Christine Cai&amp;rsquo;s resources of applied econometrics, PhD-level class materials, coding in Stata and R &lt;a href=&#34;https://christinecai.github.io/items/PublicGoods.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Christine Cai&amp;rsquo;s resources of applied econometrics, PhD-level class materials, coding in Stata and R (&lt;a href=&#34;https://christinecai.github.io/items/PublicGoods.html&#34; target=&#34;_blank&#34;&gt;https://christinecai.github.io/items/PublicGoods.html&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Seeing Theory A visual intoduction to probablit and statistics: &lt;a href=&#34;https://seeing-theory.brown.edu/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seeing Theory A visual intoduction to probablit and statistics: (&lt;a href=&#34;https://seeing-theory.brown.edu/&#34; target=&#34;_blank&#34;&gt;https://seeing-theory.brown.edu/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;The recordings of our Symposium on the Economics and Law of Pharmaceutical Regulation: &lt;a href=&#34;https://vimeo.com/showcase/8070909&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The recordings of our Symposium on the Economics and Law of Pharmaceutical Regulation: (&lt;a href=&#34;https://vimeo.com/showcase/8070909&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/showcase/8070909&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;What are the most important statistical ideas of the past 50 years?: &lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/unpublished/stat50.pdf&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What are the most important statistical ideas of the past 50 years?: (&lt;a href=&#34;http://www.stat.columbia.edu/~gelman/research/unpublished/stat50.pdf&#34; target=&#34;_blank&#34;&gt;http://www.stat.columbia.edu/~gelman/research/unpublished/stat50.pdf&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;All the codes needed for applied econometrics: &lt;a href=&#34;https://sites.google.com/site/waynelinchang/r-code&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All the codes needed for applied econometrics: (&lt;a href=&#34;https://sites.google.com/site/waynelinchang/r-code&#34; target=&#34;_blank&#34;&gt;https://sites.google.com/site/waynelinchang/r-code&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Masayuki Kudamatsu&amp;rsquo;s Tips for economist to apply phd in economics, proceed life with Phd, choosing research topic: &lt;a href=&#34;https://sites.google.com/site/mkudamatsu/tips4economists&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Masayuki Kudamatsu&amp;rsquo;s Tips for economist to apply phd in economics, proceed life with Phd, choosing research topic:  (&lt;a href=&#34;https://sites.google.com/site/mkudamatsu/tips4economists&#34; target=&#34;_blank&#34;&gt;https://sites.google.com/site/mkudamatsu/tips4economists&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;NickHK education videos: &lt;a href=&#34;https://www.nickchk.com/videos.html&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NickHK education videos: (&lt;a href=&#34;https://www.nickchk.com/videos.html)cy&#34; target=&#34;_blank&#34;&gt;https://www.nickchk.com/videos.html)cy&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;BREAD-IGC Virtual Ph.D. Course, Spring 2022 &lt;a href=&#34;https://www.theigc.org/event/bread-igc-virtual-phd-course-spring-2022/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BREAD-IGC Virtual Ph.D. Course, Spring 2022 (&lt;a href=&#34;https://www.theigc.org/event/bread-igc-virtual-phd-course-spring-2022/&#34; target=&#34;_blank&#34;&gt;https://www.theigc.org/event/bread-igc-virtual-phd-course-spring-2022/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Econometrics Academy&lt;a href=&#34;https://sites.google.com/site/econometricsacademy/&#34; target=&#34;_blank&#34;&gt;LInk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Econometrics Academy(&lt;a href=&#34;https://sites.google.com/site/econometricsacademy/&#34; target=&#34;_blank&#34;&gt;https://sites.google.com/site/econometricsacademy/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;Ivan Canay&amp;rsquo;s Econometrics course &lt;a href=&#34;https://www.youtube.com/watch?v=I7xViw8QczE&amp;amp;list=PLU82dyBKN2bBD0jXEpXYLer8P3AahLXJa&#34; target=&#34;_blank&#34;&gt;ECON 480&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=dTWZ2HoTDw4&amp;amp;list=PLU82dyBKN2bCCd2O7cNeSz09XVqYB6u_S&#34; target=&#34;_blank&#34;&gt;ECO 481&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Applied Econometrics at NYU Stern: &lt;a href=&#34;https://github.com/chrisconlon/applied_metrics&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Applied Econometrics at NYU Stern: (&lt;a href=&#34;https://github.com/chrisconlon/applied_metrics&#34; target=&#34;_blank&#34;&gt;https://github.com/chrisconlon/applied_metrics&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Machine Learning by Jordan Boyd-Graber: &lt;a href=&#34;https://home.cs.colorado.edu/~jbg/teaching/CSCI_5622/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Machine Learning by Jordan Boyd-Graber: (&lt;a href=&#34;https://home.cs.colorado.edu/~jbg/teaching/CSCI_5622/&#34; target=&#34;_blank&#34;&gt;https://home.cs.colorado.edu/~jbg/teaching/CSCI_5622/&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;A history of econometric debates: &lt;a href=&#34;https://twitter.com/Undercoverhist/status/1105851715461570560&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A history of econometric debates: (&lt;a href=&#34;https://twitter.com/Undercoverhist/status/1105851715461570560&#34; target=&#34;_blank&#34;&gt;https://twitter.com/Undercoverhist/status/1105851715461570560&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h2 id=&#34;books&#34;&gt;&lt;strong&gt;Books&lt;/strong&gt;&lt;/h2&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://geocompx.org/&#34; target=&#34;_blank&#34;&gt;Geocomputation with R and Python&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.sas.upenn.edu/~fdiebold/Textbooks.html&#34; target=&#34;_blank&#34;&gt;Econometric data science, forecasting, and time series by Francis X. Diebold&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://peopleanalytics-regression-book.org/&#34; target=&#34;_blank&#34;&gt;Handbook of Regression Modeling in People Analytics by Keith McNulty&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jamesblandecon.github.io/StructuralBayesianTechniques/introduction.html&#34; target=&#34;_blank&#34;&gt;Structural Bayesian Techniques for Experimental and Behavioral Economics by James Bland&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://datamgmtinedresearch.com/&#34; target=&#34;_blank&#34;&gt;Data Management in Large-Scale Education Research By Crystal Lewis&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://home.uchicago.edu/cbm4/cpt/videos.html&#34; target=&#34;_blank&#34;&gt;Chicago Price Theory with video&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://fcorowe.github.io/intro-gds/&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Data Science by
-Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#34; target=&#34;_blank&#34;&gt;codes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://fcorowe.github.io/intro-gds/&#34; target=&#34;_blank&#34;&gt;Introduction to Geographic Data Science by Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#34; target=&#34;_blank&#34;&gt;codes&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://rafalab.dfci.harvard.edu/dsbook/&#34; target=&#34;_blank&#34;&gt;Introduction to Data Science by Rafael A. Irizarry&lt;/a&gt;&lt;/p&gt;
 
@@ -528,13 +581,15 @@ Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#3
 
 &lt;h2 id=&#34;others&#34;&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/h2&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://www.policyimpacts.org/policy-impacts-library#eyJmaWx0ZXJzIjp7fSwicGFnZU51bWJlciI6MX0=&#34; target=&#34;_blank&#34;&gt;The Policy Impacts Library&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/TessaRDavis/status/1512402324102291467&#34; target=&#34;_blank&#34;&gt;The most powerful feature that Twitter has: Advanced search&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://apps.automeris.io/wpd/&#34; target=&#34;_blank&#34;&gt;Recover data from an Image&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.aeaweb.org/about-aea/committees/cswep/programs/resources&#34; target=&#34;_blank&#34;&gt;AEA&amp;rsquo;s Professional Development Resources&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;All the financial advice you&#39;ll ever need fits on a single index card&#34; target=&#34;_blank&#34;&gt;All the financial advice you&amp;rsquo;ll ever need fits on a single index card, by Harold Pollack&lt;/a&gt; and his Twitter &lt;a href=&#34;https://twitter.com/haroldpollack&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;All the financial advice you&#39;ll ever need fits on a single index card&#34; target=&#34;_blank&#34;&gt;All the financial advice you&amp;rsquo;ll ever need fits on a single index card, by Harold Pollack&lt;/a&gt; and his Twitter (&lt;a href=&#34;https://twitter.com/haroldpollack&#34; target=&#34;_blank&#34;&gt;https://twitter.com/haroldpollack&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://onepercentsteps.com/&#34; target=&#34;_blank&#34;&gt;One percenter&amp;rsquo;s health care reform researches&lt;/a&gt;&lt;/p&gt;
 
@@ -574,23 +629,31 @@ Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#3
 
 &lt;h2 id=&#34;courses-for-causal-inference&#34;&gt;&lt;strong&gt;Courses for causal inference&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Which causal inference book you should read: A flowchart and a list of short book reviews: &lt;a href=&#34;https://www.bradyneal.com/which-causal-inference-book&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/MatheusFacure/status/1595416605399613440&#34; target=&#34;_blank&#34;&gt;Golden comments on Double Machine Learning&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Miguel Hernán&amp;rsquo;s Causal Diagrams: Draw Your Assumptions Before Your Conclusions: &lt;a href=&#34;https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/stanfordgsbsilab/ml-ci-tutorial/&#34; target=&#34;_blank&#34;&gt;ML Based Causal Inference&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;UPenn&amp;rsquo;s course: A Crash Course in Causality: Inferring Causal Effects from Observational Data: &lt;a href=&#34;https://www.coursera.org/learn/crash-course-in-causality&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@matteo.courthoud/free-causal-inference-resources-a54f1621d455&#34; target=&#34;_blank&#34;&gt;Free Causal Inference Resources BY Matteo Courthoud&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Columbia University&amp;rsquo;s Causal Inference-I &lt;a href=&#34;https://www.coursera.org/learn/causal-inference&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt; and Causal Inference-II &lt;a href=&#34;https://www.coursera.org/learn/causal-inference-2&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alejandroschuler.github.io/mci/&#34; target=&#34;_blank&#34;&gt;Introduction to Modern Causal Inference By Alejandro Schuler Mark van der Laan&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Andrew Heiss&amp;rsquo;s course materials from Andrew Young School of Policy Studies at Georgia State University: Program Evaluation for Public Service, Microeconomics for Public Policy, and Data Visualization &lt;a href=&#34;https://www.andrewheiss.com/teaching/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Which causal inference book you should read: A flowchart and a list of short book reviews: (&lt;a href=&#34;https://www.bradyneal.com/which-causal-inference-book&#34; target=&#34;_blank&#34;&gt;https://www.bradyneal.com/which-causal-inference-book&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Data science for economists: &lt;a href=&#34;https://github.com/uo-ec607/lectures&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Miguel Hernán&amp;rsquo;s Causal Diagrams: Draw Your Assumptions Before Your Conclusions: (&lt;a href=&#34;https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your&#34; target=&#34;_blank&#34;&gt;https://www.edx.org/course/causal-diagrams-draw-your-assumptions-before-your&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Ben Elsner&amp;rsquo;s Causal Inference &amp;ndash; Online Lectures &lt;a href=&#34;https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UPenn&amp;rsquo;s course: A Crash Course in Causality: Inferring Causal Effects from Observational Data: (&lt;a href=&#34;https://www.coursera.org/learn/crash-course-in-causality&#34; target=&#34;_blank&#34;&gt;https://www.coursera.org/learn/crash-course-in-causality&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Brady Neal - Causal Inference &lt;a href=&#34;https://www.youtube.com/watch?v=DXBPtpBhGqo&amp;amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Columbia University&amp;rsquo;s Causal Inference-I (&lt;a href=&#34;https://www.coursera.org/learn/causal-inference&#34; target=&#34;_blank&#34;&gt;https://www.coursera.org/learn/causal-inference&lt;/a&gt;) and Causal Inference-II (&lt;a href=&#34;https://www.coursera.org/learn/causal-inference-2&#34; target=&#34;_blank&#34;&gt;https://www.coursera.org/learn/causal-inference-2&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;Online Causal Inference Seminar: &lt;a href=&#34;https://sites.google.com/view/ocis/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Andrew Heiss&amp;rsquo;s course materials from Andrew Young School of Policy Studies at Georgia State University: Program Evaluation for Public Service, Microeconomics for Public Policy, and Data Visualization (&lt;a href=&#34;https://www.andrewheiss.com/teaching/&#34; target=&#34;_blank&#34;&gt;https://www.andrewheiss.com/teaching/&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Data science for economists: (&lt;a href=&#34;https://github.com/uo-ec607/lectures&#34; target=&#34;_blank&#34;&gt;https://github.com/uo-ec607/lectures&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Ben Elsner&amp;rsquo;s Causal Inference &amp;ndash; Online Lectures (&lt;a href=&#34;https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H&#34; target=&#34;_blank&#34;&gt;https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Brady Neal - Causal Inference (&lt;a href=&#34;https://www.youtube.com/watch?v=DXBPtpBhGqo&amp;amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&#34; target=&#34;_blank&#34;&gt;https://www.youtube.com/watch?v=DXBPtpBhGqo&amp;amp;list=PLoazKTcS0RzZ1SUgeOgc6SWt51gfT80N0&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Online Causal Inference Seminar: (&lt;a href=&#34;https://sites.google.com/view/ocis/&#34; target=&#34;_blank&#34;&gt;https://sites.google.com/view/ocis/&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h2 id=&#34;writing&#34;&gt;&lt;strong&gt;Writing&lt;/strong&gt;&lt;/h2&gt;
 
@@ -611,6 +674,10 @@ Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#3
       <guid>https://ShishirShakya.github.io/teaching/</guid>
       <description>
 
+&lt;h2 id=&#34;chat-gpt-response-based-on-my-fall-2022-teaching-evaluation&#34;&gt;CHAT GPT response based on my Fall 2022 teaching evaluation&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;This text consists of multiple comments made by students regarding their experience with Professor Shishir Shakya, who teaches economics. The students have a mixed response to the course and the professor. Students find him friendly, personable, enthusiastic, and effective in teaching the material. Many students praise his ability to easily connect with students, make the course fun, and keep students engaged. While others find him difficult to understand and some of his assignments are confusing. Some students also feel that the online component of the course is challenging and the content from the textbook is different from what was taught in the class. Despite this, many students appreciate the practical and real-life examples used by the professor and find him to be a good teacher who is approachable and helpful. Overall, the students have a positive experience with Professor Shakya.&amp;rdquo;&lt;/p&gt;
+
 &lt;h2 id=&#34;assistant-professor-shippensburg-university-of-pennsylvania&#34;&gt;&lt;strong&gt;Assistant Professor, Shippensburg University of Pennsylvania&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -630,6 +697,84 @@ Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#3
 &lt;li&gt;ECO 113: Principles of Economics Winter 2020&lt;/li&gt;
 &lt;li&gt;ECO 113: Principles of Economics Fall 2020&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;fall-2022&#34;&gt;Fall 2022&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Median scores are out of a maximum possible score of 6.&lt;/th&gt;
+&lt;th&gt;Princ Econ&lt;/th&gt;
+&lt;th&gt;Princ Econ&lt;/th&gt;
+&lt;th&gt;Princ Econ&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sections&lt;/td&gt;
+&lt;td&gt;ECO113-01&lt;/td&gt;
+&lt;td&gt;ECO113-02&lt;/td&gt;
+&lt;td&gt;ECO113-03&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1. The professor is willing to answer questions and assist students upon request.&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2. The professor uses examples and practical applications in class which aid in my understanding of the material.&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3. The professor encourages students to analyze, interpret and apply concepts.&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4. The professor provides feedback on exams and assignments.&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5. The course requirements, including grading system, were explained at the beginning of the semester.&lt;/td&gt;
+&lt;td&gt;5.5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6. The professor was effective teaching this course.&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7. I am interested in the subject matter of this course.&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8. I believe the student ratings of faculty/course are used for course improvement.&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&#34;spring-2021&#34;&gt;Spring 2021&lt;/h2&gt;
 
@@ -992,6 +1137,106 @@ Francisco Rowe&lt;/a&gt; &lt;a href=&#34;https://github.com/fcorowe/intro-gds&#3
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h2 id=&#34;selected-student-comments-shippensburg-university-fall-2022&#34;&gt;&lt;strong&gt;Selected Student Comments  Shippensburg University Fall 2022&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&amp;ldquo;He uses real–life examples to incorporate recent events relating to economics.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya is very nice, but a little hard to understand, he goes on long tangents that you can get lost in.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I feel that Professor Shishir Shakya is able to easily get along and connect with students. He is able to provide positive feedback and always has an example to try to explain a difficult concept. he goes back and forth drawing on the board and lecturing through slides which is a good mix.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya is a bright light at Ship. It was a shame how few gave him the attention deserved. Thoroughly enjoyed the experience he facilitated.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;We buy a 100 dollar program and are told that we shouldn’t read the book and instead let our intuition guide us. Yet some of the assingments we have require us to read the book.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya was very enthusiastic and enjoys teaching economics. He also offers a lot of opportunities for credit.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The professor made the course fun and I enjoyed coming into class&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He makes sure to keep students engaged and is very friendly.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Very engaging and makes sure everyone understands the information before moving onto different material. Teaches at both a slow and fast pace.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;it was online for the whole thing, so I slacked off and barely went to classes. Classes were waste of time. I like slacking off tho!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Our online textbook was all the material that we had to work through all semester. We were given a good amount of time to complete the chapter within a week.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya&amp;rsquo;s lessons were always so exceptionally vibrant. I had a blast watching his presentations and complementary materials.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I think that it would be helpful if the information on the assignments was taught in class. I was often confused because he wasn&amp;rsquo;t teaching me what I needed to know for the assignments I had to complete.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I would change the TuWTh schedule. I understand that this is a 4 credit class but the 3 days in a row can be a lot.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I would change how some of the questions for the online quiz and hw assignments are hard to understand and calculate; otherwise, I wouldn&amp;rsquo;t change much. The assignments are very lengthy and take a while to complete.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I was incredibly disappointed with my classes&amp;rsquo; (not specfic to Shakya&amp;rsquo;s) reliance on McGraw Hill software. It seemed at times hardly taken into account, and other times required razor–sharp scrutiny to understand the topics.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Thank you for making me laugh when I needed it&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Very upfront, funny and easy learning teacher very much enjoyed walking into the class every morning&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This class was a waste!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I really thought this class was well run and everything went smoothly.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He goes over course material very thorough and helps the students to succeed&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This was a nice class. it was not to stressful and I was able to keep up with assignments easily&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I just wish that i understood the material more then just doing a slew of 30 different assignments and teaching myself how to do them.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The professor was very kind to me and did a great job teaching the course in my opinion. I had a great time in this class and Professor Shakya is always willing to answer and elaborate on questions, as well as being extremely flexible with students.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He makes sure everyone understands something before moving on to another topic overall the course is very good I can&amp;rsquo;t complain about anything&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;enjoyed the way the professor taught class, was really thorough with explanations&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya is one of the most unique snd fun professors I have ever had.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Dr. Shakya was great at providing us with examples to help us understand the material in a practical and realistic way.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The online work can be very difficult when it doesn&amp;rsquo;t pertain to anything spoken of in class.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The SmartBook content often differed from what was taught in the classes, so it did feel like I was learning things in class and then also teaching myself different content outside of class.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor has asked for feedback, then improved his teaching style upon request.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I really enjoyed his personable attitude, I&amp;rsquo;m just not good at ecomonics&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Dr. Shakya was overall and amazing professor, he connected nicely with me and my peers in order to make the class engaging. He took the time to learn our names, and was able to cater his lessons to the interests of the class.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Shishir was a great professor, and managed to make a stressful class easier and enjoyable&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Although this class was not one of the most interesting subjects that I&amp;rsquo;ve had for the fall semester, I thought that my professor brought energy to the classroom and taught the various economics terms well enough for me to understand.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Dr. Shakya&amp;rsquo;s class is informative and allows the student to be successful. We are given a good amount of time to do all the assignments for the given chapter, and he helps quickly when you have questions.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shishir Shakya felt more like a friend than a professor. He made sure class was fun, but also made sure everything was learned in depth.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I got to get real–life application of the class&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Shishir was always enjoyable, and seemed to genuinely enjoy teaching the subject&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor is funny and gets everyone involved, made a very safe learning environment for the students.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;I would say the most positive aspect of this course was the overall personality and positive attitude of my professor who seemed like he truly cared about helping each student be more happy and understand the material.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor Shakya is an easy professor to be engaged with due his passion for his subject and active teaching style. There&amp;rsquo;s a lot of interaction between the students and professor which makes the class very inclusive and close.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He’s always positive and upbeat, he’s personable too. I always enjoy going to to his class.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He is a lot of fun and he is really good at explaining and describing the content. Also, he interacts with all students on a personal level which is really nice.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The most positive aspects would be the length of time given for assignments, his way of teaching, and his quick help (emails and such).&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Professor needs to not single out students as much, it might make them uncomfortable.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The interactive aspects of the course feel forced and being able to learn at your own pace is not very respected.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;He doesn&amp;rsquo;t teach according to the assignments which force his students to teach themselves the material. This can become a problem when it comes to more complex topics and math. Other than that he is a great professor.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;bro needs to let me know that the class on the day before thanksgiving break was cancelled so i can go home A DAY EARLIER&amp;rdquo;&lt;/p&gt;
 
 &lt;h2 id=&#34;selected-student-comments-shippensburg-university-spring-2022&#34;&gt;&lt;strong&gt;Selected Student Comments  Shippensburg University Spring 2022&lt;/strong&gt;&lt;/h2&gt;
 
