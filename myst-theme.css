@@ -1,0 +1,457 @@
+/* User Provided Stylesheet */
+
+/* Design tokens: white ground, slate ink, teal signal / amber caution.
+   Fonts are self-hosted; CI copies fonts/ to _build/html/fonts (same pattern as files/). */
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/archivo-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/archivo-latin-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/archivo-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/archivo-latin-700-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/source-serif-4-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/source-serif-4-latin-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/source-serif-4-latin-600-normal.woff2') format('woff2');
+}
+
+:root {
+  --ink: #1b2a33;
+  --ink-soft: #4a5c66;
+  --ground: #ffffff;
+  --panel: #f2f5f6;
+  --rule: #c6d0d5;
+  --signal: #0e7c7b;
+  --signal-deep: #0a5c5b;
+  --caution: #b07400;
+
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --measure: 68ch;
+}
+
+html.dark,
+.dark {
+  --ink: #e8edef;
+  --ink-soft: #a8b6bd;
+  --ground: #131c21;
+  --panel: #1c272d;
+  --rule: #3a4a53;
+  --signal: #4fb3b1;
+  --signal-deep: #6ecfcd;
+  --caution: #d9a02e;
+}
+
+/* Site-wide type and color overrides against book-theme utilities */
+body,
+article.content,
+main {
+  font-family: var(--font-body) !important;
+  color: var(--ink);
+}
+
+body {
+  background-color: var(--ground);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.myst-fm-block-title,
+.heading-text,
+nav,
+.sidebar,
+.nav-link,
+button,
+.myst-card-title,
+.myst-card-footer,
+.intro-tagline {
+  font-family: var(--font-display) !important;
+  letter-spacing: -0.015em;
+}
+
+h1,
+.myst-fm-block-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+article.content p,
+article.content li {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+article.content > p,
+article.content > ul,
+article.content > ol,
+article.content > blockquote {
+  max-width: var(--measure);
+}
+
+a {
+  color: var(--signal);
+}
+
+a:hover {
+  color: var(--signal-deep);
+}
+
+/* Primary sidebar TOC: rooms + indent + current weight/color (no pills, spine, or tick) */
+.myst-toc {
+  --myst-active-bg: transparent;
+  --myst-surface: transparent;
+  --myst-text: var(--ink);
+  --myst-text-secondary: var(--ink-soft);
+  --myst-accent-text: var(--ink);
+  --myst-focus-outline: var(--signal);
+  font-size: 0.9375rem;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.myst-toc a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.myst-toc a:hover {
+  color: var(--signal);
+}
+
+.myst-toc .myst-toc-item {
+  border-radius: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0.35rem 0.5rem !important;
+  background: transparent !important;
+}
+
+.myst-toc .myst-toc-item:hover {
+  background: transparent !important;
+}
+
+.myst-toc .myst-toc-item-exact,
+.myst-toc .myst-toc-item-exact a,
+.myst-toc a[aria-current='page'] {
+  font-weight: 600 !important;
+  color: var(--signal) !important;
+  background: transparent !important;
+}
+
+.myst-toc .collapsible-content {
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: none;
+}
+
+.myst-toc .collapsible-content .myst-toc-item,
+.myst-toc .collapsible-content .myst-toc-item a,
+.myst-toc .collapsible-content a {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
+.myst-toc .collapsible-content a:hover {
+  color: var(--signal);
+}
+
+.myst-toc .collapsible-content .myst-toc-item-exact,
+.myst-toc .collapsible-content .myst-toc-item-exact a,
+.myst-toc .collapsible-content a[aria-current='page'] {
+  font-weight: 600 !important;
+  color: var(--signal) !important;
+}
+
+.myst-toc .myst-toc-item button {
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .myst-toc .myst-toc-item svg {
+    transition: none !important;
+  }
+}
+
+/* Tabular figures for CV lists, tables, and structured data */
+ol,
+ul,
+table,
+article.content table,
+.myst-grid .myst-card-footer {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Homepage: frontmatter is the sole hero; tighten gap into the bio grid */
+article:has(.intro-bio-grid) #skip-to-frontmatter {
+  margin-bottom: 1.25rem;
+  padding-top: 1.5rem;
+}
+
+/* Homepage only: WVU mark beside frontmatter title (h1 stays plain text in YAML) */
+article:has(.intro-bio-grid) #skip-to-frontmatter h1.myst-fm-block-title {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+article:has(.intro-bio-grid) #skip-to-frontmatter h1.myst-fm-block-title::after {
+  content: '';
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-left: 0.125rem;
+  background: url('book/images/wvu.webp') no-repeat center / contain;
+}
+
+/* Homepage bio grid: native :columns: 4/8 from index.md; avoid equal-height stretch */
+.myst-grid.intro-bio-grid {
+  align-items: start;
+}
+
+/* Tagline under headshot: display weight, stacked roles */
+.intro-bio-grid .intro-tagline {
+  display: block;
+  margin: 0.75rem 0 0;
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.intro-bio-grid .intro-tagline span {
+  display: block;
+}
+
+/* Homepage: headshot only (not the small story icons below) */
+.intro-bio-grid .intro-headshot-wrap img {
+  display: block;
+  width: 100%;
+  max-width: min(280px, 100%);
+  height: auto;
+  border-radius: 0.375rem;
+}
+
+/* First column: let the MyST 12-col cell use full width (avoids 1-col icon strip ~36px wide) */
+.intro-bio-grid > .myst-grid-item:first-child {
+  min-width: 0;
+  width: 100%;
+}
+
+/* Small story images: 3x3 grid (8 icons + 1 empty cell) */
+.intro-bio-grid .intro-story-icons {
+  display: block;
+  margin-top: 0.75rem;
+  width: 100%;
+  max-width: min(280px, 100%);
+  min-width: 0;
+}
+
+/* Equal 3x3 tracks; square box so row/column cells align (not a short wide strip) */
+.intro-bio-grid .intro-story-3x3 {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  grid-template-rows: repeat(3, minmax(0, 1fr)) !important;
+  grid-auto-flow: row;
+  gap: 0.4rem 0.35rem;
+  width: min(100%, 10.5rem);
+  max-width: 10.5rem;
+  aspect-ratio: 1;
+  min-width: 8.5rem;
+  min-height: 0;
+  box-sizing: border-box;
+  place-items: center;
+  align-content: stretch;
+}
+
+.intro-bio-grid .intro-story-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.intro-bio-grid .intro-story-cell--empty {
+  min-height: 0;
+  pointer-events: none;
+  /* Keep empty slots aligned in the 3x3 */
+  background: transparent;
+}
+
+/* Theme sets margin auto on content images; keep icons centered in cell without stretching layout */
+.intro-bio-grid .intro-story-cell img {
+  display: block;
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.2rem;
+  margin: 0 !important;
+  flex: 0 0 auto;
+}
+
+/* MyST turns DOIs (links or plain text) into citations and a References section; the site uses CV lists and direct links instead. */
+section#references {
+  display: none !important;
+}
+
+.myst-fm-downloads-dropdown {
+  display: none !important;
+}
+
+/* No GitHub icon in the frontmatter badge row */
+.myst-fm-github-link {
+  display: none !important;
+}
+
+table td:first-child,
+table th:first-child {
+  white-space: nowrap;
+}
+
+#giscus-comments {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.giscus,
+.giscus-frame {
+  width: 100% !important;
+}
+
+#featured-projects + .myst-grid .myst-card-footer,
+#featured-projects + .myst-grid .myst-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+
+#featured-projects + .myst-grid .myst-card-footer > *,
+#featured-projects + .myst-grid .myst-card-title > * {
+  text-align: center !important;
+}
+
+#featured-projects + .myst-grid .myst-card-footer p,
+#featured-projects + .myst-grid .myst-card-footer strong {
+  margin: 0 auto;
+}
+
+/* Project landing pages: prominent outbound link */
+.project-launch-wrap {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1.25rem 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--rule);
+  background: var(--panel);
+}
+
+a.project-launch-btn {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  padding: 0.65rem 1.35rem;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  color: #fff !important;
+  background: var(--signal);
+  border-radius: 0.375rem;
+  box-shadow: 0 2px 0 var(--signal-deep);
+}
+
+a.project-launch-btn:hover {
+  background: var(--signal-deep);
+  color: #fff !important;
+}
+
+.project-launch-url {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  word-break: break-all;
+  color: var(--ink-soft);
+}
+
+.project-launch-url code {
+  font-size: 0.85rem;
+}
